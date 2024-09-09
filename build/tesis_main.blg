@@ -1,0 +1,80 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: tesis_main.aux
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+The style file: apalike-es.bst
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: 1_caratula/caratula.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: 2_indice/indice.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: 3_capitulo1/capitulo1.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: 4_capitulo2/capitulo2.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: 5_capitulo3/capitulo3.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: 6_capitulo4/capitulo4.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: 7_capitulo5/capitulo5.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: 8_capitulo6/capitulo6.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+Database file #1: 8_capitulo6/library.bib
+Warning--empty institution in agroaurora_sac_actualizacion_2020
+Warning--empty institution in san_jacinto_2014
+Warning--empty institution in agrolmos_sa_modificacion_2021
+Warning--empty publisher in casa_grande_saa_2018
+Warning--empty publisher in fao_2023
+Warning--empty institution in farrukh_modeling_2019
+Warning--empty journal in ke_lightgbm_2017
+Warning--empty publisher in oefa_canazucar_2023
+Warning--empty institution in oms_2021
+Warning--can't use both author and editor fields in Pereira1999
+Warning--empty institution in perucana_industria_2022
+Warning--empty journal in pipicano_alisis_2022
+Warning--empty journal in salas_quema_2010
+Warning--empty booktitle in Steinbach2004DataMC
+Warning--empty booktitle in tonbul_comparative_2023
+You've used 82 entries,
+            1977 wiz_defined-function locations,
+            907 strings with 23116 characters,
+and the built_in function-call counts, 31889 in all, are:
+= -- 3050
+> -- 1626
+< -- 44
++ -- 578
+- -- 564
+* -- 2736
+:= -- 5774
+add.period$ -- 235
+call.type$ -- 82
+change.case$ -- 687
+chr.to.int$ -- 82
+cite$ -- 97
+duplicate$ -- 1117
+empty$ -- 1960
+format.name$ -- 664
+if$ -- 6029
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 63
+newline$ -- 400
+num.names$ -- 248
+pop$ -- 598
+preamble$ -- 1
+purify$ -- 692
+quote$ -- 0
+skip$ -- 863
+stack$ -- 0
+substring$ -- 1801
+swap$ -- 103
+text.length$ -- 6
+text.prefix$ -- 56
+top$ -- 0
+type$ -- 476
+warning$ -- 15
+while$ -- 227
+width$ -- 0
+write$ -- 1014
+(There were 15 warnings)

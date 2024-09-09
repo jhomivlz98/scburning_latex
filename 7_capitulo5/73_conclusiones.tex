@@ -1,0 +1,42 @@
+\section{Conclusiones y Recomendaciones}
+\subsection{Conclusiones}
+
+Este estudio demuestra que es posible desarrollar un modelo de aprendizaje ensamblado para la detección 
+de quema de caña de azúcar. Al combinar el aprendizaje profundo con métodos de clasificación a nivel de píxeles, 
+el modelo ensamblado fue capaz de detectar y delimitar eficazmente las áreas quemadas en diferentes contextos 
+dentro de la costa norte y centro del Perú. 
+
+El conjunto de datos necesario para el funcionamiento del modelo de aprendizaje ensamblado destinado a 
+detectar la quema de caña de azúcar, está consituido por 1,054 imágenes satelitales Sentinel-2, junto con índices de vegetación 
+como el NDVI y NDWI, y variables topográficas como la pendiente y la distancia a coberturas agrícolas. Además, se incluyeron 
+etiquetas de áreas quemadas, generadas mediante una metodología específica detallada en la Sección \ref{sec:etiquetado}. El procedimiento 
+para adaptar la base de datos se explica en la metodología y es replicable. 
+
+Los algoritmos que mejor se ensamblan al modelo para detectar la quema de caña de azúcar son los de aprendizaje 
+profundo y de clasificación por píxeles. En particular, U-Net, un modelo de deep learning que captura bien las relaciones no lineales 
+en las imágenes, y LightGBM, un potente algoritmo de aprendizaje automático basado en árboles de decisión, han demostrado ser complementarios en la detección 
+de áreas quemadas.
+
+Como resultado, el modelo de aprendizaje ensamblado presenta un desempeño superior en comparación con los algoritmos individuales según las métricas de evaluación: 
+82.8 \% en IoU, 86.4 \% en precisión, 95.3 \% en recall, 90.6 \% en F1-Score y 87.5 \% en coeficiente Kappa. 
+
+El modelo de Stacking supera consistentemente a U-Net y LightGBM en cada una de estas 
+métricas. Además, los resultados visuales muestran una delimitación más equilibrada y coherente de las áreas quemadas debido a capacidad de combinar las fortalezas de ambos enfoques, heredando la 
+coherencia espacial de U-Net y la potente capacidad de clasificación a nivel de píxel de LightGBM.
+
+\subsection{Recomendaciones}
+
+\begin{enumerate}
+    \item \textbf{Realizar estudios específicos sobre el ciclo de cultivo de la caña de azúcar}: Implementar investigaciones detalladas utilizando imágenes satelitales para monitorear todas las etapas del proceso de cultivo de caña de azúcar, desde la preparación del terreno hasta la cosecha, para identificar 
+    y gestionar mejor las quemas.
+
+    \item \textbf{Incluir detalles en los reportes de emergencia y de recuperación de campos}: Incorporar en los reportes de emergencia datos específicos sobre el área quemada estimada, junto con información detallada proporcionada por los administrados, como cronogramas de fechas planificadas para las quemas, 
+    la extensión estimada de las áreas afectadas por las quemas una vez realizadas, y el tiempo estimado de recuperación de las tierras hasta que estén listas para una nueva siembra. Esta información adicional permitirá una validación más precisa y temporalmente coherente de los modelos mediante el uso de imágenes 
+    satelitales, mejorando así la capacidad de monitoreo y gestión de las áreas quemadas.
+
+    \item \textbf{Aumentar la base datos con nuevas imágenes en diferentes condiciones}: Ampliar la base de datos con imágenes de satélite en diferentes condiciones climáticas, de iluminación y diversas con presencia de superficies similares a la quema en términos de reflectancia, para mejorar la generalización 
+    del modelo y su capacidad para detectar áreas quemadas en diversas situaciones.
+
+\end{enumerate}
+
+

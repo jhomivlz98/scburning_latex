@@ -1,0 +1,126 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {\bfseries {I}}INTRODUCCIÓN}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introducción}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Planteamiento del problema}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Descripción de la problemática}{2}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Formulación del problema}{4}{subsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.1}Pregunta general.}{4}{subsubsection.1.2.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2.2}Preguntas específicas.}{4}{subsubsection.1.2.2.2}%
+\contentsline {section}{\numberline {1.3}Objetivos de la investigación}{5}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Objetivo general}{5}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Objetivos específicos}{5}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Importancia y alcance de la investigación}{5}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Importancia}{5}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Alcance}{6}{subsection.1.4.2}%
+\contentsline {section}{\numberline {1.5}Limitaciones de la investigación}{6}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Limitaciones metodológicas}{6}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Limitaciones operacionales}{7}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Limitaciones en la validación}{7}{subsection.1.5.3}%
+\contentsline {chapter}{\numberline {\bfseries {II}}EL MARCO TEÓRICO}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{8}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Antecedentes internacionales}{8}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Antecedentes nacionales}{11}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Bases teóricas}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Detección de áreas quemadas mediante imágenes satelitales}{12}{subsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Imágenes satelitales Sentinel-2.}{12}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Enfoques basados en reglas.}{13}{subsubsection.2.2.1.2}%
+\contentsline {paragraph}{\numberline {2.2.1.2.1}Índice de Quema Normalizado (NBR).}{14}{paragraph.2.2.1.2.1}%
+\contentsline {paragraph}{\numberline {2.2.1.2.2}Índice de Detección de Área Quemada (BADI).}{14}{paragraph.2.2.1.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Enfoques basados en aprendizaje automático.}{15}{subsubsection.2.2.1.3}%
+\contentsline {paragraph}{\numberline {2.2.1.3.1}Regresión logística binaria.}{15}{paragraph.2.2.1.3.1}%
+\contentsline {paragraph}{\numberline {2.2.1.3.2}Entropía Cruzada Binaria (BCE).}{18}{paragraph.2.2.1.3.2}%
+\contentsline {paragraph}{\numberline {2.2.1.3.3}Entropía Cruzada Binaria Ponderada (WBCE).}{19}{paragraph.2.2.1.3.3}%
+\contentsline {paragraph}{\numberline {2.2.1.3.4}Función de pérdida de Dice.}{20}{paragraph.2.2.1.3.4}%
+\contentsline {paragraph}{\numberline {2.2.1.3.5}WCE - Dice Loss.}{20}{paragraph.2.2.1.3.5}%
+\contentsline {paragraph}{\numberline {2.2.1.3.6}Árbol de decisión.}{21}{paragraph.2.2.1.3.6}%
+\contentsline {paragraph}{\numberline {2.2.1.3.7}Gradient Boosting Decision Tree (GBDT).}{24}{paragraph.2.2.1.3.7}%
+\contentsline {paragraph}{\numberline {2.2.1.3.8}Algoritmo LightGBM.}{26}{paragraph.2.2.1.3.8}%
+\contentsline {subsection}{\numberline {2.2.2}Segmentación Semántica}{30}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Red Neuronal Convolucional (CNN).}{31}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Arquitectura U-Net.}{31}{subsubsection.2.2.2.2}%
+\contentsline {paragraph}{\numberline {2.2.2.2.1}Capa convolucional.}{32}{paragraph.2.2.2.2.1}%
+\contentsline {paragraph}{\numberline {2.2.2.2.2}Padding y Stride.}{33}{paragraph.2.2.2.2.2}%
+\contentsline {paragraph}{\numberline {2.2.2.2.3}Funciones de activación.}{34}{paragraph.2.2.2.2.3}%
+\contentsline {paragraph}{\numberline {2.2.2.2.4}Capa de agrupación.}{35}{paragraph.2.2.2.2.4}%
+\contentsline {paragraph}{\numberline {2.2.2.2.5}Capa de Deconvolución.}{36}{paragraph.2.2.2.2.5}%
+\contentsline {paragraph}{\numberline {2.2.2.2.6}Función de costo.}{37}{paragraph.2.2.2.2.6}%
+\contentsline {paragraph}{\numberline {2.2.2.2.7}Codificador y Decodificador.}{38}{paragraph.2.2.2.2.7}%
+\contentsline {subsubsection}{\numberline {2.2.2.3}Hiperparámetros del entrenamiento de una CNN.}{39}{subsubsection.2.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Métricas de evaluación}{40}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Métricas basadas en F-measure.}{40}{subsubsection.2.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}Sensibilidad y Especificidad.}{41}{subsubsection.2.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.2.3.3}Precisión o Índice Rand.}{41}{subsubsection.2.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.4}Índice Kappa.}{41}{subsubsection.2.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.2.3.5}Curva ROC y Área Bajo la Curva (AUC).}{42}{subsubsection.2.2.3.5}%
+\contentsline {subsection}{\numberline {2.2.4}Quema de caña de azúcar}{43}{subsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.4.1}Fenología de la caña de azúcar.}{43}{subsubsection.2.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.2.4.2}Firma espectral de cultivos de caña de azúcar.}{44}{subsubsection.2.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.2.4.3}Cosecha y quema de caña de azúcar.}{45}{subsubsection.2.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.2.4.4}Firma espectral de áreas quemadas.}{47}{subsubsection.2.2.4.4}%
+\contentsline {section}{\numberline {2.3}Definición de Términos}{48}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Áreas con quema de caña de azúcar}{48}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Quema activa}{48}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Cosecha mecanizada en verde}{48}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Ingenio azucarero}{48}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Fundo, Predio y Campo Azucarero}{49}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Matriz de confusión en la segmentación binaria}{49}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Índice de Vegetación de Diferencia Normalizada (NDVI)}{49}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.8}Índice de Agua de Diferencia Normalizada (NDWI)}{50}{subsection.2.3.8}%
+\contentsline {chapter}{\numberline {\bfseries {III}}HIPÓTESIS Y VARIABLES}{51}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Hipótesis}{51}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Hipótesis general}{51}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Hipótesis específicas}{51}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Variables}{51}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Variable independiente}{51}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Variable dependiente}{51}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Operacionalización de variables}{52}{section.3.3}%
+\contentsline {chapter}{\numberline {\bfseries {IV}}MATERIALES Y MÉTODOS}{53}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Área de estudio (Unidad de análisis)}{53}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Diseño de investigación}{54}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Tipo de investigación}{54}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Nivel de investigación}{54}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Enfoque de investigación}{54}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Diseño de investigación}{54}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Población y muestra}{55}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Población}{55}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Muestra}{57}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Procedimiento, técnicas e instrumentos de recolección de información}{58}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Pre-procesamiento de datos Sentinel-2 L2A}{58}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Detección temporal de áreas pseudoquemadas}{58}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Selección de imágenes con áreas quemadas}{60}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Etiquetado de imágenes}{62}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}Generación del conjunto de datos para la detección de quemas}{68}{subsection.4.4.5}%
+\contentsline {subsubsection}{\numberline {4.4.5.1}Pendiente.}{68}{subsubsection.4.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.4.5.2}Distancia a la cobertura agrícola.}{69}{subsubsection.4.4.5.2}%
+\contentsline {subsection}{\numberline {4.4.6}Implementación del modelo CNN}{69}{subsection.4.4.6}%
+\contentsline {subsection}{\numberline {4.4.7}Implementación del Gradient Boosting Decision Tree}{70}{subsection.4.4.7}%
+\contentsline {subsection}{\numberline {4.4.8}Implementación del modelo Stacking}{72}{subsection.4.4.8}%
+\contentsline {subsection}{\numberline {4.4.9}Validación del umbral de clasificación para el modelo Stacking}{72}{subsection.4.4.9}%
+\contentsline {subsection}{\numberline {4.4.10}Inferencia del modelo Stacking en un área piloto}{73}{subsection.4.4.10}%
+\contentsline {section}{\numberline {4.5}Análisis estadístico}{75}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Evaluación del modelo}{75}{subsection.4.5.1}%
+\contentsline {chapter}{\numberline {\bfseries {V}}RESULTADOS, DISCUSIÓN, CONCLUSIÓN Y RECOMENDACIONES}{77}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Resultados}{77}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Implementación de los modelos de aprendizaje automático}{77}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}Configuración de la Red Neuronal Convolucional (CNN).}{77}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}Resultados del entrenamiento de la CNN.}{79}{subsubsection.5.1.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.1.3}Resultados del modelo U-Net en la detección de áreas quemadas.}{80}{subsubsection.5.1.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.1.4}Configuración y resultados del Gradient Boosting Decision Tree (LightGBM).}{81}{subsubsection.5.1.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.1.5}Configuración y resultados del modelo Stacking.}{84}{subsubsection.5.1.1.5}%
+\contentsline {subsection}{\numberline {5.1.2}Evaluación de los modelos}{86}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Validación del umbral de probabilidad del modelo Stacking.}{86}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Inferencia en el área piloto.}{91}{subsection.5.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.4.1}Marzo a junio de 2023.}{91}{subsubsection.5.1.4.1}%
+\contentsline {subsubsection}{\numberline {5.1.4.2}Octubre a noviembre de 2023.}{92}{subsubsection.5.1.4.2}%
+\contentsline {subsubsection}{\numberline {5.1.4.3}Marzo a abril de 2024.}{93}{subsubsection.5.1.4.3}%
+\contentsline {section}{\numberline {5.2}Discusión}{94}{section.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.0.1}Discusión de la generación y etiquetado del conjunto de datos.}{94}{subsubsection.5.2.0.1}%
+\contentsline {subsubsection}{\numberline {5.2.0.2}Discusión de los resultados de los modelos base.}{96}{subsubsection.5.2.0.2}%
+\contentsline {subsubsection}{\numberline {5.2.0.3}Discusión de los resultados del modelo Stacking y su validación.}{97}{subsubsection.5.2.0.3}%
+\contentsline {subsubsection}{\numberline {5.2.0.4}Discusión de la inferencia en el área piloto.}{98}{subsubsection.5.2.0.4}%
+\contentsline {section}{\numberline {5.3}Conclusiones y Recomendaciones}{99}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Conclusiones}{99}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Recomendaciones}{100}{subsection.5.3.2}%
+\contentsline {chapter}{\numberline {\bfseries {VI}}REFERENCIAS Y ANEXOS}{101}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Referencias bibliográficas}{101}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Anexos}{110}{section.6.2}%

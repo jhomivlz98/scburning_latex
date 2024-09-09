@@ -1,0 +1,11 @@
+\section{Análisis estadístico}
+\subsection{Evaluación del modelo}
+Para la evaluación del modelo, se utilizan cinco de las métricas definidas en la sección \ref{sec:metricas_evaluacion}.
+
+\begin{itemize} 
+    \item \textbf{Precision:} Es útil para entender la exactitud del modelo al identificar áreas quemadas. Una alta precisión indica que el modelo tiene pocos falsos positivos, es decir, no clasifica incorrectamente áreas no quemadas como quemadas. Esto es importante para minimizar falsas alarmas y evitar la movilización innecesaria de recursos.
+    \item \textbf{Recall:} Es útil porque garantiza que todas las áreas quemadas sean identificadas. Es crucial para asegurar que no se pasen por alto zonas afectadas, lo cual es fundamental en la planificación de la respuesta a emergencias.
+    \item \textbf{F1-Score:} Es útil cuando es importante mantener un equilibrio entre evitar falsos positivos (precisión) y no perder áreas quemadas reales (recall). Es particularmente relevante en situaciones donde tanto las omisiones como las falsas alarmas tienen consecuencias significativas y deben minimizarse. 
+    \item \textbf{IoU (Intersection over Union):} Es útil para medir la superposición entre la predicción del modelo y la verdad del terreno. Permite una evaluación precisa de cuán bien el modelo ha capturado los límites de la quema, lo cual es fundamental para aplicaciones que requieren una delimitación precisa de las áreas quemadas.    
+    \item \textbf{Índice Kappa:} Es útil como una medida más robusta en comparación con la simple precisión, ya que considera tanto los aciertos como los errores del modelo. Esto permite evaluar la concordancia del modelo más allá del azar, proporcionando una mejor comprensión de su fiabilidad y consistencia en la detección de áreas quemadas. 
+\end{itemize}

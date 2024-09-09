@@ -1,0 +1,1985 @@
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.10) (format=lualatex 2023.10.24)  8 SEP 2024 21:19
+ restricted system commands enabled.
+ file:line:error style messages enabled.
+**z:/latex/tesis_main.tex
+(z:/latex/tesis_main.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+Lua module: luaotfload 2023-08-31 3.26 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 2.76 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/jflor/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-08-19.lua" from kpse-res
+olved path "C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/f
+ontloader-2023-08-19.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.133
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/jflor/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (./tesis_style.cls
+
+LaTeX Warning: You have requested document class `tesis_style',
+               but the document class provides `book'.
+
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/base/bk12.clo
+File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/jflor/AppData/Local/M
+iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count183
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen139
+)
+(./0_preambulo/preambulo.tex
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty
+Package: babel 2023/09/29 v3.95 The Babel package
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/babel/luababel.def
+\bbl@readstream=\read2
+\l@afrikaans=\language2
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@ancientgreek=\language3
+\l@armenian=\language4
+\l@assamese=\language5
+\l@basque=\language6
+\l@belarusian=\language7
+\l@bengali=\language8
+\l@bokmal=\language9
+\l@bulgarian=\language10
+\l@catalan=\language11
+\l@churchslavonic=\language12
+\l@classiclatin=\language13
+\l@coptic=\language14
+\l@croatian=\language15
+\l@czech=\language16
+\l@danish=\language17
+\l@dutch=\language18
+\l@esperanto=\language19
+\l@estonian=\language20
+\l@ethiopic=\language21
+\l@finnish=\language22
+\l@french=\language23
+\l@friulan=\language24
+\l@galician=\language25
+\l@georgian=\language26
+\l@german=\language27
+\l@greek=\language28
+\l@gujarati=\language29
+\l@hindi=\language30
+\l@hungarian=\language31
+\l@icelandic=\language32
+\l@indonesian=\language33
+\l@interlingua=\language34
+\l@irish=\language35
+\l@italian=\language36
+\l@kannada=\language37
+\l@kurmanji=\language38
+\l@latin=\language39
+\l@latvian=\language40
+\l@lithuanian=\language41
+\l@liturgicallatin=\language42
+\l@macedonian=\language43
+\l@malayalam=\language44
+\l@marathi=\language45
+\l@mongolian=\language46
+\l@mongolianlmc=\language47
+\l@monogreek=\language48
+\l@ngerman=\language49
+\l@nynorsk=\language50
+\l@occitan=\language51
+\l@oriya=\language52
+\l@pali=\language53
+\l@panjabi=\language54
+\l@piedmontese=\language55
+\l@polish=\language56
+\l@portuguese=\language57
+\l@romanian=\language58
+\l@romansh=\language59
+\l@russian=\language60
+\l@sanskrit=\language61
+\l@serbian=\language62
+\l@serbianc=\language63
+\l@slovak=\language64
+\l@slovenian=\language65
+\l@spanish=\language66
+\l@swedish=\language67
+\l@swissgerman=\language68
+\l@tamil=\language69
+\l@telugu=\language70
+\l@thai=\language71
+\l@turkish=\language72
+\l@turkmen=\language73
+\l@ukenglish=\language74
+\l@ukrainian=\language75
+\l@uppersorbian=\language76
+\l@usenglishmax=\language77
+\l@welsh=\language78
+\babelcatcodetablenum=\catcodetable14
+\bbl@pattcodes=\catcodetable15
+)
+\babel@savecnt=\count192
+\U@D=\dimen140
+\l@unhyphenated=\language79
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute4
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/babel-spanish/spanish.l
+df
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks17
+\es@quotdepth=\count193
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/hyph-utf8/loadhyph/lo
+adhyph-es.tex UTF-8 Spanish hyphenation patterns
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/hyph-utf8/patterns/te
+x/hyph-es.tex))))
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/es/babel
+-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/apacite/apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count194
+\bibleftmargin=\skip50
+\bibindent=\skip51
+\bibparsep=\skip52
+\bibitemsep=\skip53
+\biblabelsep=\skip54
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip55
+\bibsep=\skip56
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count195
+)
+LaTeX Info: Redefining \BBA on input line 11.
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.sty
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpars
+e.sty
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-08-29 L3 programming layer (loader) 
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
+tex.def
+File: l3backend-luatex.def 2023-04-19 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count196
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box51
+))
+Package: xparse 2023-08-29 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec-luate
+x.sty
+Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count197
+\l__fontspec_language_int=\count198
+\l__fontspec_strnum_int=\count199
+\l__fontspec_tmp_int=\count266
+\l__fontspec_tmpa_int=\count267
+\l__fontspec_tmpb_int=\count268
+\l__fontspec_tmpc_int=\count269
+\l__fontspec_em_int=\count270
+\l__fontspec_emdef_int=\count271
+\l__fontspec_strong_int=\count272
+\l__fontspec_strongdef_int=\count273
+\l__fontspec_tmpa_dim=\dimen141
+\l__fontspec_tmpb_dim=\dimen142
+\l__fontspec_tmpc_dim=\dimen143
+ (C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.cfg
+)))
+luaotfload | cache : Lookup cache loaded from C:/Users/jflor/AppData/Local/MiKTe
+X/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman:mode=node;script=latn;language=dflt;+t
+lig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman:mode=node;script=latn;language=dflt;+t
+lig;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/B:mode=node;script=latn;language=dflt;
++tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/B:mode=node;script=latn;language=dflt;
++tlig;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/I:mode=node;script=latn;language=dflt;
++tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/I:mode=node;script=latn;language=dflt;
++tlig;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/BI:mode=node;script=latn;language=dflt
+;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/BI:mode=node;script=latn;language=dflt
+;+tlig;+smcp;"
+
+ (C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen144
+))
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen145
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count274
+LaTeX Info: Redefining \frac on input line 236.
+\uproot@=\count275
+\leftroot@=\count276
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count277
+\DOTSCASE@=\count278
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen146
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count279
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count280
+\dotsspace@=\muskip16
+\c@parentequation=\count281
+\dspbrk@lvl=\count282
+\tag@help=\toks21
+\row@=\count283
+\column@=\count284
+\maxfields@=\count285
+\andhelp@=\toks22
+\eqnshift@=\dimen147
+\alignsep@=\dimen148
+\tagshift@=\dimen149
+\tagwidth@=\dimen150
+\totwidth@=\dimen151
+\lineht@=\dimen152
+\@envbody=\toks23
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen153
+\ar@mcellbox=\box54
+\extrarowheight=\dimen154
+\NC@list=\toks25
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box55
+)
+\TX@col@width=\dimen155
+\TX@old@table=\dimen156
+\TX@old@col=\dimen157
+\TX@target=\dimen158
+\TX@delta=\dimen159
+\TX@cols=\count286
+\TX@ftn=\toks26
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip62
+\LTright=\skip63
+\LTpre=\skip64
+\LTpost=\skip65
+\LTchunksize=\count287
+\LTcapwidth=\dimen160
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@gbox=\box60
+\LT@cols=\count288
+\LT@rows=\count289
+\c@LT@tables=\count290
+\c@LT@chunks=\count291
+\LT@p@ftn=\toks27
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip66
+\multirow@cntb=\count292
+\multirow@dima=\skip67
+\bigstrutjot=\dimen161
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks28
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count293
+\Gm@cntv=\count294
+\c@Gm@tempcnt=\count295
+\Gm@bindingoffset=\dimen162
+\Gm@wd@mp=\dimen163
+\Gm@odd@mp=\dimen164
+\Gm@even@mp=\dimen165
+\Gm@layoutwidth=\dimen166
+\Gm@layoutheight=\dimen167
+\Gm@layouthoffset=\dimen168
+\Gm@layoutvoffset=\dimen169
+\Gm@dimlist=\toks29
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip68
+\f@nch@O@elh=\skip69
+\f@nch@O@erh=\skip70
+\f@nch@O@olh=\skip71
+\f@nch@O@orh=\skip72
+\f@nch@O@elf=\skip73
+\f@nch@O@erf=\skip74
+\f@nch@O@olf=\skip75
+\f@nch@O@orf=\skip76
+) (C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box61
+\beforetitleunit=\skip77
+\aftertitleunit=\skip78
+\ttl@plus=\dimen170
+\ttl@minus=\dimen171
+\ttl@toksa=\toks30
+\titlewidth=\dimen172
+\titlewidthlast=\dimen173
+\titlewidthfirst=\dimen174
+) (C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip79
+\cftbeforetoctitleskip=\skip80
+\cftaftertoctitleskip=\skip81
+\cftbeforepartskip=\skip82
+\cftpartnumwidth=\skip83
+\cftpartindent=\skip84
+\cftbeforechapskip=\skip85
+\cftchapindent=\skip86
+\cftchapnumwidth=\skip87
+\cftbeforesecskip=\skip88
+\cftsecindent=\skip89
+\cftsecnumwidth=\skip90
+\cftbeforesubsecskip=\skip91
+\cftsubsecindent=\skip92
+\cftsubsecnumwidth=\skip93
+\cftbeforesubsubsecskip=\skip94
+\cftsubsubsecindent=\skip95
+\cftsubsubsecnumwidth=\skip96
+\cftbeforeparaskip=\skip97
+\cftparaindent=\skip98
+\cftparanumwidth=\skip99
+\cftbeforesubparaskip=\skip100
+\cftsubparaindent=\skip101
+\cftsubparanumwidth=\skip102
+\cftbeforeloftitleskip=\skip103
+\cftafterloftitleskip=\skip104
+\cftbeforefigskip=\skip105
+\cftfigindent=\skip106
+\cftfignumwidth=\skip107
+\c@lofdepth=\count296
+\c@lotdepth=\count297
+\cftbeforelottitleskip=\skip108
+\cftafterlottitleskip=\skip109
+\cftbeforetabskip=\skip110
+\cfttabindent=\skip111
+\cfttabnumwidth=\skip112
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks31
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/pdfescape/pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/letltxmacro/letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-08-07 v2.53 Cross-referencing by name of section
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/gettitlestring/gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count298
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count299
+)
+\@linkdim=\dimen175
+\Hy@linkcounter=\count300
+\Hy@pagecounter=\count301
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count302
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4050.
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4050.
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4434.
+\c@Hy@tempcnt=\count303
+ (C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4772.
+\XeTeXLinkMargin=\dimen176
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count304
+\Field@Width=\dimen177
+\Fld@charsize=\dimen178
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring ON on input line 6069.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count305
+\c@Item=\count306
+\c@Hfootnote=\count307
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2023-07-08 v7.01b Hyperref driver for luaTeX
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count308
+\c@bookmark@seq@number=\count309
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/generic/uniquecounter/uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip113
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/unicode-math/unicode-ma
+th.sty
+Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/unicode-math/unicode-ma
+th-luatex.sty
+Package: unicode-math-luatex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaL
+aTeX
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/l3keys2e/l3k
+eys2e.sty
+Package: l3keys2e 2023-08-29 LaTeX2e option processing using LaTeX3 keys
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/lualatex/lualatex-math/lualat
+ex-math.sty
+Package: lualatex-math 2022/01/01 v1.12 Patches for mathematics typesetting wit
+h LuaLaTeX
+Lua module: lualatex-math 2013/08/03 1.3 Patches for mathematics typesetting wit
+h LuaLaTeX)
+\g__um_fam_int=\count310
+\g__um_fonts_used_int=\count311
+\l__um_primecount_int=\count312
+\g__um_primekern_muskip=\muskip18
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/unicode-math/unicode-ma
+th-table.tex)))
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 227.
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.def
+File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.sty
+\lst@mode=\count313
+\lst@gtempboxa=\box62
+\lst@token=\toks32
+\lst@length=\count314
+\lst@currlwidth=\dimen179
+\lst@column=\count315
+\lst@pos=\count316
+\lst@lostspace=\dimen180
+\lst@width=\dimen181
+\lst@newlines=\count317
+\lst@lineno=\count318
+\lst@maxwidth=\dimen182
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count319
+\lst@skipnumbers=\count320
+\lst@framebox=\box63
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count321
+\float@exts=\toks33
+\float@box=\box64
+\@float@everytoks=\toks34
+\@floatcapt=\box65
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 107.
+)
+\Gin@req@height=\dimen183
+\Gin@req@width=\dimen184
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen185
+\captionmargin=\dimen186
+\caption@leftmargin=\dimen187
+\caption@rightmargin=\dimen188
+\caption@width=\dimen189
+\caption@indent=\dimen190
+\caption@parindent=\dimen191
+\caption@hangindent=\dimen192
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count322
+\c@continuedfloat=\count323
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)) (C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/booktabs/booktabs.st
+y
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen193
+\lightrulewidth=\dimen194
+\cmidrulewidth=\dimen195
+\belowrulesep=\dimen196
+\belowbottomsep=\dimen197
+\aboverulesep=\dimen198
+\abovetopsep=\dimen199
+\cmidrulesep=\dimen256
+\cmidrulekern=\dimen257
+\defaultaddspace=\dimen258
+\@cmidla=\count324
+\@cmidlb=\count325
+\@aboverulesep=\dimen259
+\@belowrulesep=\dimen260
+\@thisruleclass=\count326
+\@lastruleclass=\count327
+\@thisrulewidth=\dimen261
+) (C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
+)
+\BKM@id=\count328
+))) (z:/latex/build/tesis_main.aux (z:/latex/build/1_caratula/caratula.aux)
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+
+(z:/latex/build/2_indice/indice.aux) (z:/latex/build/3_capitulo1/capitulo1.aux) (z:/latex/build/4_capitulo2/capitulo2.aux)
+(z:/latex/build/5_capitulo3/capitulo3.aux)
+(z:/latex/build/6_capitulo4/capitulo4.aux)
+(z:/latex/build/7_capitulo5/capitulo5.aux)
+(z:/latex/build/8_capitulo6/capitulo6.aux))
+\openout1 = tesis_main.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+\c@maskedRefs=\count329
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/apacite/spanish.apc
+File: spanish.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 138.
+LaTeX Info: Redefining \BHBI on input line 139.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-31.87398pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=38.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring ON on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 6
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+6.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 6.
+
+Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCap
+sFont={},Script=Math,RawFeature={mathfontdimen=xetex},BoldFont={latinmodern-mat
+h.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[latinmodern-math.otf]:mode=base;script=math;languag
+e=dflt;mathfontdimen=xetex;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[latinmodern-math.otf]:mode=base;script=math;languag
+e=dflt;mathfontdimen=xetex;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCap
+sFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latinmodern
+-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},RawFeature={mathfontdimen=xetex},BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->"[latinmodern-math.otf]:mode=base;script=math;lan
+guage=dflt;mathfontdimen=xetex;"<7.2-10.2>"[latinmodern-math.otf]:mode=base;scr
+ipt=math;language=dflt;mathfontdimen=xetex;+ssty=0;"<-7.2>"[latinmodern-math.ot
+f]:mode=base;script=math;language=dflt;mathfontdimen=xetex;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[latinmodern-math.otf]:mode=base;script=math;languag
+e=dflt;mathfontdimen=xetex;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
+ line 6.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
+t line 6.
+
+Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCap
+sFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latinmodern
+-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},RawFeature={mathfontdimen=xetex},BoldFont={latinmodern-math.otf},Raw
+Feature={mathfontdimen=tex2}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->"[latinmodern-math.otf]:mode=base;script=math;lan
+guage=dflt;mathfontdimen=xetex;mathfontdimen=tex2;"<7.2-10.2>"[latinmodern-math
+.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex
+2;+ssty=0;"<-7.2>"[latinmodern-math.otf]:mode=base;script=math;language=dflt;ma
+thfontdimen=xetex;mathfontdimen=tex2;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[latinmodern-math.otf]:mode=base;script=math;languag
+e=dflt;mathfontdimen=xetex;mathfontdimen=tex2;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
+t line 6.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
+t line 6.
+
+Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCap
+sFont={},Script=Math,SizeFeatures={{Size=10.2-},{Size=7.2-10.2,Font=latinmodern
+-math.otf,Style=MathScript},{Size=-7.2,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},RawFeature={mathfontdimen=xetex},BoldFont={latinmodern-math.otf},Raw
+Feature={mathfontdimen=tex3}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <10.2->"[latinmodern-math.otf]:mode=base;script=math;lan
+guage=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"<7.2-10.2>"[latinmodern-math
+.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex
+3;+ssty=0;"<-7.2>"[latinmodern-math.otf]:mode=base;script=math;language=dflt;ma
+thfontdimen=xetex;mathfontdimen=tex3;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[latinmodern-math.otf]:mode=base;script=math;languag
+e=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 6
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
+t line 6.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
+t line 6.
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count330
+\scratchdimen=\dimen262
+\scratchbox=\box66
+\nofMPsegments=\count331
+\nofMParguments=\count332
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count333
+\MPscratchDim=\dimen263
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
+\everyMPtoPDFconversion=\toks36
+)
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:/Users/jflor/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c@lstlisting=\count336
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+\openout2 = 1_caratula/caratula.aux
+ (./1_caratula/caratula.tex
+Package epstopdf Info: Source file: <img/1_caratula/unmsm.eps>
+(epstopdf)                    date: 2024-07-20 09:42:33
+(epstopdf)                    size: 3852818 bytes
+(epstopdf)             Output file: <img/1_caratula/unmsm-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2024-07-20 09:42:33
+(epstopdf)                    size: 184279 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/1_caratula/unmsm
+-eps-converted-to.pdf img/1_caratula/unmsm.eps>
+(epstopdf)             \includegraphics on input line 5.
+Package epstopdf Info: Output file is already uptodate.
+<img/1_caratula/unmsm-eps-converted-to.pdf, id=3, 920.43875pt x 1086.0575pt>
+File: img/1_caratula/unmsm-eps-converted-to.pdf Graphic file (type pdf)
+<use img/1_caratula/unmsm-eps-converted-to.pdf>
+Package luatex.def Info: img/1_caratula/unmsm-eps-converted-to.pdf  used on inp
+ut line 5.
+(luatex.def)             Requested size: 46.02463pt x 54.30605pt.
+ [1
+
+
+
+
+{C:/Users/jflor/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}<./img/1_caratu
+la/unmsm-eps-converted-to.pdf>])
+\openout2 = 2_indice/indice.aux
+
+(./2_indice/indice.tex (z:/latex/build/tesis_main.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [1
+
+
+
+
+]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+[2]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+[3]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+[4])
+\tf@toc=\write3
+
+\openout3 = tesis_main.toc
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+[5])
+\openout2 = 3_capitulo1/capitulo1.aux
+ (./3_capitulo1/capitulo1.tex
+Capítulo \bfseries {I}.
+(./3_capitulo1/31_introduccion.tex [1
+
+
+
+
+
+
+]) (./3_capitulo1/32_planteamiento.tex
+[2] [3]) (./3_capitulo1/33_objetivos.tex [4]) (./3_capitulo1/34_importancia.tex
+[5]) (./3_capitulo1/35_limitaciones.tex [6])) [7]
+\openout2 = 4_capitulo2/capitulo2.aux
+ (./4_capitulo2/capitulo2.tex
+Capítulo \bfseries {II}.
+(./4_capitulo2/41_antecedentes.tex [8
+
+
+
+
+] [9] [10]
+Overfull \hbox (1.50597pt too wide) in paragraph at lines 67--70
+[]\TU/TimesNewRoman(0)/m/n/12 La me-to-do-lo-gía pro-pues-ta com-bi-na el al-go
+-rit-mo HR-Net y Sup-port Vec-tor Ma-chi-ne (SVM),
+ []
+
+[11]) (./4_capitulo2/42_bases_teoricas.tex [12] [13] [14] [15]
+<img/4_marco_teorico/sigmoid_function.png, id=520, 486.81876pt x 324.21124pt>
+File: img/4_marco_teorico/sigmoid_function.png Graphic file (type png)
+<use img/4_marco_teorico/sigmoid_function.png>
+Package luatex.def Info: img/4_marco_teorico/sigmoid_function.png  used on inpu
+t line 135.
+(luatex.def)             Requested size: 317.0764pt x 211.1652pt.
+ [16] [17<./img/4_marco_teorico/sigmoid_function.png>] [18]
+<img/4_marco_teorico/cross_entropy.png, id=561, 558.085pt x 398.48875pt>
+File: img/4_marco_teorico/cross_entropy.png Graphic file (type png)
+<use img/4_marco_teorico/cross_entropy.png>
+Package luatex.def Info: img/4_marco_teorico/cross_entropy.png  used on input l
+ine 212.
+(luatex.def)             Requested size: 317.0764pt x 226.40521pt.
+ [19<./img/4_marco_teorico/cross_entropy.png>] [20]
+<img/4_marco_teorico/decision_tree.png, id=592, 314.3745pt x 231.86626pt>
+File: img/4_marco_teorico/decision_tree.png Graphic file (type png)
+<use img/4_marco_teorico/decision_tree.png>
+Package luatex.def Info: img/4_marco_teorico/decision_tree.png  used on input l
+ine 280.
+(luatex.def)             Requested size: 317.0764pt x 233.87878pt.
+ [21<./img/4_marco_teorico/decision_tree.png>] [22]
+<img/4_marco_teorico/impureza.png, id=617, 367.3725pt x 286.06876pt>
+File: img/4_marco_teorico/impureza.png Graphic file (type png)
+<use img/4_marco_teorico/impureza.png>
+Package luatex.def Info: img/4_marco_teorico/impureza.png  used on input line 3
+23.
+(luatex.def)             Requested size: 226.48413pt x 176.36555pt.
+ [23<./img/4_marco_teorico/impureza.png>]
+<img/4_marco_teorico/gradient_boost.png, id=635, 517.935pt x 289.68225pt>
+File: img/4_marco_teorico/gradient_boost.png Graphic file (type png)
+<use img/4_marco_teorico/gradient_boost.png>
+Package luatex.def Info: img/4_marco_teorico/gradient_boost.png  used on input 
+line 363.
+(luatex.def)             Requested size: 407.66867pt x 228.01988pt.
+ [24] [25<./img/4_marco_teorico/gradient_boost.png>] [26]
+<img/4_marco_teorico/spliting.png, id=676, 478.78876pt x 247.52475pt>
+File: img/4_marco_teorico/spliting.png Graphic file (type png)
+<use img/4_marco_teorico/spliting.png>
+Package luatex.def Info: img/4_marco_teorico/spliting.png  used on input line 4
+22.
+(luatex.def)             Requested size: 317.0764pt x 163.92204pt.
+<img/4_marco_teorico/goss.png, id=682, 374.5995pt x 398.08725pt>
+File: img/4_marco_teorico/goss.png Graphic file (type png)
+<use img/4_marco_teorico/goss.png>
+Package luatex.def Info: img/4_marco_teorico/goss.png  used on input line 439.
+(luatex.def)             Requested size: 226.48413pt x 240.68256pt.
+ [27<./img/4_marco_teorico/spliting.png>]
+<img/4_marco_teorico/efb.png, id=697, 724.50674pt x 308.352pt>
+File: img/4_marco_teorico/efb.png Graphic file (type png)
+<use img/4_marco_teorico/efb.png>
+Package luatex.def Info: img/4_marco_teorico/efb.png  used on input line 457.
+(luatex.def)             Requested size: 452.96826pt x 192.78539pt.
+ [28<./img/4_marco_teorico/goss.png>]
+<img/4_marco_teorico/efb2.png, id=710, 629.9535pt x 333.04425pt>
+File: img/4_marco_teorico/efb2.png Graphic file (type png)
+<use img/4_marco_teorico/efb2.png>
+Package luatex.def Info: img/4_marco_teorico/efb2.png  used on input line 480.
+(luatex.def)             Requested size: 317.0764pt x 167.63463pt.
+ [29<./img/4_marco_teorico/efb.png>]
+<img/4_marco_teorico/merge_exclusive_features.png, id=724, 625.73775pt x 349.30
+5pt>
+File: img/4_marco_teorico/merge_exclusive_features.png Graphic file (type png)
+<use img/4_marco_teorico/merge_exclusive_features.png>
+Package luatex.def Info: img/4_marco_teorico/merge_exclusive_features.png  used
+ on input line 493.
+(luatex.def)             Requested size: 271.7837pt x 151.71725pt.
+ [30<./img/4_marco_teorico/efb2.png><./img/4_marco_teorico/merge_exclusive_featu
+res.png>]
+<img/4_marco_teorico/segmentation.png, id=737, 486.618pt x 214.401pt>
+File: img/4_marco_teorico/segmentation.png Graphic file (type png)
+<use img/4_marco_teorico/segmentation.png>
+Package luatex.def Info: img/4_marco_teorico/segmentation.png  used on input li
+ne 509.
+(luatex.def)             Requested size: 362.37598pt x 159.66513pt.
+ [31<./img/4_marco_teorico/segmentation.png>]
+<img/4_marco_teorico/convolutional_layer.png, id=761, 372.1905pt x 504.08325pt>
+
+File: img/4_marco_teorico/convolutional_layer.png Graphic file (type png)
+<use img/4_marco_teorico/convolutional_layer.png>
+Package luatex.def Info: img/4_marco_teorico/convolutional_layer.png  used on i
+nput line 542.
+(luatex.def)             Requested size: 181.18454pt x 245.3877pt.
+<img/4_marco_teorico/feature_map.png, id=767, 322.20375pt x 327.624pt>
+File: img/4_marco_teorico/feature_map.png Graphic file (type png)
+<use img/4_marco_teorico/feature_map.png>
+Package luatex.def Info: img/4_marco_teorico/feature_map.png  used on input lin
+e 556.
+(luatex.def)             Requested size: 181.18454pt x 184.23804pt.
+ [32<./img/4_marco_teorico/convolutional_layer.png>] [33<./img/4_marco_teorico/f
+eature_map.png>]
+<img/4_marco_teorico/padding_stride.png, id=792, 370.986pt x 448.67625pt>
+File: img/4_marco_teorico/padding_stride.png Graphic file (type png)
+<use img/4_marco_teorico/padding_stride.png>
+Package luatex.def Info: img/4_marco_teorico/padding_stride.png  used on input 
+line 591.
+(luatex.def)             Requested size: 226.48413pt x 273.9112pt.
+<img/4_marco_teorico/relu_function.png, id=799, 229.45724pt x 177.66376pt>
+File: img/4_marco_teorico/relu_function.png Graphic file (type png)
+<use img/4_marco_teorico/relu_function.png>
+Package luatex.def Info: img/4_marco_teorico/relu_function.png  used on input l
+ine 612.
+(luatex.def)             Requested size: 226.48413pt x 175.36444pt.
+ [34<./img/4_marco_teorico/padding_stride.png>]
+<img/4_marco_teorico/max_pooling.png, id=814, 320.397pt x 483.0045pt>
+File: img/4_marco_teorico/max_pooling.png Graphic file (type png)
+<use img/4_marco_teorico/max_pooling.png>
+Package luatex.def Info: img/4_marco_teorico/max_pooling.png  used on input lin
+e 644.
+(luatex.def)             Requested size: 226.48413pt x 341.4321pt.
+ [35<./img/4_marco_teorico/relu_function.png>] [36<./img/4_marco_teorico/max_poo
+ling.png>]
+<img/4_marco_teorico/upconv.png, id=839, 1003.75pt x 501.875pt>
+File: img/4_marco_teorico/upconv.png Graphic file (type png)
+<use img/4_marco_teorico/upconv.png>
+Package luatex.def Info: img/4_marco_teorico/upconv.png  used on input line 669
+.
+(luatex.def)             Requested size: 362.37598pt x 181.18794pt.
+ [37<./img/4_marco_teorico/upconv.png>]
+<img/4_marco_teorico/u_net.png, id=857, 672.71326pt x 479.391pt>
+File: img/4_marco_teorico/u_net.png Graphic file (type png)
+<use img/4_marco_teorico/u_net.png>
+Package luatex.def Info: img/4_marco_teorico/u_net.png  used on input line 720.
+
+(luatex.def)             Requested size: 317.0764pt x 225.9575pt.
+ [38] [39<./img/4_marco_teorico/u_net.png>] [40] [41] [42]
+<img/4_marco_teorico/ciclo_caña.jpg, id=923, 2185.41469pt x 1336.24219pt>
+File: img/4_marco_teorico/ciclo_caña.jpg Graphic file (type jpg)
+<use img/4_marco_teorico/ciclo_caña.jpg>
+Package luatex.def Info: img/4_marco_teorico/ciclo_caña.jpg  used on input lin
+e 875.
+(luatex.def)             Requested size: 362.37598pt x 221.55109pt.
+ [43]
+<img/4_marco_teorico/firma_cana.png, id=944, 3191.925pt x 1846.9pt>
+File: img/4_marco_teorico/firma_cana.png Graphic file (type png)
+<use img/4_marco_teorico/firma_cana.png>
+Package luatex.def Info: img/4_marco_teorico/firma_cana.png  used on input line
+ 896.
+(luatex.def)             Requested size: 362.37598pt x 209.66953pt.
+ [44<./img/4_marco_teorico/ciclo_caña.jpg>]
+<img/4_marco_teorico/partes_caña.png, id=963, 224.63925pt x 229.45724pt>
+File: img/4_marco_teorico/partes_caña.png Graphic file (type png)
+<use img/4_marco_teorico/partes_caña.png>
+Package luatex.def Info: img/4_marco_teorico/partes_caña.png  used on input li
+ne 914.
+(luatex.def)             Requested size: 181.18454pt x 185.07855pt.
+[45<./img/4_marco_teorico/firma_cana.png>] [46<./img/4_marco_teorico/partes_ca
+ña.png>]
+<img/4_marco_teorico/burned_areas_spectral.png, id=994, 4150.50626pt x 2530.453
+75pt>
+File: img/4_marco_teorico/burned_areas_spectral.png Graphic file (type png)
+<use img/4_marco_teorico/burned_areas_spectral.png>
+Package luatex.def Info: img/4_marco_teorico/burned_areas_spectral.png  used on
+ input line 948.
+(luatex.def)             Requested size: 271.7837pt x 165.68222pt.
+) (./4_capitulo2/43_definicion_terminos.tex [47
+Missing character: There is no 𝜇 (U+1D707) in font TimesNewRoman:mode=node;sc
+ript=latn;language=dflt;+tlig;!
+<./img/4_marco_teorico/burned_areas_spectral.png>] [48] [49])) [50]
+\openout2 = 5_capitulo3/capitulo3.aux
+
+(./5_capitulo3/capitulo3.tex
+Capítulo \bfseries {III}.
+(./5_capitulo3/51_hipotesis.tex) (./5_capitulo3/52_variables.tex)
+(./5_capitulo3/53_operacionalizacion.tex
+Underfull \hbox (badness 1735) in paragraph at lines 8--8
+[]|\TU/TimesNewRoman(0)/b/n/12 Uni-dad de
+ []
+
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 12--12
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--12
+[]|\TU/TimesNewRoman(0)/m/n/12 Mé-tri-cas de
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 12--13
+[]|\TU/TimesNewRoman(0)/m/n/12 Li-bre-ría Torch y Py-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]|\TU/TimesNewRoman(0)/m/n/12 Gra-dient Boos-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\TU/TimesNewRoman(0)/m/n/12 ting De-ci-sion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]|\TU/TimesNewRoman(0)/m/n/12 Mé-tri-cas de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
+[]|\TU/TimesNewRoman(0)/m/n/12 Mé-tri-cas de
+ []
+
+
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 18--18
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]|\TU/TimesNewRoman(0)/m/n/12 Ubi-ca-ción de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]|\TU/TimesNewRoman(0)/m/n/12 Coor-de-na-das
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 18--18
+[]|\TU/TimesNewRoman(0)/m/n/12 Gra-dos de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+[]|\TU/TimesNewRoman(0)/m/n/12 Pla-ta-for-ma SIG
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 19--19
+[]|\TU/TimesNewRoman(0)/m/n/12 Ex-ten-sión de las
+ []
+
+
+Overfull \hbox (16.7512pt too wide) in paragraph at lines 6--22
+ [][] 
+ []
+
+[51
+
+
+
+
+])) [52]
+\openout2 = 6_capitulo4/capitulo4.aux
+ (./6_capitulo4/capitulo4.tex
+Capítulo \bfseries {IV}.
+(./6_capitulo4/61_area_estudio.tex
+<img/6_metodologia/perucaña.png, id=1030, 844.8363pt x 1194.864pt>
+File: img/6_metodologia/perucaña.png Graphic file (type png)
+<use img/6_metodologia/perucaña.png>
+Package luatex.def Info: img/6_metodologia/perucaña.png  used on input line 10
+.
+(luatex.def)             Requested size: 271.7837pt x 384.38806pt.
+ [53
+
+
+
+
+<./img/6_metodologia/perucaña.png>])
+(./6_capitulo4/62_diseño_investigacion.tex)
+(./6_capitulo4/63_poblacion_muestra.tex [54]
+<img/6_metodologia/poblacion.png, id=1050, 844.8363pt x 1194.864pt>
+File: img/6_metodologia/poblacion.png Graphic file (type png)
+<use img/6_metodologia/poblacion.png>
+Package luatex.def Info: img/6_metodologia/poblacion.png  used on input line 11
+.
+(luatex.def)             Requested size: 271.7837pt x 384.38806pt.
+
+Underfull \hbox (badness 1019) in paragraph at lines 29--29
+[]|\TU/TimesNewRoman(0)/b/n/12 Em-pre-sa azu-ca-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+\TU/TimesNewRoman(0)/b/n/12 mi-nis-tra-do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\TU/TimesNewRoman(0)/b/n/12 De-par-ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\TU/TimesNewRoman(0)/b/n/12 Cuen-cas Hi-dro-grá-fi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
+[]|\TU/TimesNewRoman(0)/b/n/12 Agro-au-ro-ra
+ []
+
+
+Overfull \hbox (1.09645pt too wide) in paragraph at lines 31--31
+[]|\TU/TimesNewRoman(0)/m/n/12 ADM17481| 
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 31--31
+[]|\TU/TimesNewRoman(0)/m/n/12 Cuen-ca Chi-ra, Cuen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[]|\TU/TimesNewRoman(0)/b/n/12 Agrí-co-la del
+ []
+
+
+Overfull \hbox (1.09645pt too wide) in paragraph at lines 32--32
+[]|\TU/TimesNewRoman(0)/m/n/12 ADM16435| 
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 32--32
+[]|\TU/TimesNewRoman(0)/m/n/12 Cuen-ca Chi-ra, Cuen-
+ []
+
+
+Overfull \hbox (1.09645pt too wide) in paragraph at lines 33--33
+[]|\TU/TimesNewRoman(0)/m/n/12 ADM17036| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\TU/TimesNewRoman(0)/m/n/12 Lam-ba-ye-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[]|\TU/TimesNewRoman(0)/b/n/12 Ca-sa Gran-de
+ []
+
+
+Overfull \hbox (0.65114pt too wide) in paragraph at lines 34--34
+[]|\TU/TimesNewRoman(0)/m/n/12 ADM11828| 
+ []
+
+
+Overfull \hbox (0.65114pt too wide) in paragraph at lines 35--35
+[]|\TU/TimesNewRoman(0)/m/n/12 ADM11829| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\TU/TimesNewRoman(0)/b/n/12 Agro-in-dus-trial
+ []
+
+
+Overfull \hbox (0.65114pt too wide) in paragraph at lines 36--36
+[]|\TU/TimesNewRoman(0)/m/n/12 ADM11837| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\TU/TimesNewRoman(0)/m/n/12 Cuen-ca Chi-ca-ma,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+[]|\TU/TimesNewRoman(0)/b/n/12 Agro-in-dus-trias
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\TU/TimesNewRoman(0)/b/n/12 San Ja-cin-to
+ []
+
+
+Overfull \hbox (0.65114pt too wide) in paragraph at lines 37--37
+[]|\TU/TimesNewRoman(0)/m/n/12 ADM11681| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]|\TU/TimesNewRoman(0)/b/n/12 Agro-in-dus-trial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+\TU/TimesNewRoman(0)/b/n/12 Pa-ra-mon-ga
+ []
+
+
+Overfull \hbox (0.65114pt too wide) in paragraph at lines 38--38
+[]|\TU/TimesNewRoman(0)/m/n/12 ADM11867| 
+ []
+
+
+Overfull \hbox (5.37029pt too wide) in paragraph at lines 27--41
+ [][] 
+ []
+
+[55<./img/6_metodologia/poblacion.png>] [56]
+<img/6_metodologia/muestra.png, id=1068, 1601.5032pt x 1153.4292pt>
+File: img/6_metodologia/muestra.png Graphic file (type png)
+<use img/6_metodologia/muestra.png>
+Package luatex.def Info: img/6_metodologia/muestra.png  used on input line 56.
+(luatex.def)             Requested size: 452.96826pt x 326.23155pt.
+)
+(./6_capitulo4/64_procedimiento.tex [57<./img/6_metodologia/muestra.png>]
+<img/6_metodologia/preprocessimg.png, id=1081, 1011.78pt x 620.3175pt>
+File: img/6_metodologia/preprocessimg.png Graphic file (type png)
+<use img/6_metodologia/preprocessimg.png>
+Package luatex.def Info: img/6_metodologia/preprocessimg.png  used on input lin
+e 9.
+(luatex.def)             Requested size: 271.7837pt x 166.62662pt.
+
+[58<./img/6_metodologia/preprocessimg.png>]
+<img/6_metodologia/dBADI.png, id=1091, 239.6955pt x 220.4235pt>
+File: img/6_metodologia/dBADI.png Graphic file (type png)
+<use img/6_metodologia/dBADI.png>
+Package luatex.def Info: img/6_metodologia/dBADI.png  used on input line 27.
+(luatex.def)             Requested size: 226.48413pt x 208.27774pt.
+<img/6_metodologia/boxplot_burning.png, id=1094, 419.4069pt x 312.6882pt>
+File: img/6_metodologia/boxplot_burning.png Graphic file (type png)
+<use img/6_metodologia/boxplot_burning.png>
+Package luatex.def Info: img/6_metodologia/boxplot_burning.png  used on input l
+ine 44.
+(luatex.def)             Requested size: 317.0764pt x 236.40974pt.
+ [59<./img/6_metodologia/dBADI.png>] [60<./img/6_metodologia/boxplot_burning.png
+>]
+<img/6_metodologia/visualizacion.png, id=1115, 547.3248pt x 897.8343pt>
+File: img/6_metodologia/visualizacion.png Graphic file (type png)
+<use img/6_metodologia/visualizacion.png>
+Package luatex.def Info: img/6_metodologia/visualizacion.png  used on input lin
+e 92.
+(luatex.def)             Requested size: 249.13391pt x 408.67964pt.
+ [61] [62<./img/6_metodologia/visualizacion.png>]
+<img/6_metodologia/iris.png, id=1131, 713.66624pt x 281.853pt>
+File: img/6_metodologia/iris.png Graphic file (type png)
+<use img/6_metodologia/iris.png>
+Package luatex.def Info: img/6_metodologia/iris.png  used on input line 112.
+(luatex.def)             Requested size: 452.96826pt x 178.89294pt.
+<img/6_metodologia/scribble.png, id=1135, 744.381pt x 334.851pt>
+File: img/6_metodologia/scribble.png Graphic file (type png)
+<use img/6_metodologia/scribble.png>
+Package luatex.def Info: img/6_metodologia/scribble.png  used on input line 127
+.
+(luatex.def)             Requested size: 452.96826pt x 203.76318pt.
+ [63<./img/6_metodologia/iris.png>]
+Underfull \hbox (badness 1360) in paragraph at lines 158--158
+[]|\TU/TimesNewRoman(0)/m/n/12 Los co-lo-res son tí-pi-cos de
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 158--158
+[]|\TU/TimesNewRoman(0)/m/n/12 Hay un con-tras-te evi-den-te
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 158--158
+\TU/TimesNewRoman(0)/m/n/12 ci-da por te-ner que-mas fre-
+ []
+
+[64<./img/6_metodologia/scribble.png>]
+<img/6_metodologia/etiquetado_1.png, id=1154, 728.12025pt x 324.61275pt>
+File: img/6_metodologia/etiquetado_1.png Graphic file (type png)
+<use img/6_metodologia/etiquetado_1.png>
+Package luatex.def Info: img/6_metodologia/etiquetado_1.png  used on input line
+ 171.
+(luatex.def)             Requested size: 452.96826pt x 201.9463pt.
+ [65]
+<img/6_metodologia/etiquetado_2.png, id=1163, 726.91576pt x 324.0105pt>
+File: img/6_metodologia/etiquetado_2.png Graphic file (type png)
+<use img/6_metodologia/etiquetado_2.png>
+Package luatex.def Info: img/6_metodologia/etiquetado_2.png  used on input line
+ 183.
+(luatex.def)             Requested size: 452.96826pt x 201.9029pt.
+<img/6_metodologia/etiquetado_3.png, id=1164, 731.73375pt x 327.624pt>
+File: img/6_metodologia/etiquetado_3.png Graphic file (type png)
+<use img/6_metodologia/etiquetado_3.png>
+Package luatex.def Info: img/6_metodologia/etiquetado_3.png  used on input line
+ 195.
+(luatex.def)             Requested size: 452.96826pt x 202.80981pt.
+ [66<./img/6_metodologia/etiquetado_1.png><./img/6_metodologia/etiquetado_2.png>
+]
+<img/6_metodologia/etiquetado_4.png, id=1172, 727.518pt x 327.02174pt>
+File: img/6_metodologia/etiquetado_4.png Graphic file (type png)
+<use img/6_metodologia/etiquetado_4.png>
+Package luatex.def Info: img/6_metodologia/etiquetado_4.png  used on input line
+ 207.
+(luatex.def)             Requested size: 452.96826pt x 203.61464pt.
+<img/6_metodologia/etiquetado_5.png, id=1173, 729.32475pt x 325.215pt>
+File: img/6_metodologia/etiquetado_5.png Graphic file (type png)
+<use img/6_metodologia/etiquetado_5.png>
+Package luatex.def Info: img/6_metodologia/etiquetado_5.png  used on input line
+ 222.
+(luatex.def)             Requested size: 452.96826pt x 201.98354pt.
+ [67<./img/6_metodologia/etiquetado_3.png><./img/6_metodologia/etiquetado_4.png>
+] [68<./img/6_metodologia/etiquetado_5.png>]
+<img/6_metodologia/unet.png, id=1193, 934.49126pt x 382.42876pt>
+File: img/6_metodologia/unet.png Graphic file (type png)
+<use img/6_metodologia/unet.png>
+Package luatex.def Info: img/6_metodologia/unet.png  used on input line 266.
+(luatex.def)             Requested size: 452.96826pt x 185.37268pt.
+ [69]
+<img/6_metodologia/crossval.png, id=1201, 648.4225pt x 385.44pt>
+File: img/6_metodologia/crossval.png Graphic file (type png)
+<use img/6_metodologia/crossval.png>
+Package luatex.def Info: img/6_metodologia/crossval.png  used on input line 288
+.
+(luatex.def)             Requested size: 317.0764pt x 188.47908pt.
+ [70<./img/6_metodologia/unet.png>]
+<img/6_metodologia/gbdt.png, id=1210, 666.49pt x 502.87875pt>
+File: img/6_metodologia/gbdt.png Graphic file (type png)
+<use img/6_metodologia/gbdt.png>
+Package luatex.def Info: img/6_metodologia/gbdt.png  used on input line 302.
+(luatex.def)             Requested size: 317.0764pt x 239.24588pt.
+ [71<./img/6_metodologia/crossval.png><./img/6_metodologia/gbdt.png>]
+<img/6_metodologia/stacking.png, id=1219, 286.06876pt x 272.81924pt>
+File: img/6_metodologia/stacking.png Graphic file (type png)
+<use img/6_metodologia/stacking.png>
+Package luatex.def Info: img/6_metodologia/stacking.png  used on input line 323
+.
+(luatex.def)             Requested size: 271.7837pt x 259.19762pt.
+ [72<./img/6_metodologia/stacking.png>]
+<img/6_metodologia/laredo_programa.png, id=1229, 717.882pt x 334.24875pt>
+File: img/6_metodologia/laredo_programa.png Graphic file (type png)
+<use img/6_metodologia/laredo_programa.png>
+Package luatex.def Info: img/6_metodologia/laredo_programa.png  used on input l
+ine 362.
+(luatex.def)             Requested size: 452.96826pt x 210.90424pt.
+ [73]
+<img/6_metodologia/laredo.png, id=1241, 844.8363pt x 597.432pt>
+File: img/6_metodologia/laredo.png Graphic file (type png)
+<use img/6_metodologia/laredo.png>
+Package luatex.def Info: img/6_metodologia/laredo.png  used on input line 378.
+(luatex.def)             Requested size: 407.66867pt x 288.28648pt.
+ [74<./img/6_metodologia/laredo_programa.png>])
+(./6_capitulo4/65_analisis.tex [75<./img/6_metodologia/laredo.png>])) [76]
+\openout2 = 7_capitulo5/capitulo5.aux
+
+(./7_capitulo5/capitulo5.tex
+Capítulo \bfseries {V}.
+(./7_capitulo5/71_resultados.tex
+Overfull \hbox (9.82306pt too wide) in alignment at lines 11--16
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 16--20
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 20--22
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 22--24
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 24--35
+ [][][] 
+ []
+
+[77
+
+
+
+
+]
+Overfull \hbox (9.82306pt too wide) in alignment at lines 44--49
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 49--53
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 53--55
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 55--57
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 57--70
+ [][][] 
+ []
+
+[78]
+<img/7_resultados/cnn_loss.png, id=1281, 1061.76675pt x 405.31425pt>
+File: img/7_resultados/cnn_loss.png Graphic file (type png)
+<use img/7_resultados/cnn_loss.png>
+Package luatex.def Info: img/7_resultados/cnn_loss.png  used on input line 83.
+(luatex.def)             Requested size: 452.96826pt x 172.91493pt.
+ [79]
+<img/7_resultados/unet_predictions.png, id=1289, 963.6pt x 487.275pt>
+File: img/7_resultados/unet_predictions.png Graphic file (type png)
+<use img/7_resultados/unet_predictions.png>
+Package luatex.def Info: img/7_resultados/unet_predictions.png  used on input l
+ine 111.
+(luatex.def)             Requested size: 452.96826pt x 229.05646pt.
+ [80<./img/7_resultados/cnn_loss.png>]
+Overfull \hbox (6.26964pt too wide) in paragraph at lines 120--122
+[] [] |\TU/TimesNewRoman(0)/b/n/12 5.1.1.4. Con-fi-gu-ra-ción y re-sul-ta-dos 
+del Gra-dient Boos-ting De-ci-sion Tree (LightGBM).[]
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 123--129
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 129--133
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 133--135
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 135--137
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 137--153
+ [][][] 
+ []
+
+[81<./img/7_resultados/unet_predictions.png>]
+<img/7_resultados/feature_importance.png, id=1307, 1759.57375pt x 693.59125pt>
+File: img/7_resultados/feature_importance.png Graphic file (type png)
+<use img/7_resultados/feature_importance.png>
+Package luatex.def Info: img/7_resultados/feature_importance.png  used on input
+ line 170.
+(luatex.def)             Requested size: 452.96826pt x 178.55147pt.
+ [82]
+<img/7_resultados/gbdt_predictions.png, id=1315, 963.6pt x 487.275pt>
+File: img/7_resultados/gbdt_predictions.png Graphic file (type png)
+<use img/7_resultados/gbdt_predictions.png>
+Package luatex.def Info: img/7_resultados/gbdt_predictions.png  used on input l
+ine 193.
+(luatex.def)             Requested size: 452.96826pt x 229.05646pt.
+ [83<./img/7_resultados/feature_importance.png>]
+Overfull \hbox (9.82306pt too wide) in alignment at lines 206--211
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 211--215
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 215--217
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 217--219
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82306pt too wide) in alignment at lines 219--224
+ [][][] 
+ []
+
+[84<./img/7_resultados/gbdt_predictions.png>]
+<img/7_resultados/ensemble_predictions.png, id=1332, 963.6pt x 487.275pt>
+File: img/7_resultados/ensemble_predictions.png Graphic file (type png)
+<use img/7_resultados/ensemble_predictions.png>
+Package luatex.def Info: img/7_resultados/ensemble_predictions.png  used on inp
+ut line 248.
+(luatex.def)             Requested size: 452.96826pt x 229.05646pt.
+ [85<./img/7_resultados/ensemble_predictions.png>]
+<img/7_resultados/roc.png, id=1343, 462.528pt x 346.896pt>
+File: img/7_resultados/roc.png Graphic file (type png)
+<use img/7_resultados/roc.png>
+Package luatex.def Info: img/7_resultados/roc.png  used on input line 292.
+(luatex.def)             Requested size: 271.7837pt x 203.8464pt.
+ [86]
+<img/7_resultados/0016.png, id=1353, 1022.6205pt x 765.3393pt>
+File: img/7_resultados/0016.png Graphic file (type png)
+<use img/7_resultados/0016.png>
+Package luatex.def Info: img/7_resultados/0016.png  used on input line 323.
+(luatex.def)             Requested size: 407.66867pt x 305.10262pt.
+ [87<./img/7_resultados/roc.png>]
+<img/7_resultados/0376.png, id=1362, 1022.6205pt x 765.3393pt>
+File: img/7_resultados/0376.png Graphic file (type png)
+<use img/7_resultados/0376.png>
+Package luatex.def Info: img/7_resultados/0376.png  used on input line 339.
+(luatex.def)             Requested size: 407.66867pt x 305.10262pt.
+ [88<./img/7_resultados/0016.png>]
+<img/7_resultados/0068.png, id=1371, 1022.6205pt x 765.3393pt>
+File: img/7_resultados/0068.png Graphic file (type png)
+<use img/7_resultados/0068.png>
+Package luatex.def Info: img/7_resultados/0068.png  used on input line 358.
+(luatex.def)             Requested size: 407.66867pt x 305.10262pt.
+ [89<./img/7_resultados/0376.png>]
+<img/7_resultados/0456.png, id=1380, 1022.6205pt x 765.3393pt>
+File: img/7_resultados/0456.png Graphic file (type png)
+<use img/7_resultados/0456.png>
+Package luatex.def Info: img/7_resultados/0456.png  used on input line 374.
+(luatex.def)             Requested size: 407.66867pt x 305.10262pt.
+ [90<./img/7_resultados/0068.png>]
+<img/7_resultados/timeseries_2023-05-06.png, id=1389, 963.6pt x 391.353pt>
+File: img/7_resultados/timeseries_2023-05-06.png Graphic file (type png)
+<use img/7_resultados/timeseries_2023-05-06.png>
+Package luatex.def Info: img/7_resultados/timeseries_2023-05-06.png  used on in
+put line 395.
+(luatex.def)             Requested size: 452.96826pt x 183.96579pt.
+
+[91<./img/7_resultados/0456.png>]
+<img/7_resultados/timeseries_2023-11-07.png, id=1398, 963.6pt x 354.561pt>
+File: img/7_resultados/timeseries_2023-11-07.png Graphic file (type png)
+<use img/7_resultados/timeseries_2023-11-07.png>
+Package luatex.def Info: img/7_resultados/timeseries_2023-11-07.png  used on in
+put line 412.
+(luatex.def)             Requested size: 452.96826pt x 166.67075pt.
+ [92<./img/7_resultados/timeseries_2023-05-06.png>]
+<img/7_resultados/timeseries_2024-03-26.png, id=1407, 963.6pt x 352.809pt>
+File: img/7_resultados/timeseries_2024-03-26.png Graphic file (type png)
+<use img/7_resultados/timeseries_2024-03-26.png>
+Package luatex.def Info: img/7_resultados/timeseries_2024-03-26.png  used on in
+put line 433.
+(luatex.def)             Requested size: 452.96826pt x 165.84717pt.
+ [93<./img/7_resultados/timeseries_2023-11-07.png>])
+(./7_capitulo5/72_discusion.tex
+<img/8_capitulo6/basedatos.png, id=1420, 884.70525pt x 299.9205pt>
+File: img/8_capitulo6/basedatos.png Graphic file (type png)
+<use img/8_capitulo6/basedatos.png>
+Package luatex.def Info: img/8_capitulo6/basedatos.png  used on input line 18.
+(luatex.def)             Requested size: 452.96826pt x 153.56151pt.
+ [94<./img/7_resultados/timeseries_2024-03-26.png>]
+<img/8_capitulo6/posibilidades.png, id=1437, 615.4995pt x 222.8325pt>
+File: img/8_capitulo6/posibilidades.png Graphic file (type png)
+<use img/8_capitulo6/posibilidades.png>
+Package luatex.def Info: img/8_capitulo6/posibilidades.png  used on input line 
+42.
+(luatex.def)             Requested size: 452.96826pt x 163.99582pt.
+ [95<./img/8_capitulo6/basedatos.png>] [96<./img/8_capitulo6/posibilidades.png>] [97]
+<img/8_capitulo6/0495.png, id=1479, 865.3128pt x 218.0145pt>
+File: img/8_capitulo6/0495.png Graphic file (type png)
+<use img/8_capitulo6/0495.png>
+Package luatex.def Info: img/8_capitulo6/0495.png  used on input line 90.
+(luatex.def)             Requested size: 457.49545pt x 115.26768pt.
+
+Overfull \hbox (4.52719pt too wide) in paragraph at lines 90--92
+ [][] 
+ []
+
+[98<./img/8_capitulo6/0495.png>]) (./7_capitulo5/73_conclusiones.tex [99]))
+[100]
+\openout2 = 8_capitulo6/capitulo6.aux
+ (./8_capitulo6/capitulo6.tex
+Capítulo \bfseries {VI}.
+(./8_capitulo6/82_referencias.tex (z:/latex/build/tesis_main.bbl [101
+
+
+
+
+]
+Underfull \hbox (badness 1147) in paragraph at lines 66--73
+\TU/TimesNewRoman(0)/m/n/12 y Quiñonez-Choquecota, J. (2020).  ANÁ-LI-SIS DE 
+IN-CEN-DIOS FO-RES-TA-LES
+ []
+
+[102] [103] [104] [105] [106] [107] [108])) (./8_capitulo6/83_anexos.tex
+[109]
+Overfull \hbox (9.82307pt too wide) in alignment at lines 3--8
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82307pt too wide) in alignment at lines 8--13
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82307pt too wide) in alignment at lines 13--16
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82307pt too wide) in alignment at lines 16--18
+ [][][] 
+ []
+
+
+Overfull \hbox (9.82307pt too wide) in alignment at lines 18--27
+ [][][] 
+ []
+
+[110
+
+]
+<img/8_capitulo6/ROI_1.png, id=1544, 286.06876pt x 407.72325pt>
+File: img/8_capitulo6/ROI_1.png Graphic file (type png)
+<use img/8_capitulo6/ROI_1.png>
+Package luatex.def Info: img/8_capitulo6/ROI_1.png  used on input line 32.
+(luatex.def)             Requested size: 407.66867pt x 581.04277pt.
+<img/8_capitulo6/ROI_2.png, id=1545, 284.86424pt x 408.3255pt>
+File: img/8_capitulo6/ROI_2.png Graphic file (type png)
+<use img/8_capitulo6/ROI_2.png>
+Package luatex.def Info: img/8_capitulo6/ROI_2.png  used on input line 37.
+(luatex.def)             Requested size: 407.66867pt x 584.39323pt.
+ [111]
+<img/8_capitulo6/ROI_3.png, id=1550, 285.4665pt x 297.5115pt>
+File: img/8_capitulo6/ROI_3.png Graphic file (type png)
+<use img/8_capitulo6/ROI_3.png>
+Package luatex.def Info: img/8_capitulo6/ROI_3.png  used on input line 42.
+(luatex.def)             Requested size: 407.66867pt x 424.91162pt.
+ [112<./img/8_capitulo6/ROI_1.png>])) [113<./img/8_capitulo6/ROI_2.png>] [114<./
+img/8_capitulo6/ROI_3.png>] (z:/latex/build/tesis_main.aux
+(z:/latex/build/1_caratula/caratula.aux)
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+ (z:/latex/build/2_indice/indice.aux)
+(z:/latex/build/3_capitulo1/capitulo1.aux)
+(z:/latex/build/4_capitulo2/capitulo2.aux)
+(z:/latex/build/5_capitulo3/capitulo3.aux)
+(z:/latex/build/6_capitulo4/capitulo4.aux)
+(z:/latex/build/7_capitulo5/capitulo5.aux)
+(z:/latex/build/8_capitulo6/capitulo6.aux))
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
+)
+
+Here is how much of LuaTeX's memory you used:
+ 25774 strings out of 477259
+ 125027,1977958 words of node,token memory allocated
+ 1335 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 1 glyph, 166 attribute, 104 glue_sp
+ec, 85 attribute_list, 3 write, 14 pdf_action nodes
+   avail lists: 2:1307,3:368,4:128,5:204,6:148,7:6363,8:62,9:1126,10:19,11:876
+ 45718 multiletter control sequences out of 65536+600000
+ 57 fonts using 27889727 bytes
+ 84i,14n,92p,1037b,710s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<//?/c:/users/jflor/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmon
+o12-regular.otf><C:/Users/jflor/AppData/Local/Programs/MiKTeX/fonts/opentype/pub
+lic/lm-math/latinmodern-math.otf><C:/Users/jflor/AppData/Local/Programs/MiKTeX/f
+onts/opentype/public/lm-math/latinmodern-math.otf><C:/Users/jflor/AppData/Local/
+Programs/MiKTeX/fonts/opentype/public/lm-math/latinmodern-math.otf><C:/Windows/F
+onts/timesi.ttf><C:/Windows/Fonts/timesbi.ttf><C:/Windows/Fonts/times.ttf><C:/Wi
+ndows/Fonts/timesbd.ttf>
+Output written on tesis_main.pdf (120 pages, 149176735 bytes).
+
+PDF statistics: 2013 PDF objects out of 2073 (max. 8388607)
+ 453 named destinations out of 1000 (max. 131072)
+ 1001 words of extra memory for PDF output out of 10000 (max. 100000000)
+

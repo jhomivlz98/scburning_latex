@@ -1,0 +1,40 @@
+\section{Limitaciones de la investigación}
+En este estudio se identificaron varias limitaciones que pueden haber influido en los resultados y en la aplicación del modelo propuesto. 
+Estas limitaciones se dividen en metodológicas, operacionales y tecnológicas, y abarcan desde aspectos relacionados con la calidad y disponibilidad de 
+los datos hasta los recursos computacionales necesarios para ejecutar modelos de aprendizaje automático.
+
+\subsection{Limitaciones metodológicas}
+
+\begin{itemize}
+    \item \textbf{Disponibilidad y calidad de los datos}: La precisión del modelo puede estar limitada por la calidad y resolución de las imágenes 
+    satelitales disponibles, así como por la cantidad de datos etiquetados correctamente. Condiciones atmosféricas, como la nubosidad, han
+    reducido el número de imágenes útiles para el entrenamiento y la validación del modelo.
+
+    \item \textbf{Generalización del modelo}: El modelo se desarrolló utilizando datos de regiones específicas (costa norte y centro del Perú), por lo que 
+    \textbf{actualmente} su capacidad para generalizar a otras regiones geográficas o tipos de cultivos puede ser limitada. Es posible que el modelo no funcione tan bien en áreas con diferentes 
+    características climáticas o de suelo.
+
+    \item \textbf{Simplificaciones y supuestos en la modelización}: La metodología podría haber implicado ciertas simplificaciones o suposiciones sobre las características 
+    de las quemas, las condiciones de vegetación o el comportamiento de los incendios, que no siempre representan la complejidad real en el campo principalmente en los
+    meses donde realizan la cosecha de caña de azúcar.
+\end{itemize}
+
+\subsection{Limitaciones operacionales}
+
+\begin{itemize}
+    \item \textbf{Tiempo y recursos humanos para el etiquetado}: El proceso de etiquetado manual de las áreas quemadas es intensivo en tiempo y requiere personal capacitado. 
+    La cantidad de personal disponible es limitada debido a la necesidad de conocimientos especializados tanto en el uso del software IRIS como en temas de incendios, lo que dificultó 
+    el etiquetado rápido y preciso de los datos necesarios para el entrenamiento del modelo. Esta limitación también afecta la capacidad de generar conjuntos de datos más grandes y diversos, 
+    esenciales para mejorar la precisión y la robustez del modelo.
+
+    \item \textbf{Replicabilidad y escalabilidad del modelo}: Aunque la investigación no se vio limitado tecnológicamente en su ejecución original, la replicabilidad y escalabilidad del modelo en otros 
+    contextos requieren acceso a recursos computacionales significativos, como GPUs de alto rendimiento, y un conocimiento técnico avanzado en aprendizaje automático y procesamiento de imágenes 
+    satelitales. Estas condiciones son necesarias para asegurar que el modelo funcione de manera eficiente en diferentes configuraciones y áreas de aplicación.
+\end{itemize}
+
+\subsection{Limitaciones en la validación}
+
+\begin{itemize}
+    \item \textbf{Falta de datos en campo detallados}:  La validación del modelo se ve limitada por la falta de datos de campo extensos y detallados, como la estimación de la extensión de las áreas quemadas, 
+    que coincidan con las fechas de las imágenes satelitales y las coordenadas precisas del evento de quema. Esta ausencia de datos puede afectar la precisión y fiabilidad del modelo.   
+\end{itemize}

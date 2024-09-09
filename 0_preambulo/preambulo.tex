@@ -1,0 +1,255 @@
+% Configuración de la bibliografía -------------------------------------
+%% Citación en estilo APA
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[natbibapa]{apacite}
+%%\usepackage[natbibapa]{apacite}
+% \AtBeginDocument{%
+%   \renewcommand{\BOthers}[1]{et al.}
+%   \renewcommand{\BBAB}{\&}
+% }
+
+\bibliographystyle{apalike-es}
+%% Espaciamiento en la bibliografía
+\setlength{\bibsep}{5pt plus 0.3ex}
+
+% ---------------------------------------------------------------------- 
+% Establecer formato de la fuente --------------------------------------
+
+%% Fuente utilizado por defecto ----------------------------------------
+\usepackage[T1]{fontenc}
+
+%% Fuente Times New Roman no compatible con pdfLaTeX -------------------  
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+
+%% Permite el uso de @ en los nombres de los comandos ------------------
+\makeatletter
+
+% ----------------------------------------------------------------------
+
+% Cambia coma por punto a los números ----------------------------------
+\decimalpoint  
+
+% ----------------------------------------------------------------------
+
+% Utilizar comandos para las ecuaciones --------------------------------
+\usepackage{amsmath}
+% ----------------------------------------------------------------------
+
+% Establecer formato para las tablas -----------------------------------
+
+%% Para definir tablas con ancho fijo ----------------------------------
+\usepackage{tabularx}
+
+%% Para definir tablas con columnas anchas -----------------------------
+\usepackage{longtable}
+
+%% Crea celdas que abarcan varias filas en una tabla -------------------
+\usepackage{multirow} 
+% ----------------------------------------------------------------------
+
+% Establecer márgenes --------------------------------------------------
+%% Márgenes de la página igual para todos los lados --------------------
+\usepackage[margin=2.54cm]{geometry} 
+
+% ----------------------------------------------------------------------
+
+
+% Establecer encabezado y pie de página --------------------------------
+
+%% Borra todo el encabezado --------------------------------------------
+\usepackage{fancyhdr} 
+\pagestyle{fancy}
+\fancyhf{}
+
+%% Elimina la línea horizontal del encabezado --------------------------
+\renewcommand{\headrulewidth}{0pt} 
+
+%% Muestra el número de página en el centro del pie de página ----------
+\fancyfoot[C]{\thepage} 
+
+% ----------------------------------------------------------------------
+
+% Establecer formatos dentro del contenido -----------------------------
+
+%% Circulos para viñetas (Lista) ---------------------------------------
+\renewcommand{\labelitemi}{$\bullet$} 
+
+%% Para los titulos de las secciones -----------------------------------
+\usepackage{titlesec} 
+
+%% Para los titulos de las índices -------------------------------------
+\usepackage{tocloft} %Titulos de ÍNDICES
+
+%% Crea enlaces de color negro en el documento -------------------------
+\usepackage[pdfencoding=auto, colorlinks=true,linkcolor=negro,
+            citecolor = negro]{hyperref}
+
+%% Proporciona soporte para caracteres matemáticos Unicode -------------
+\usepackage[mathbf=sym]{unicode-math} 
+
+%% Aplicar SANGRÍA -----------------------------------------------------
+\setlength{\parindent}{1cm}
+
+%% Aplicar espaciado 2cm -----------------------------------------------
+\usepackage{setspace}
+\doublespacing
+
+% ----------------------------------------------------------------------
+
+
+% Crear estilo para los códigos ----------------------------------------
+
+%% Definir los colores -------------------------------------------------
+\usepackage{xcolor} % Add this line to define the color
+\definecolor{granate}{RGB}{113,22,16}
+\definecolor{gris}{RGB}{154,153,157}
+\definecolor{arena}{RGB}{230,217,170}
+\definecolor{azul}{rgb}{0.03, 0.15, 0.4}
+\definecolor{negro}{rgb}{0, 0, 0}
+\definecolor{purpura}{rgb}{0.2,0,1}
+\definecolor{rojo}{rgb}{0.7,0,0.3}
+\definecolor{verde}{rgb}{0,0.6,0}
+
+%% Definición de estilo ------------------------------------------------ 
+\usepackage{listings}
+\lstdefinestyle{mystyle}{
+  backgroundcolor=\color{negro},  
+  commentstyle=\color{verde},
+  keywordstyle=\color{rojo},
+  numberstyle=\tiny\color{gris},
+  stringstyle=\color{purpura},
+  basicstyle=\footnotesize,
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+\lstset{style=mystyle}
+
+% ----------------------------------------------------------------------
+
+
+% Definir titulos de las secciones -------------------------------------
+
+%% Formato de CAPÍTULO (NIVEL 1) ---------------------------------------
+\titleformat{\chapter}[block]{\normalfont\normalsize\bfseries\centering}
+{CAPÍTULO \thechapter \\}{0.5em}{\normalsize}
+\titlespacing*{\chapter}{0pt}{-12 pt}{5 pt}
+
+%% Formato de section (NIVEL 2) ----------------------------------------
+\titleformat{\section}[block]{\normalfont\normalsize\bfseries}
+{\thesection.}{0.5em}{\normalsize}
+\titlespacing*{\section}{0pt}{12 pt}{5 pt}
+
+%% Formato de subsection (NIVEL 3) -------------------------------------
+\titleformat{\subsection}[block]{\normalfont\normalsize\bfseries
+\itshape}{\thesubsection.}{0.5em}{\normalsize}
+\titlespacing*{\subsection}{0pt}{12 pt}{5 pt}
+
+%% Formato subsubsection (NIVEL 4) -------------------------------------
+\titleformat{\subsubsection}[runin]{\normalfont\normalsize\bfseries}
+{\thesubsubsection.}{0.5em}{\normalsize}
+\titlespacing*{\subsubsection}{\parindent}{12 pt}{5 pt}
+
+%% Crear subsubsubsection (NIVEL 5) ------------------------------------
+\titleformat{\paragraph}[runin]{\normalfont\normalsize\bfseries
+\itshape}{\theparagraph.}{0.5em}{\normalsize}
+\titlespacing*{\paragraph}{\parindent}{12 pt}{5 pt}
+
+%% Mostrar los niveles en el índice ------------------------------
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+% ----------------------------------------------------------------------
+
+% Modificar estilo de figuras, tablas y ecuaciones ---------------------
+
+%% Evitar reiniciar el contador en cada capítulo -----------------------
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}  
+\counterwithout{table}{chapter}  
+\counterwithout{equation}{chapter}
+
+%% Configurar el formato de las figuras para centrar el nombre ---------
+\usepackage{float} %% Para usar [H] en las figuras
+\usepackage{graphicx} %% Para usar \includegraphics
+\usepackage{caption} %% Para usar \caption
+\usepackage{booktabs} %% Para usar \toprule, \midrule, \bottomrule
+\usepackage{bookmark}
+\captionsetup[figure]{
+    position=top, % Etiqueta de la tabla abajo
+    labelformat=simple, % Elimina la etiqueta Figura
+    labelsep=newline, % Salto de línea después de la etiqueta
+    font={normalsize, it}, % Tamaño de la fuente
+    singlelinecheck=false % Alineación del nombre en caso de que ocupe 
+                          % más de una línea
+}
+
+%% Configurar el formato de las tablas para centrar el nombre ----------
+\captionsetup[table]{
+    position=top, % Etiqueta de la tabla abajo
+    labelformat=simple, % Elimina la etiqueta Tabla
+    labelsep=newline, % Salto de línea después de la etiqueta
+    font={normalsize, it}, % Tamaño de la fuente
+    singlelinecheck=false % Alineación del nombre en caso de que ocupe 
+                          % más de una línea
+}
+
+%% Cambiando las etiquetas de las FIGURAS y TABLAS ---------------------
+\addto\captionsspanish{\renewcommand{\figurename}{\normalfont\bfseries 
+Figura}} 
+\addto\extrasspanish{\def\figureautorefname{Figura}}
+ 
+\addto\captionsspanish{\renewcommand{\tablename}{\normalfont\bfseries 
+Tabla}}
+\addto\extrasspanish{\def\tableautorefname{Tabla}} 
+
+% ----------------------------------------------------------------------
+
+
+% Cambiando a Números Romanos solo los Capítulos ----------------------------
+\renewcommand{\thechapter}{\bfseries{\Roman{chapter}}}
+
+% Cambiando a Números Arábigos las Secciones, Ecuaciones, etc. ---------
+\renewcommand{\thesection}{\arabic{chapter}.\arabic{section}}
+\renewcommand{\theequation}{\arabic{equation}}
+\renewcommand{\thetable}{\arabic{table}}
+\renewcommand{\thefigure}{\arabic{figure}}
+
+% ----------------------------------------------------------------------
+
+
+% Escribir los INFORMACIÓN PERSONAL Y DEL TRABAJO ----------------------
+
+%% Autor para CARÁTULA (Siempre en mayuscula y sin saltos de linea) ----
+\authorcaratula{Jair Francisco FLORES FARFAN}
+
+%% Asesor -------------------------------------------------------------
+\asesor{Dr. Francisco Alejandro ALCÁNTARA BOZA}
+
+%% Título para CARÁTULA (Siempre en mayuscula y sin saltos de linea) ---
+\titlecaratula{Desarrollo de un modelo de aprendizaje ensamblado para la detección
+de quema de caña de azúcar en la costa norte y centro del Perú durante el período 2017 - 2022.}
+
+%% Nombre de la FACULTAD -----------------------------------------------
+\facultad{Facultad de Ingeniería Geológica, Minera, Metalúrgica y 
+Geográfica}
+
+%% Nombre de la ESCUELA ------------------------------------------------
+\eap{Escuela Académico Profesional de Ingeniería Geográfica}
+
+%% Para obtener el título profesional de -------------------------------
+\grado{Ingeniero Geógrafo}
+
+%% AÑO para CARÁTULA ---------------------------------------------------
+\yyearr{2024}
+
+% ----------------------------------------------------------------------

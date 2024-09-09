@@ -1,0 +1,73 @@
+\section{Definición de Términos}
+
+\subsection{Áreas con quema de caña de azúcar}
+El término ``área con quema de caña de azúcar'' se refiere a la superficie de un campo de cultivo de caña de azúcar que ha sido afectada por la actividad de \textbf{quema de los residuos de caña de azúcar}. Esta expresión se abrevia a menudo 
+como ``área con quema'' y puede usarse de manera intercambiable con ``área quemada'', siempre que se trate de un campo de cultivo de caña de azúcar y que la quema se deba a esta práctica agrícola. El término abarca tanto la ubicación como 
+la extensión total de la cicatriz de la quema, incluyendo todas las zonas donde el fuego ha dejado marcas visibles en el suelo, la vegetación o los residuos de caña de azúcar.
+
+\subsection{Quema activa}
+
+La quema activa o ``quema en vivo'' se refiere a la identificación de fuego en un campo de cultivo de caña de azúcar, mientras se eliminan sus residuos, capturado por el satélite en ese preciso momento. Esta situación, que se visualiza como un área 
+que emite humo y calor, es la prueba fehaciente de una quema y puede ser detectada en vivo mediante imágenes satelitales térmicas o multiespectrales.
+
+\subsection{Cosecha mecanizada en verde}
+Es el proceso de recolección de caña de azúcar mediante el uso de maquinaria especializada sin la necesidad de quemar previamente los campos. Este método elimina la quema que generalmente se realiza para facilitar la recolección manual, presentando 
+desafíos como la inversión en maquinaria adecuada, la gestión de los residuos agrícolas y la necesidad de ajustar los procesos de producción. Aunque la cosecha en verde ayuda a reducir el impacto ambiental, especialmente en áreas cercanas a poblaciones, 
+puede resultar en menor productividad debido a la mayor presencia de materia extraña, lo que disminuye la eficiencia en la extracción de azúcar.
+
+\subsection{Ingenio azucarero}
+Un ingenio azucarero es una planta procesadora que convierte caña de azúcar en azúcar mediante procesos industriales como la extracción del jugo, purificación, evaporación, cristalización y secado, y también produce subproductos 
+como melaza, bagazo y bioetanol. Su enfoque principal es la transformación eficiente de la materia prima en productos derivados del azúcar, utilizando tecnología avanzada. 
+
+En el Perú, estos ingenios se encuentran principalmente en la costa norte y centro del país.
+
+\subsection{Fundo, Predio y Campo Azucarero}
+Un \textbf{fundo} azucarero es una propiedad rural de gran tamaño dedicada a la producción de caña de azúcar, que puede incluir varios predios, diversas operaciones agrícolas, infraestructuras, y diferentes tipos de cultivos 
+de caña. Dentro de un fundo, un \textbf{predio} es una extensión de tierra que agrupa varios campos de cultivo bajo una gestión común, facilitando la planificación y el manejo integral de la producción. Un 
+\textbf{campo}, en este contexto, es la unidad básica de producción agrícola: una parcela de tierra específica destinada al cultivo de caña de azúcar, donde se realizan actividades como la siembra, el riego y la cosecha.
+
+\subsection{Matriz de confusión en la segmentación binaria}
+En el contexto de la segmentación semántica binaria, considerando las dos clases ``quema'' y ``no quema'', se tienen
+los siguientes términos que conforman la matriz de confusión:
+
+\begin{itemize}
+    \item Verdadero positivo (TP): Píxeles identificados correctamente como ``quema'' y que corresponden a ``quema''.
+    \item Falso positivo (FP): Píxeles identificados incorrectamente como ``quema'' y que corresponden a ``no quema''.
+    \item Falso negativo (FN): Píxeles identificados incorrectamente como ``no quema'' y que corresponden a ``quema''.
+    \item Verdadero negativo (TN): Píxeles identificados correctamente como ``no quema'' y que corresponden a ``no quema''.
+\end{itemize}
+
+\subsection{Índice de Vegetación de Diferencia Normalizada (NDVI)}
+
+El \textbf{NDVI (Normalized Difference Vegetation Index)} es un índice utilizado para evaluar la salud de la vegetación. Se calcula utilizando las bandas de infrarrojo cercano (NIR) y rojo (RED) de las imágenes satelitales y se 
+define por la siguiente fórmula:
+
+\[
+NDVI = \frac{(NIR - RED)}{(NIR + RED)}
+\]
+
+donde:
+\begin{itemize}
+    \item \(NIR\) es la reflectancia en la banda del infrarrojo cercano.
+    \item \(RED\) es la reflectancia en la banda roja.
+\end{itemize}
+
+El valor del NDVI varía entre -1 y 1. Los valores cercanos a 1 indican una vegetación densa y saludable, ya que la vegetación refleja más luz en el espectro del infrarrojo cercano y menos en el espectro rojo. Los valores cercanos a 
+0 indican poca o ninguna vegetación, mientras que los valores negativos (cercanos a -1) corresponden a superficies como agua, nieve, o nubes, que reflejan más luz en la banda roja que en el infrarrojo cercano.
+
+\subsection{Índice de Agua de Diferencia Normalizada (NDWI)}
+El \textbf{NDWI (Normalized Difference Water Index)} es un índice utilizado para identificar cuerpos de agua y contenido de humedad en las plantas. Se calcula utilizando las bandas de infrarrojo cercano (NIR) y del verde (GREEN) 
+de las imágenes satelitales, y se define por la siguiente fórmula:
+
+\[
+NDWI = \frac{(GREEN - NIR)}{(GREEN + NIR)}
+\]
+
+donde:
+\begin{itemize}
+    \item \(GREEN\) es la reflectancia en la banda verde.
+    \item \(NIR\) es la reflectancia en la banda del infrarrojo cercano.
+\end{itemize}
+
+El valor del NDWI varía entre -1 y 1. Los valores positivos (cercanos a 1) indican la presencia de agua, ya que el agua absorbe mucho más la luz infrarroja cercana que la luz verde mientras que los valores negativos (cercanos a -1) sugieren áreas 
+sin agua, como suelos desnudos o áreas urbanas, y valores cercanos a 0 pueden indicar áreas con vegetación moderada.

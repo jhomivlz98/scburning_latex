@@ -1,0 +1,526 @@
+\begin{thebibliography}{}
+
+\bibitem[{AGROAURORA S.A.C.}, 2020]{agroaurora_sac_actualizacion_2020}
+{AGROAURORA S.A.C.} (2020).
+\newblock Actualización del {Plan} de {Manejo} {Ambiental} ({PMA}) del
+  {Estudio} de {Impacto} {Ambiental} {Semidetallado} ({EIAsd}) del proyecto
+  "{CULTIVOS} {DE} {CAÑA} {DE} {AZÚCAR} {Y} {ELABORACIÓN} {DE} {AZÚCAR}" -
+  {AGRIAURORA} {S}.{A}.{C}.
+\newblock Technical report.
+
+\bibitem[{Agroindustrial Laredo S.A.A.}, 2000]{laredo_saa_programa_2000}
+{Agroindustrial Laredo S.A.A.} (2000).
+\newblock Programa de {Adecuación} y {Manejo} {Ambiental} ({PAMA}).
+
+\bibitem[{Agroindustrias San Jacinto S.A.A.}, 2014]{san_jacinto_2014}
+{Agroindustrias San Jacinto S.A.A.} (2014).
+\newblock Programa de {Adecuación} y {Manejo} {Ambiental} ({PAMA}) -
+  {Capítulo} {VII} - {Descripción} de la actividad agrícola.
+\newblock Technical report.
+
+\bibitem[{AGROLMOS S.A.}, 2021]{agrolmos_sa_modificacion_2021}
+{AGROLMOS S.A.} (2021).
+\newblock Modificación del {Estudio} de {Impacto} {Ambiental} {Semidetallado}
+  del {Proyecto} {Agroindustrial} {AGROLMOS} {S}.{A}.
+\newblock Technical report.
+
+\bibitem[Al-Dabbagh e Ilyas, 2023]{al_dabbagh_2023}
+Al-Dabbagh, A.~M. e Ilyas, M. (2023).
+\newblock Uni-temporal {Sentinel}-2 imagery for wildfire detection using deep
+  learning semantic segmentation models.
+\newblock {\em Geomatics, Natural Hazards and Risk}, 14(1):2196370.
+\newblock Publisher: Taylor \& Francis \_eprint:
+  https://doi.org/10.1080/19475705.2023.2196370.
+
+\bibitem[Alcaras \textit{et al.}, 2022]{alcaras_2022}
+Alcaras, E., Costantino, D., Guastaferro, F., Parente, C., y Pepe, M. (2022).
+\newblock Normalized burn ratio plus (nbr+): A new index for sentinel-2
+  imagery.
+\newblock {\em Remote Sensing}, 14(7).
+
+\bibitem[{Amazon Web Services}, 2024]{amazon_web_services_how_2024}
+{Amazon Web Services} (2024).
+\newblock How {XGBoost} {Works} - {Amazon} {SageMaker}.
+
+\bibitem[Arbex \textit{et al.}, 2007]{arbex_air_2007}
+Arbex, M.~A., Martins, L.~C., De~Oliveira, R.~C., Pereira, L. A.~A., Arbex,
+  F.~F., Cancado, J. E.~D., Saldiva, P. H.~N., y Braga, A. L.~F. (2007).
+\newblock Air pollution from biomass burning and asthma hospital admissions in
+  a sugar cane plantation area in {Brazil}.
+\newblock {\em Journal of Epidemiology \& Community Health}, 61(5):395--400.
+
+\bibitem[Arnaudo \textit{et al.}, 2023]{arnaudo_robust_2023}
+Arnaudo, E., Barco, L., Merlo, M., y Rossi, C. (2023).
+\newblock Robust {Burned} {Area} {Delineation} through {Multitask} {Learning}.
+
+\bibitem[Aybar \textit{et al.}, 2022]{aybar_cloudsen12_2022}
+Aybar, C., Ysuhuaylas, L., Loja, J., Gonzales, K., Herrera, F., Bautista, L.,
+  Yali, R., Flores, A., Diaz, L., Cuenca, N., Espinoza, W., Prudencio, F.,
+  Llactayo, V., Montero, D., Sudmanns, M., Tiede, D., Mateo-García, G., y
+  Gómez-Chova, L. (2022).
+\newblock {CloudSEN12}, a global dataset for semantic understanding of cloud
+  and cloud shadow in {Sentinel}-2.
+\newblock {\em Scientific Data}, 9(1):782.
+
+\bibitem[Añamuro-Luque \textit{et al.}, 2020]{anamuro-luque_alisis_2020}
+Añamuro-Luque, H.~H., Larico-Mamani, C.~J., Ruiz-Vásquez, C.~E.,
+  Monteza-Rosales, O.~M., y Quiñonez-Choquecota, J. (2020).
+\newblock {ANÁLISIS} {DE} {INCENDIOS} {FORESTALES} {EN} {PAJONALES} {ANDINOS}
+  {UTILIZANDO} {SISTEMAS} {DE} {INFORMACIÓN} {GEOGRÁFICA} {Y}
+  {TELEDETECCIÓN}, {MACARI} – {PUNO}.
+\newblock {\em REVISTA EL CEPROSIMAD}, 8(2):30--37.
+\newblock Number: 2.
+
+\bibitem[Balas \textit{et al.}, 2020]{balas_recent_2020}
+Balas, V.~E., Kumar, R., y Srivastava, R., editores (2020).
+\newblock {\em Recent {Trends} and {Advances} in {Artificial} {Intelligence}
+  and {Internet} of {Things}}, volumen 172 de {\em Intelligent {Systems}
+  {Reference} {Library}}.
+\newblock Springer International Publishing, Cham.
+
+\bibitem[Cambrin \textit{et al.}, 2023]{cabuar_2023}
+Cambrin, D.~R., Colomba, L., y Garza, P. (2023).
+\newblock {CaBuAr}: {California} burned areas dataset for delineation
+  [{Software} and {Data} {Sets}].
+\newblock {\em IEEE Geoscience and Remote Sensing Magazine}, 11(3):106--113.
+
+\bibitem[Campos \textit{et al.}, 2022]{campos_detection_2022}
+Campos, L.~R., Demattê, J.~A., Bellinaso, H., Poppiel, R.~R., Greschuk, L.~T.,
+  Rizzo, R., Rosin, N.~A., y Rosas, J. T.~F. (2022).
+\newblock Detection of bare soils in sugarcane areas by temporal satellite
+  images: {A} monitoring technique for soil security.
+\newblock {\em Soil Security}, 7:100057.
+
+\bibitem[Cançado \textit{et al.}, 2006]{cancado_impact_2006}
+Cançado, J.~E., Saldiva, P.~H., Pereira, L.~A., Lara, L.~B., Artaxo, P.,
+  Martinelli, L.~A., Arbex, M.~A., Zanobetti, A., y Braga, A.~L. (2006).
+\newblock The {Impact} of {Sugar} {Cane}–{Burning} {Emissions} on the
+  {Respiratory} {System} of {Children} and the {Elderly}.
+\newblock {\em Environmental Health Perspectives}, 114(5):725--729.
+
+\bibitem[{Casa Grande S.A.A.}, 2018]{casa_grande_saa_2018}
+{Casa Grande S.A.A.} (2018).
+\newblock {\em Actualización del {Plan} de {Manejo} {Ambiental} del {Programa}
+  de {Adecuación} y {Manejo} {Ambiental} ({PAMA}) de la empresa {CASA}
+  {GRANDE} {S}.{A}.{A}.}
+
+\bibitem[Chuvieco \textit{et al.}, 2019]{chuvieco_historical_2019}
+Chuvieco, E., Mouillot, F., Van Der~Werf, G.~R., San~Miguel, J., Tanase, M.,
+  Koutsias, N., García, M., Yebra, M., Padilla, M., Gitas, I., Heil, A.,
+  Hawbaker, T.~J., y Giglio, L. (2019).
+\newblock Historical background and current developments for mapping burned
+  area from satellite {Earth} observation.
+\newblock {\em Remote Sensing of Environment}, 225:45--64.
+
+\bibitem[Colomba \textit{et al.}, 2022]{colomba_dataset_2022}
+Colomba, L., Farasin, A., Monaco, S., Greco, S., Garza, P., Apiletti, D.,
+  Baralis, E., y Cerquitelli, T. (2022).
+\newblock A {Dataset} for {Burned} {Area} {Delineation} and {Severity}
+  {Estimation} from {Satellite} {Imagery}.
+\newblock En {\em Proceedings of the 31st {ACM} {International} {Conference} on
+  {Information} \& {Knowledge} {Management}}, {CIKM} '22, pp. 3893--3897, New
+  York, NY, USA. Association for Computing Machinery.
+
+\bibitem[{Congreso de la República}, 2020]{congreso_de_la_republica_ley_2020}
+{Congreso de la República} (2020).
+\newblock {LEY} {QUE} {REGULA} {LA} {GESTIÓN} {Y} {MANEJO} {DEL} {CULTIVO}
+  {DE} {LA} {CAÑA} {DE} {AZÚCAR}, {EN} {FORMA} {SANITARIA} {Y}
+  {AMBIENTALMENTE} {ADECUADA}, {PROHIBIENDO} {SU} {QUEMA} {Y} {PROMOVIENDO}
+  {LA} {MINIMIZACIÓN} {DE} {SUS} {RESIDUOS} {SÓLIDOS}.
+
+\bibitem[Csurka \textit{et al.}, 2023]{csurka2023semantic}
+Csurka, G., Volpi, R., y Chidlovskii, B. (2023).
+\newblock Semantic image segmentation: Two decades of research.
+
+\bibitem[De~Andrade \textit{et al.}, 2010]{de_andrade_contribution_2010}
+De~Andrade, S.~J., Cristale, J., Silva, F.~S., Julião~Zocolo, G., y Marchi,
+  M.~R. (2010).
+\newblock Contribution of sugar-cane harvesting season to atmospheric
+  contamination by polycyclic aromatic hydrocarbons ({PAHs}) in {Araraquara}
+  city, {Southeast} {Brazil}.
+\newblock {\em Atmospheric Environment}, 44(24):2913--2919.
+
+\bibitem[FAO, 2023]{fao_2023}
+FAO (2023).
+\newblock {\em World {Food} and {Agriculture} – {Statistical} {Yearbook}
+  2023}.
+
+\bibitem[Farhadi \textit{et al.}, 2023]{farhadi_badi_2023}
+Farhadi, H., Ebadi, H., y Kiani, A. (2023).
+\newblock {BADI}: {A} {NOVEL} {BURNED} {AREA} {DETECTION} {INDEX} {FOR}
+  {SENTINEL}-2 {IMAGERY} {USING} {GOOGLE} {EARTH} {ENGINE} {PLATFORM}.
+\newblock {\em ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial
+  Information Sciences}, X-4-W1-2022:179--186.
+\newblock Conference Name: ISPRS WG IV/3{\textless}br{\textgreater}ISPRS
+  GeoSpatial Conference 2022, Joint 6th Sensors and Models in Photogrammetry
+  and Remote Sensing (SMPR) and 4th Geospatial Information Research
+  (GIResearch) Conferences - 19\&ndash;22 February 2023, Tehran, Iran (virtual)
+  Publisher: Copernicus GmbH.
+
+\bibitem[Farrukh, 2019]{farrukh_modeling_2019}
+Farrukh, M. (2019).
+\newblock Modeling on {Feature} {Vectors} in {Compressed} {Spaces} by the use
+  of {Neural} network techniques.
+\newblock Technical report.
+
+\bibitem[Foody, 2020]{foody_explaining_2020}
+Foody, G.~M. (2020).
+\newblock Explaining the unsuitability of the kappa coefficient in the
+  assessment and comparison of the accuracy of thematic maps obtained by image
+  classification.
+\newblock {\em Remote Sensing of Environment}.
+
+\bibitem[França \textit{et al.}, 2012]{franca_pre-harvest_2012}
+França, D. D.~A., Longo, K.~M., Neto, T. G.~S., Santos, J.~C., Freitas, S.~R.,
+  Rudorff, B. F.~T., Cortez, E.~V., Anselmo, E., y Carvalho, J.~A. (2012).
+\newblock Pre-{Harvest} {Sugarcane} {Burning}: {Determination} of {Emission}
+  {Factors} through {Laboratory} {Measurements}.
+\newblock {\em Atmosphere}, 3(1):164--180.
+
+\bibitem[Gonzáles~Vásquez, 2022]{gonzales_vasquez_aplicacion_2022}
+Gonzáles~Vásquez, A.~M. (2022).
+\newblock {\em {APLICACIÓN} {DEL} Í{NDICE} {NORMALIZADO} {DE} Á{REA}
+  {QUEMADA} ({NBR}){Y} {SISTEMAS} {DE} {INFORMACIÓN} {GEOGRÁFICA} {PARA}
+  {ESTIMAR} {LA} {SEVERIDAD} {DE} {LOS} {INCENDIOS} {FORESTALES} {EN} {EL}
+  {DEPARTAMENTO} {DE} {CUSCO}}.
+\newblock Tesis doctoral, Universidad Nacional Federico Villareal, Lima.
+
+\bibitem[Goodfellow \textit{et al.}, 2016]{Goodfellow-et-al-2016}
+Goodfellow, I., Bengio, Y., y Courville, A. (2016).
+\newblock {\em Deep Learning}.
+\newblock MIT Press.
+
+\bibitem[Hamzeh \textit{et al.}, 2016]{hamzeh2016assessing}
+Hamzeh, S., Naseri, A.~A., AlaviPanah, S.~K., Bartholomeus, H., y Herold, M.
+  (2016).
+\newblock Assessing the accuracy of hyperspectral and multispectral satellite
+  imagery for categorical and quantitative mapping of salinity stress in
+  sugarcane fields.
+\newblock {\em International journal of applied earth observation and
+  geoinformation}, 52:412--421.
+
+\bibitem[Helfgott, 2016]{helfgott_cultivo_2016}
+Helfgott, S.~E. (2016).
+\newblock {\em El cultivo de la caña de azúcar en la costa peruana}.
+\newblock Universidad Nacional Agraria La Molina.
+\newblock Google-Books-ID: UnbttAEACAAJ.
+
+\bibitem[Hosmer~Jr \textit{et al.}, 2013]{hosmer2013applied}
+Hosmer~Jr, D.~W., Lemeshow, S., y Sturdivant, R.~X. (2013).
+\newblock {\em Applied logistic regression}.
+\newblock John Wiley \& Sons.
+
+\bibitem[Hu \textit{et al.}, 2024]{hu_near_2024}
+Hu, X., Wen, H., Zhang, P., Yuen, K.-V., y Zhong, P. (2024).
+\newblock Near {Real}-{Time} {Burned} {Area} {Progression} {Mapping} {With}
+  {Multispectral} {Data} {Using} {Ensemble} {Learning}.
+\newblock {\em IEEE Geoscience and Remote Sensing Letters}, 21:1--5.
+
+\bibitem[{Instituto Nacional de Estadística e Informática},
+  2022]{inei_peru_2022}
+{Instituto Nacional de Estadística e Informática} (2022).
+\newblock {PERÚ}: {Proyecciones} de {Población} {Total} según
+  {Departamento}, {Provincia} y {Distrito}, 2018 – 2022 {Boletín} {Especial}
+  {N}°27.
+
+\bibitem[Jimenez~Dios y García~Núñez, 2020]{jimenez_dios_resiliencia_2020}
+Jimenez~Dios, A.~D. y García~Núñez, A. (2020).
+\newblock {\em Resiliencia de la cobertura vegetal post incendio forestal
+  aplicando índices espectrales de vegetación – {Distrito} de {Chulucanas}
+  – {Departamento} de {Piura}, 2019}.
+\newblock Tesis doctoral, UNIVERSIDAD NACIONAL DE TUMBES, Tumbes.
+
+\bibitem[Junpen \textit{et al.}, 2020]{junpen_estimation_2020}
+Junpen, A., Pansuk, J., y Garivait, S. (2020).
+\newblock Estimation of {Reduced} {Air} {Emissions} as a {Result} of the
+  {Implementation} of the {Measure} to {Reduce} {Burned} {Sugarcane} in
+  {Thailand}.
+\newblock {\em Atmosphere}, 11(4):366.
+
+\bibitem[Katsaros \textit{et al.}, 2021]{katsaros_backpropagation_2021}
+Katsaros, D., Fragkou, E., y Papakostas, D. (2021).
+\newblock Backpropagation for {Convolutional} {Neural} {Networks}.
+\newblock {\em Department of Electrical \& Computer Engineering, University of
+  Thessaly,}.
+
+\bibitem[Ke \textit{et al.}, 2017]{ke_lightgbm_2017}
+Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., y Liu, T.-Y.
+  (2017).
+\newblock {LightGBM}: {A} {Highly} {Efficient} {Gradient} {Boosting} {Decision}
+  {Tree}.
+
+\bibitem[Knopp \textit{et al.}, 2020]{knopp_deep_2020}
+Knopp, L., Wieland, M., Rättich, M., y Martinis, S. (2020).
+\newblock A {Deep} {Learning} {Approach} for {Burned} {Area} {Segmentation}
+  with {Sentinel}-2 {Data}.
+\newblock {\em Remote Sensing}, 12(15):2422.
+\newblock Number: 15 Publisher: Multidisciplinary Digital Publishing Institute.
+
+\bibitem[Lee \textit{et al.}, 2022]{lee_machine_2022}
+Lee, C., Park, S., Kim, T., Liu, S., Md~Reba, M.~N., Oh, J., y Han, Y. (2022).
+\newblock Machine {Learning}-{Based} {Forest} {Burned} {Area} {Detection} with
+  {Various} {Input} {Variables}: {A} {Case} {Study} of {South} {Korea}.
+\newblock {\em Applied Sciences}, 12(19):10077.
+
+\bibitem[Luo y Chen, 2020]{luo_two_2020}
+Luo, S. y Chen, T. (2020).
+\newblock Two {Derivative} {Algorithms} of {Gradient} {Boosting} {Decision}
+  {Tree} for {Silicon} {Content} in {Blast} {Furnace} {System} {Prediction}.
+\newblock {\em IEEE Access}, 8:196112--196122.
+
+\bibitem[Luo \textit{et al.}, 2018]{luo_coarse--fine_2018}
+Luo, Y., Wang, Z., Huang, Z., Yang, Y., y Zhao, C. (2018).
+\newblock Coarse-to-{Fine} {Annotation} {Enrichment} for {Semantic}
+  {Segmentation} {Learning}.
+\newblock En {\em Proceedings of the 27th {ACM} {International} {Conference} on
+  {Information} and {Knowledge} {Management}}, pp. 237--246.
+\newblock arXiv:1808.07209 [cs].
+
+\bibitem[{Machine Learning Glossary},
+  2017]{machine_learning_glossary_loss_2017}
+{Machine Learning Glossary} (2017).
+\newblock Loss {Functions} — {ML} {Glossary} documentation.
+
+\bibitem[Matsuda \textit{et al.}, 2020]{matsuda_occupational_2020}
+Matsuda, M., Braga, A.~L., Marquezini, M.~V., Monteiro, M.~L., Saldiva, P.~H.,
+  y De~Santos, U. (2020).
+\newblock Occupational effect of sugarcane biomass burning on the conjunctival
+  mucin profile of harvest workers and residents of an adjacent town - {A}
+  {Brazilian} panel study.
+\newblock {\em Experimental Eye Research}, 190:107889.
+
+\bibitem[{meanxai}, 2023]{meanxai_mxml-12-03_2023}
+{meanxai} (2023).
+\newblock [{MXML}-12-03] {Light} {GBM} [3/4] - {Exclusive} {Feature} {Bundling}
+  ({EFB}) - {Greedy} {Bundling}.
+
+\bibitem[Mienye y Sun, 2022]{mienye_survey_2022}
+Mienye, I.~D. y Sun, Y. (2022).
+\newblock A {Survey} of {Ensemble} {Learning}: {Concepts}, {Algorithms},
+  {Applications}, and {Prospects}.
+\newblock {\em IEEE Access}, 10:99129--99149.
+
+\bibitem[Militino \textit{et al.}, 2024]{militino_logistic_2024}
+Militino, A.~F., Goyena, H., Pérez-Goya, U., y Ugarte, M.~D. (2024).
+\newblock Logistic regression versus {XGBoost} for detecting burned areas using
+  satellite images.
+\newblock {\em Environmental and Ecological Statistics}, 31(1):57--77.
+
+\bibitem[Müller \textit{et al.}, 2022]{muller_towards_2022}
+Müller, D., Soto-Rey, I., y Kramer, F. (2022).
+\newblock Towards a guideline for evaluation metrics in medical image
+  segmentation.
+\newblock {\em BMC Research Notes}, 15(1):210.
+
+\bibitem[Ng, 2023]{ng_semantic_2023}
+Ng, A. (2023).
+\newblock Semantic {Segmentation} with {U}-{Net}.
+
+\bibitem[Nowell \textit{et al.}, 2022]{nowell_impacts_2022}
+Nowell, H.~K., Wirks, C., Val~Martin, M., Van~Donkelaar, A., Martin, R.~V.,
+  Uejio, C.~K., y Holmes, C.~D. (2022).
+\newblock Impacts of {Sugarcane} {Fires} on {Air} {Quality} and {Public}
+  {Health} in {South} {Florida}.
+\newblock {\em Environmental Health Perspectives}, 130(8):087004.
+
+\bibitem[OECD-FAO, 2023]{oecd-fao_2023}
+OECD-FAO (2023).
+\newblock {OECD}-{FAO} {Agricultural} {Outlook} 2023-2032.
+
+\bibitem[{OEFA}, 2023]{oefa_canazucar_2023}
+{OEFA}, editor (2023).
+\newblock {\em Caña de azúcar: ruta hacia la cosecha en verde.
+  {Determinación} de distancias mínimas para la quema de caña de azúcar en
+  las localidades de {La} huaca y {La} {Rinconada} (provincia de {Paita},
+  {Piura}) mediante un modelamiento de dispersión de material particulado en
+  el año 2018}.
+\newblock Lima.
+
+\bibitem[Ongeri y Kenduiywo, 2020]{ongeri_burnt_2020}
+Ongeri, D. y Kenduiywo, B.~K. (2020).
+\newblock {BURNT} {AREA} {DETECTION} {USING} {MEDIUM} {RESOLUTION} {SENTINEL} 2
+  {AND} {LANDSAT} 8 {SATELLITES}.
+\newblock {\em The International Archives of the Photogrammetry, Remote Sensing
+  and Spatial Information Sciences}, XLIII-B5-2020:131--137.
+
+\bibitem[{Organización Mundial de la Salud}, 2021]{oms_2021}
+{Organización Mundial de la Salud} (2021).
+\newblock Directrices mundiales de la {OMS} sobre la calidad del aire.
+\newblock Technical report.
+
+\bibitem[Park, 2013]{park_introduction_2013}
+Park, H.-A. (2013).
+\newblock An {Introduction} to {Logistic} {Regression}: {From} {Basic}
+  {Concepts} to {Interpretation} with {Particular} {Attention} to {Nursing}
+  {Domain}.
+\newblock {\em Journal of Korean Academy of Nursing}, 43(2):154.
+
+\bibitem[Pereira \textit{et al.}, 1999]{Pereira1999}
+Pereira, J. M.~C., S{\'a}, A. C.~L., Sousa, A. M.~O., Silva, J. M.~N., Santos,
+  T.~N., y Carreiras, J. M.~B. (1999).
+\newblock {\em Spectral characterisation and discrimination of burnt areas},
+  pp. 123--138.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg.
+
+\bibitem[PERUCAÑA, 2022]{perucana_industria_2022}
+PERUCAÑA (2022).
+\newblock Industria de la caña del {Perú} {Informe} {Anual} 2022.
+\newblock Technical report.
+
+\bibitem[Pestana \textit{et al.}, 2017]{pestana_effects_2017}
+Pestana, P. R. D.~S., Braga, A. L.~F., Ramos, E. M.~C., Oliveira, A. F.~D.,
+  Osadnik, C.~R., Ferreira, A.~D., y Ramos, D. (2017).
+\newblock Effects of air pollution caused by sugarcane burning in {Western}
+  {São} {Paulo} on the cardiovascular system.
+\newblock {\em Revista de Saúde Pública}, 51(0).
+
+\bibitem[Pipicano y Restrepo, 2022]{pipicano_alisis_2022}
+Pipicano, A. F.~V. y Restrepo, J. A.~V. (2022).
+\newblock {ANÁLISIS} {ECONÓMICO} {DE} {ALTERNATIVAS} {DE} {DENSIFICACIÓN}
+  {DE} {RESIDUO} {AGRÍCOLA} {DE} {COSECHA} ({RAC}) {DE} {CAÑA} {DE} {AZÚCAR}
+  {PARA} {PROCESOS} {DE} {COMBUSTIÓN}.
+
+\bibitem[{Planetary Computer}, 2023]{planetary_2023}
+{Planetary Computer} (2023).
+\newblock Sentinel-2 {Level}-{2A}.
+
+\bibitem[Powers, 2020]{DBLP:journals/corr/abs-2010-16061}
+Powers, D. M.~W. (2020).
+\newblock Evaluation: from precision, recall and f-measure to roc,
+  informedness, markedness and correlation.
+\newblock {\em CoRR}, abs/2010.16061.
+
+\bibitem[Quintano \textit{et al.}, 2011]{QUINTANO20111597}
+Quintano, C., Fernández-Manso, A., Stein, A., y Bijker, W. (2011).
+\newblock Estimation of area burned by forest fires in mediterranean countries:
+  A remote sensing data mining perspective.
+\newblock {\em Forest Ecology and Management}, 262(8):1597--1607.
+
+\bibitem[Ronneberger \textit{et al.}, 2015]{ronneberger_2015}
+Ronneberger, O., Fischer, P., y Brox, T. (2015).
+\newblock U-net: Convolutional networks for biomedical image segmentation.
+\newblock {\em CoRR}, abs/1505.04597.
+
+\bibitem[Roy \textit{et al.}, 2006]{roy_remote_2006}
+Roy, D., Boschetti, L., y Trigg, S. (2006).
+\newblock Remote {Sensing} of {Fire} {Severity}: {Assessing} the {Performance}
+  of the {Normalized} {Burn} {Ratio}.
+\newblock {\em IEEE Geoscience and Remote Sensing Letters}, 3(1):112--116.
+
+\bibitem[Saini, 2017]{saini_ensemble_2017}
+Saini, Rashmi y~Ghosh, S. (2017).
+\newblock Ensemble classifiers in remote sensing: {A} review.
+\newblock En {\em 2017 {International} {Conference} on {Computing},
+  {Communication} and {Automation} ({ICCCA})}, pp. 1148--1152, Greater Noida.
+  IEEE.
+
+\bibitem[Salas, 2010]{salas_quema_2010}
+Salas, G.~L. (2010).
+\newblock La {Quema} de la {Caña} de {Azúcar} en {Guanacaste} {Impacto}
+  {Ambiental}.
+
+\bibitem[Sdraka \textit{et al.}, 2024]{sdraka_floga_2024}
+Sdraka, M., Dimakos, A., Malounis, A., Ntasiou, Z., Karantzalos, K., Michail,
+  D., y Papoutsis, I. (2024).
+\newblock {FLOGA}: {A} {Machine}-{Learning}-{Ready} {Dataset}, a {Benchmark},
+  and a {Novel} {Deep} {Learning} {Model} for {Burnt} {Area} {Mapping} {With}
+  {Sentinel}-2.
+\newblock {\em IEEE Journal of Selected Topics in Applied Earth Observations
+  and Remote Sensing}, 17:7801--7824.
+\newblock Conference Name: IEEE Journal of Selected Topics in Applied Earth
+  Observations and Remote Sensing.
+
+\bibitem[{Sentinel Hub}, 2023]{Sentinel-Hub}
+{Sentinel Hub} (2023).
+\newblock Simple rgb composites (sentinel-2).
+
+\bibitem[Seydi \textit{et al.}, 2022]{seydi_burnt-net_2022}
+Seydi, S.~T., Hasanlou, M., y Chanussot, J. (2022).
+\newblock \textit{{Burnt}-{Net}}: {Wildfire} burned area mapping with single
+  post-fire {Sentinel}-2 data and deep learning morphological neural network.
+\newblock {\em Ecological Indicators}, 140:108999.
+
+\bibitem[Shomeili, 2015]{iran_sugarcane_2015}
+Shomeili, M. (2015).
+\newblock Sugarcane cultivation in iran.
+
+\bibitem[Silveira \textit{et al.}, 2013]{silveira_emissions_2013}
+Silveira, H. C.~S., Schmidt-Carrijo, M., Seidel, E.~H., Scapulatempo-Neto, C.,
+  Longatto-Filho, A., Carvalho, A.~L., Reis, R. M.~V., y Saldiva, P. H.~N.
+  (2013).
+\newblock Emissions generated by sugarcane burning promote genotoxicity in
+  rural workers: a case study in {Barretos}, {Brazil}.
+\newblock {\em Environmental Health}, 12(1):87.
+
+\bibitem[Singh \textit{et al.}, 2018]{singh_impact_2018}
+Singh, N., Thumar, V., Leua, A., y Chaudhari, D. (2018).
+\newblock Impact of {Straw} {Burning} {Practices} on {Economics} of {Sugarcane}
+  in {South} {Gujarat} {Region}, {India}.
+\newblock {\em International Journal of Current Microbiology and Applied
+  Sciences}.
+
+\bibitem[Somukesh, 2023]{somukesh_apply_2023}
+Somukesh, M. (2023).
+\newblock Apply a {2D} {Transposed} {Convolution} {Operation} in {PyTorch}.
+\newblock Section: AI-ML-DS.
+
+\bibitem[Steinbach \textit{et al.}, 2004]{Steinbach2004DataMC}
+Steinbach, T., Tan, K., Steinbach, y Kumar (2004).
+\newblock Data mining classification : Basic concepts , decision trees , and
+  model evaluation.
+
+\bibitem[Sun \textit{et al.}, 2022]{sun_forest_2022}
+Sun, Y., Zhang, F., Lin, H., y xu, S. (2022).
+\newblock A {Forest} {Fire} {Susceptibility} {Modeling} {Approach} {Based} on
+  {Light} {Gradient} {Boosting} {Machine} {Algorithm}.
+\newblock {\em Remote Sensing}, 14:4362.
+
+\bibitem[Terven \textit{et al.}, 2024]{terven_loss_2024}
+Terven, J., Cordova-Esparza, D.~M., Ramirez-Pedraza, A., Chavez-Urbiola, E.~A.,
+  y Romero-Gonzalez, J.~A. (2024).
+\newblock Loss {Functions} and {Metrics} in {Deep} {Learning}.
+\newblock arXiv:2307.02694 [cs].
+
+\bibitem[Tonbul \textit{et al.}, 2023]{tonbul_comparative_2023}
+Tonbul, H., Yilmaz, E., y Kavzoglu, T. (2023).
+\newblock Comparative {Analysis} of {Deep} {Learning} and {Machine} {Learning}
+  {Models} for {Burned} {Area} {Estimation} {Using} {Sentinel}-2 {Image}: {A}
+  {Case} {Study} in {Muğla}-{Bodrum}, {Turkey}.
+\newblock pp. 1--5.
+
+\bibitem[Van~Dijk \textit{et al.}, 2021]{van_dijk_spectral_2021}
+Van~Dijk, D., Shoaie, S., Van~Leeuwen, T., y Veraverbeke, S. (2021).
+\newblock Spectral signature analysis of false positive burned area detection
+  from agricultural harvests using {Sentinel}-2 data.
+\newblock {\em International Journal of Applied Earth Observation and
+  Geoinformation}, 97:102296.
+
+\bibitem[Wali, 2022]{wali_xtreme_2022}
+Wali, R. (2022).
+\newblock Xtreme {Margin}: {A} {Tunable} {Loss} {Function} for {Binary}
+  {Classification}.
+\newblock {\em Machine Learning}.
+
+\bibitem[Wei, 2024]{wei_understanding_2024}
+Wei, D. (2024).
+\newblock Understanding {Parameters} in {ML} {Training} — {Batch} {Size},
+  {Iteration}, {Epoch}, {Learning} {Rate}.
+
+\bibitem[{World Bank Group}, 2018]{world_bank_group}
+{World Bank Group} (2018).
+\newblock Agricultural {Pollution} {Field} {Burning}.
+\newblock {\em World Bank Group}.
+
+\bibitem[Yali, 2024]{yali_evaluacion_2024}
+Yali, R. (2024).
+\newblock {\em Evaluación de modelos de segmentación semántica para el
+  monitoreo de deslizamiento de tierra utilizando imágenes satelitales.}
+\newblock Tesis doctoral, PUCP, Lima.
+
+\bibitem[Zhang \textit{et al.}, 2022]{zhang_review_2022}
+Zhang, Y., Liu, J., y Shen, W. (2022).
+\newblock A {Review} of {Ensemble} {Learning} {Algorithms} {Used} in {Remote}
+  {Sensing} {Applications}.
+\newblock {\em Applied Sciences}, 12(17):8654.
+
+\end{thebibliography}

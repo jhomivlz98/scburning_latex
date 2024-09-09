@@ -1,0 +1,91 @@
+\section{Antecedentes de la investigación}
+\subsection{Antecedentes internacionales}
+La capacidad de detectar áreas quemadas en cultivos de caña de azúcar es esencial para el monitoreo y 
+fiscalización de la industria azucarera. En los últimos años, la teledetección ha emergido como una técnica altamente eficiente en la identificación 
+de áreas afectadas por incendios. 
+
+La convergencia de esta técnica con la abundante disponibilidad de imágenes 
+satelitales y los avances recientes en el campo de la Observación 
+de la Tierra (EO) han ampliado significativamente su aplicación y eficacia. 
+
+Según \citet{knopp_deep_2020}, los algoritmos empleados para la delimitación de áreas quemadas siguen dos enfoques: 
+aquellos basados en reglas y los que se apoyan en técnicas de aprendizaje automático.
+
+Los algoritmos basados en reglas están diseñados para identificar variaciones en la respuesta espectral de áreas quemadas en comparación 
+con su entorno. Los más efectivos combinan los dominios del infrarrojo cercano (NIR) y el infrarrojo de onda corta (SWIR) como el 
+Índice Normalizado de Área Quemada (NBR) descrito en \citet{roy_remote_2006} y aquellos nativos al producto satelital que incorporan 
+otras regiones del espectro como el Índice de Área Quemada para Sentinel-2 (BAIS2) introducido por Filipponi et al. (2018), el cual considera 
+el rango del borde rojo (Red Edge).
+
+Recientemente, \citet{farhadi_badi_2023} presentó un índice espectral novedoso denominado Índice de Detección de Área Quemada (BADI) que
+aprovecha al máximo el espectro disponible en Sentinel-2 (rojo, borde rojo, NIR y SWIR) para la detección de áreas quemadas. Este índice fue evaluado
+utilizando imágenes post-incendio para los eventos ocurridos entre el 3 y 13 de mayo de 2020 en Irán, específicamente en la parte suroeste de la provincia de Fars. El índice BADI 
+propuesto registró altos valores en el coeficiente Kappa y una precisión 
+general de 0.92 en comparación con índices espectrales comunes como BAIS2 (0.87 y 0.85) y NBR (0.85 y 0.78).
+
+Por otro lado, el avance de los algoritmos apoyados por técnicas de aprendizaje automático han llevado a la popularidad enfoques como los árboles de decisión 
+y las redes neuronales convolucionales, estos últimos dentro del ámbito del 
+aprendizaje profundo o deep learning. 
+
+En una investigación realizada por \citet{lee_machine_2022}, se compararon tres técnicas representativas de este enfoque para la detección de áreas quemadas:
+Random Forest, LightGBM y U-Net. Se utilizaron imágenes satelitales Sentinel-2 en relación con dos eventos de incendios forestales ocurridos 
+en 2019 y 2020 en Corea del Sur y en el escenario que contempla el uso de imágenes post-incendio se compararon los modelos con el mapa de clasificación 
+binaria NBR. Los resultados revelaron que el modelo U-Net presentó los mejores resultados en todas las métricas de 
+evaluación, tales como Precisión General (0.97), Precisión (0.89), Recall (0.87), F1-score (0.88) y Kappa (0.88). Mientras tanto, los algoritmos basados en árboles de 
+decisión, es decir LightGBM y Random Forest, obtuvieron resultados similares en todas las métricas.
+
+La elección entre el modelo LightGBM y Random Forest puede preferirse en función de diferentes requisitos. Por ejemplo, \citet{sun_forest_2022} 
+recomendaron el uso de LightGBM para la predicción de la susceptibilidad a incendios forestales debido a su mayor eficiencia en el entrenamiento, menor consumo de memoria, capacidad para 
+procesamiento en paralelo y compatibilidad con características categóricas. 
+
+La segmentación semántica, a través de las redes neuronales convolucionales, ha emergido como la técnica más prometedora para la detección de áreas quemadas en imágenes satelitales superando
+a los algoritmos basados en reglas \citep{cabuar_2023} y técnicas de aprendizaje automático \citep{tonbul_comparative_2023}; sin embargo, la disponibilidad limitada de datos etiquetados representa un desafío significativo. 
+En base a ello, \citet{colomba_dataset_2022} y posteriormente \citet{arnaudo_robust_2023} proporcionaron un amplio conjunto de datos que abarca 433 eventos de incendios a nivel global concentrados en Europa, 
+Australia y el continente americano desde el 2017 hasta los primeros meses del 2023. Cada evento contiene una imagen post-incendio Sentinel-2 de 10 m de resolución espacial,
+una máscara de área quemada derivada del Servicio de Gestión de Emergencias de Copernicus (CEMS), cobertura del suelo obtenido del producto ESA World Cover y una máscara de nubes obtenido del modelo CloudSEN12 para el 
+entrenamiento de un modelo de segmentación semántica.
+
+La elección de la arquitectura U-Net como el más óptimo en la segmentación semántica de áreas quemadas se demuestra en \citet{al_dabbagh_2023} quienes entrenaron catorce modelos de aprendizaje 
+profundo basados en combinaciones de cinco arquitecturas (U-Net, U-Net++, Attention ResU-Net, LinkNet y DeepLabV3+) y 
+cuatro codificadores (ResNet101, ResNet50, ResNet152 y MobileNet) para U-Net y LinkNet, utilizando un conjunto de datos manual para cinco provincias 
+de Turquía durante el año 2021. Los resultados obtenidos muestran que la arquitectura U-Net con un codificador ResNet50 (0.98, 
+0.99), Attention ResU-Net (0.98, 0.98) y ResNet101 (0.97, 0.98) lograron los mejores resultados en las métricas de puntuación IoU y F1-score respectivamente.
+
+La integración de diferentes técnicas de aprendizaje automático, conocido como aprendizaje ensamblado, se logra mediante metaalgoritmos como el bagging, boosting y stacking que utilizan métodos para ensamblar los modelos con el 
+promedio (averaging), voto mayoritario (voting) o un metamodelo. Este enfoque ha sido ampliamente reconocido por su capacidad para mejorar la eficacia de modelos predictivos reduciendo la varianza (bagging), sesgo (boosting) y mejorando la predicción 
+mediante stacking \citep{saini_ensemble_2017}. En el contexto de la detección de áreas quemadas, los más populares son el bagging y boosting presentes en algoritmos como Random Forest (bagging) y 
+LightGBM \citep{mienye_survey_2022}.
+
+El uso de modelos ensamblados que combinan algoritmos de Machine Learning y Deep Learning tiene un gran potencial para mejorar la precisión y robustez de las predicciones. unque hay poca información disponible específicamente sobre la técnica de stacking en 
+el contexto de la detección de áreas quemadas, es importante considerar estudios como el de \citet{zhang_review_2022} quienes indican que el stacking proporciona un marco efectivo para aprovechar las ventajas de diferentes algoritmos, incluidos aquellos de 
+aprendizaje profundo.
+
+En este contexto, \citet{hu_near_2024} desarrollaron un modelo de aprendizaje ensamblado para el mapeo de la progresión de áreas quemadas en tiempo casi real, combinando las ventajas de algoritmos de Machine Learning y Deep
+Learning. El área de estudio se centró en varios eventos de incendios forestales en California, utilizando el incendio ``Sand Fire'' ocurrido cerca de la ciudad de Santa Clarita como caso de prueba para el perídodo de julio del 2016. Los 
+datos utilizados abarcan imágenes multiespectrales tomadas durante y después de estos eventos, específicamente de los satélites Sentinel-2 y Landsat-8.
+
+La metodología propuesta combina el algoritmo HRNet y Support Vector Machine (SVM), optimizándose iterativamente a medida que llegan nuevas imágenes mediante un metaalgoritmo similar al boosting y la combinación lógica entre los modelos base para 
+mejorar la precisión global. Con HRNet, se alcanzó un índice Kappa del 96.77 \% en la predicción de perímetros y al integrar el SVM, que se optimiza iterativamente, la precisión en la clasificación de píxeles individuales mejoró, aumentando el índice Kappa de 62.55 \% 
+a 70.75 \%. 
+
+Al combinar ambos modelos en un marco de aprendizaje ensamblado, que aprovecha las fortalezas de HRNet y SVM, se lograron resultados aún más refinados, alcanzando un índice Kappa de 85.19 \% durante el evento de``Sand Fire'' en California.
+
+\subsection{Antecedentes nacionales}
+En el Perú, el mapeo de áreas quemadas ha sido poco abordado con técnicas de aprendizaje automático, reduciendose a investigaciones utilizando algoritmos basados en reglas. 
+
+En Chulucanas, Piura, \citet{jimenez_dios_resiliencia_2020} 
+determinaron la resiliencia de la cobertura vegetal después de incendios forestales donde se utilizaron imágenes Sentinel - 2 capturadas desde agosto de 2017 hasta 2019 para generar una serie temporal del Índice Normalizado de Quema (NBR) como indicador
+de la severidad del incendio. 
+
+El análisis se centró en la dinámica de la cobertura vegetal posterior al incendio en el Km 34 de la Comunidad Campesina José Ignacio Távara Pasapera, Distrito de Chulucanas. Los resultados mostraron que, conforme se recuperaba
+la biomasa vegetal y aumentaban las precipitaciones, se observan valores positivos del NBR, lo que sugiere una recuperación de la cobertura vegetal en los dos años de estudio.
+
+\citet{anamuro-luque_alisis_2020} estimaron el área quemada y la severidad ocasionada por el incendio ocurrido en agosto del 2016 en el distrito de Macari, Puno. Se utilizaron imágenes Landsat-8 pre y post incendio para calcular la diferencia del Índice
+Normalizado de Quema ($\Delta NBR$). Se encontró que el área quemada total fue de 2,458.673 hectáreas y que la mayor parte del incendio tuvo una severidad baja, abarcando 1,385.145 hectáreas, seguida de una severidad media que abarcó 
+967.568 hectáreas.
+
+En otro estudio similar, \citet{gonzales_vasquez_aplicacion_2022} utilizó imágenes de satélite tomadas antes y después de un gran incendio en agosto de 2017 en el distrito de Coporaque, provincia de Espinar, departamento de Cusco. Se empleó la diferencia en el Índice Normalizado de Quema ($\Delta NBR$) 
+para estimar la severidad del incendio forestal. Los resultados indicaron que el área total quemada fue de 1,836.89 hectáreas, siendo predominantemente de Severidad Baja con 790.83 hectáreas (equivalentes al 43 \% del área afectada), seguida de una Severidad Moderada-Baja con 
+733.34 hectáreas (representando un 40 \% del área quemada).
+
+
