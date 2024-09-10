@@ -35,7 +35,7 @@ del modelo, incluyendo el tipo de red, el encoder preentrenado utilizado, y los 
 \end{longtable}
 \begin{flushleft}
     \vspace{-\baselineskip}
-    \textit{Nota.} Elaboración propia.        
+    \textit{Nota.} El experimento se visualiza en \href{https://wandb.ai/scigeo/scburning/runs/62zixqn0}{Weights \& Biases}.       
 \end{flushleft}
 
 También se muestra la configuración del entrenamiento que define cómo se entrenará el modelo, especificando detalles sobre los datos 
@@ -70,26 +70,12 @@ utilizados, la estrategia de entrenamiento y los recursos computacionales. (Tabl
 \end{longtable}
 \begin{flushleft}
     \vspace{-\baselineskip}
-    \textit{Nota.} El experimento se visualiza en \href{https://wandb.ai/scigeo/scburning/runs/3nfebv59}{Weights \& Biases}. Elaboración propia.     
+    \textit{Nota.} El experimento se visualiza en \href{https://wandb.ai/scigeo/scburning/runs/3nfebv59}{Weights \& Biases}.     
 \end{flushleft}
 
-\subsubsection{Resultados del entrenamiento de la CNN.}
-El resultado del entrenamiento de la red neuronal convolucional dio un valor de pérdida (WCE - Dice) de 0.289 para el
-conjunto de datos de prueba (Figura \ref{fig:entrenamiento}).
-\begin{figure}[H]
-    \centering
-    \caption{Comportamiento de la pérdida en el entrenamiento, validación y prueba del modelo UNet.}
-    \label{fig:entrenamiento}
-    \includegraphics[width=1\textwidth]{img/7_resultados/cnn_loss.png}
-    \begin{flushleft}
-        \textit{Nota.} Se considera el comportamiento de la pérdida en el entrenamiento y validación del modelo. Extraído de Weights \& Biases.        
-        \vspace{-\baselineskip}
-    \end{flushleft}
-\end{figure}
-
 \subsubsection{Resultados del modelo U-Net en la detección de áreas quemadas.}
-
-Cuantitativamente, el modelo UNet obtuvo valores de F1 de 67.2\%, precisión de 60.2\%, 
+El resultado del entrenamiento de la red neuronal convolucional dio un valor de pérdida (WCE - Dice) de 0.289 para el
+conjunto de datos de prueba. Cuantitativamente, el modelo UNet obtuvo valores de F1 de 67.2\%, precisión de 60.2\%, 
 recall de 77.2\%, IoU de 51.1\% y Kappa de 75.7\% para el conjunto de datos de prueba.
 
 Los resultados cualitativos se pueden visualizar la Figura \ref{fig:unet_resultados}, donde cada columna representa un caso distinto, mostrando las 
@@ -111,7 +97,7 @@ el modelo tiende a subestimar la extensión de las áreas quemadas, lo que resul
     \includegraphics[width=1\textwidth]{img/7_resultados/unet_predictions.png}
     \begin{flushleft}
         \vspace{-\baselineskip}
-        \textit{Nota.} El color rojo representa las áreas quemadas y el morado las áreas no quemadas. Cada caso corresponde a una columna. Elaboración propia.
+        \textit{Nota.} El color rojo representa las áreas quemadas y el morado las áreas no quemadas. Cada caso corresponde a una columna.
         \vspace{-\baselineskip}
     \end{flushleft}
 \end{figure}
@@ -153,7 +139,7 @@ Para la configuración del Gradient Boosting Decision Tree dentro del framework 
 \end{longtable}
 \begin{flushleft}
     \vspace{-\baselineskip}
-    \textit{Nota.} El experimento se visualiza en \href{https://wandb.ai/scigeo/scburning/runs/62zixqn0}{Weights \& Biases}. Elaboración propia.        
+    \textit{Nota.} El experimento se visualiza en \href{https://wandb.ai/scigeo/scburning/runs/62zixqn0}{Weights \& Biases}.        
 \end{flushleft}
 
 Los resultados del modelo LightGBM arrojaron una pérdida logarítmica binaria de 0.155 para el conjunto de datos de prueba. 
@@ -193,7 +179,7 @@ espectrales del terreno circundante, como áreas de quema no reciente y suelo de
     \includegraphics[width=1\textwidth]{img/7_resultados/gbdt_predictions.png}
     \begin{flushleft}
         \vspace{-\baselineskip}
-        \textit{Nota.} El color rojo representa las áreas quemadas y el morado las áreas no quemadas. Cada caso corresponde a una columna. Elaboración propia.
+        \textit{Nota.} El color rojo representa las áreas quemadas y el morado las áreas no quemadas. Cada caso corresponde a una columna.
         \vspace{-\baselineskip}
     \end{flushleft}
 \end{figure}
@@ -223,6 +209,7 @@ logística con la siguiente configuración (Tabla \ref{tab:config_logistic}):
     \hline
 \end{longtable}
 \begin{flushleft}
+    \vspace{-\baselineskip}
     \textit{Nota.} Elaboración propia.
 \end{flushleft}
 
@@ -248,7 +235,7 @@ clara y reduciendo en cierta medida la dispersión, lo que resulta en una delimi
     \includegraphics[width=1\textwidth]{img/7_resultados/ensemble_predictions.png}
     \begin{flushleft}
         \vspace{-\baselineskip}
-        \textit{Nota.} Cada caso corresponde a una columna. Para la máscara binaria del modelo se utilizó un umbral de probabilidad $\geq 0.75$. Elaboración propia.
+        \textit{Nota.} El color rojo representa las áreas quemadas y el morado las áreas no quemadas. Cada caso corresponde a una columna.
         \vspace{-\baselineskip}
     \end{flushleft}
 \end{figure}

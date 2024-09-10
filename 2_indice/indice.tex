@@ -3,14 +3,38 @@
 % de quema de caña de azúcar en la costa norte y centro del Perú durante 
 % el período 2017 - 2022.
 % \thispagestyle{empty}
+% Dedicatoria
+\newpage
+\vspace*{\fill}
+\begin{flushright}
+    \small{\textit{Dedicado a mi familia, amigos y mentores}}\\
+    \small{\textit{por su apoyo incondicional que hicieron}} \\
+    \small{\textit{posible la realización de este trabajo.}}
+\end{flushright}
+\vspace{1cm}
+\thispagestyle{empty}
 
+% Agradecimientos
+\newpage
+\section*{Agradecimientos}
+
+Agradezco a todas las instituciones y personas que contribuyeron a la realización de este trabajo de tesis.
+
+En primer lugar, extiendo mi agradecimiento al OEFA por proporcionar la problemática y los datos necesarios para llevar a cabo este estudio, en el marco del ``SERVICIO DE CREACIÓN DE UNA BASE DE DATOS DE INTELIGENCIA ARTIFICIAL QUE PERMITA LA DETECCIÓN DE QUEMA DE CAÑA DE AZÚCAR MEDIANTE IMÁGENES SATELITALES PARA LA COORDINACIÓN DE SUPERVISIÓN AMBIENTAL EN INDUSTRIA DE LA DIRECCIÓN DE SUPERVISIÓN AMBIENTAL EN ACTIVIDADES PRODUCTIVAS''.
+
+Agradezco especialmente a mi asesor de tesis, el Dr. Alejandro Alcántara Boza, por su orientación, apoyo y valiosos comentarios a lo largo del desarrollo de este trabajo. Asimismo, agradezco al Mg. Ing. Fernando Prudencio, al Dr. César Aybar y al Dr. Roy Yali por acompañarme en este proceso y brindarme su apoyo técnico siempre que lo necesité.
+
+Quisiera expresar mi gratitud a mis colegas Jeanett Valladares, José del Castillo y Julio Contreras por su invaluable ayuda en el etiquetado de las imágenes, una tarea crucial para este trabajo.
+
+Finalmente, mi más profundo agradecimiento a mi familia, que me ha brindado su apoyo emocional y la fortaleza necesaria para completar con éxito esta tesis.
+
+
+\thispagestyle{empty}
 % Tabla de contenidos
 \clearpage
-\pagenumbering{gobble}
-% Make smaller the title of the table of contents
+% Cambiar el título del índice de contenidos
 \renewcommand{\contentsname}{
 \vspace{-\baselineskip}
-%% Centrar el título de la tabla de contenidos
 \begin{center}
     \large{ÍNDICE}
 \end{center}
@@ -18,5 +42,30 @@
 }
 \tableofcontents
 \thispagestyle{empty}
+
+\clearpage
+% Cambiar el título del índice de figuras
+\renewcommand{\listfigurename}{
+\vspace{-\baselineskip}
+\begin{center}
+    \large{Índice de Figuras}
+\end{center}
+\vspace{-\baselineskip}
+}
+\listoffigures
+\thispagestyle{empty}
+
+\clearpage
+% Cambiar el título del índice de tablas
+\renewcommand{\listtablename}{
+\vspace{-\baselineskip}
+\begin{center}
+    \large{Índice de Tablas}
+\end{center}
+\vspace{-\baselineskip}
+}
+\listoftables
+\thispagestyle{empty}
+
 \clearpage
 \pagenumbering{arabic}
