@@ -3,7 +3,7 @@
 
 Este estudio demuestra que es posible desarrollar un modelo de aprendizaje ensamblado para la detección 
 de quema de caña de azúcar. Al combinar el aprendizaje profundo con métodos de clasificación a nivel de píxeles, 
-el modelo ensamblado fue capaz de detectar y delimitar eficazmente las áreas quemadas, alcanzando una efectividad 
+el modelo ensamblado fue capaz de detectar y delimitar eficazmente las áreas quemadas alcanzando una efectividad 
 del 100 \% en la identificación de las áreas quemadas correspondiente a los casos de validación reportados por el OEFA, 
 utilizando un umbral óptimo de $0.20$.
 
@@ -11,8 +11,7 @@ El conjunto de datos necesario para el funcionamiento del modelo de aprendizaje 
 detectar la quema de caña de azúcar, está consituido por 1,054 imágenes satelitales Sentinel-2, junto con índices de vegetación 
 como el NDVI y NDWI, y variables topográficas como la pendiente y la distancia a coberturas agrícolas. Además, se incluyeron 
 etiquetas de áreas quemadas, generadas mediante una metodología específica detallada que combina la detección temporal de quema 
-basada en reglas y la validación visual de las imágenes detectadas. El procedimiento para adaptar la base de datos se explica en 
-la metodología y es replicable. 
+basada en reglas y la validación visual de las imágenes detectadas. 
 
 Los algoritmos que mejor se ensamblan al modelo para detectar la quema de caña de azúcar son los de aprendizaje 
 profundo y de clasificación por píxeles. En particular, U-Net, un modelo de deep learning que captura bien las relaciones no lineales 

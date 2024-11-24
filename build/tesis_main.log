@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.10) (format=lualatex 2023.10.24)  10 SEP 2024 08:29
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.10) (format=lualatex 2023.10.24)  24 NOV 2024 00:49
  restricted system commands enabled.
  file:line:error style messages enabled.
 **z:/latex/tesis_main.tex
@@ -1293,13 +1293,10 @@ File: img/4_marco_teorico/burned_areas_spectral.png Graphic file (type png)
 Package luatex.def Info: img/4_marco_teorico/burned_areas_spectral.png  used on
  input line 948.
 (luatex.def)             Requested size: 271.7837pt x 165.68222pt.
-) (./4_capitulo2/43_definicion_terminos.tex [47
-Missing character: There is no 𝜇 (U+1D707) in font TimesNewRoman:mode=node;sc
-ript=latn;language=dflt;+tlig;!
-<./img/4_marco_teorico/burned_areas_spectral.png>] [48] [49])) [50]
+) (./4_capitulo2/43_definicion_terminos.tex [47<./img/4_marco_teorico/burned_are
+as_spectral.png>] [48] [49])) [50]
 \openout2 = 5_capitulo3/capitulo3.aux
-
-(./5_capitulo3/capitulo3.tex
+ (./5_capitulo3/capitulo3.tex
 Capítulo \bfseries {III}.
 (./5_capitulo3/51_hipotesis.tex) (./5_capitulo3/52_variables.tex)
 (./5_capitulo3/53_operacionalizacion.tex
@@ -1976,7 +1973,7 @@ Here is how much of LuaTeX's memory you used:
 ec, 100 attribute_list, 3 write, 29 pdf_action nodes
    avail lists: 2:1307,3:368,4:128,5:204,6:148,7:6363,8:62,9:1126,10:19,11:876
  45722 multiletter control sequences out of 65536+600000
- 60 fonts using 30016991 bytes
+ 60 fonts using 30016871 bytes
  84i,14n,92p,1037b,710s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/users/jflor/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmon
 o12-regular.otf><C:/Users/jflor/AppData/Local/Programs/MiKTeX/fonts/opentype/pub
@@ -1985,7 +1982,7 @@ onts/opentype/public/lm-math/latinmodern-math.otf><C:/Windows/Fonts/timesbi.ttf>
 <C:/Users/jflor/AppData/Local/Programs/MiKTeX/fonts/opentype/public/lm-math/lati
 nmodern-math.otf><C:/Windows/Fonts/timesi.ttf><C:/Windows/Fonts/times.ttf><C:/Wi
 ndows/Fonts/timesbd.ttf>
-Output written on tesis_main.pdf (125 pages, 149143841 bytes).
+Output written on tesis_main.pdf (125 pages, 149143419 bytes).
 
 PDF statistics: 2114 PDF objects out of 2487 (max. 8388607)
  459 named destinations out of 1000 (max. 131072)
