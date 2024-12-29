@@ -3,8 +3,8 @@
 \addvspace {0\p@ }
 \contentsline {figure}{\numberline {1}{\ignorespaces Función sigmoide utilizada en la regresión logística.}}{17}{figure.caption.2}%
 \contentsline {figure}{\numberline {2}{\ignorespaces Función de pérdida de entropía cruzada binaria cuando la clase es positiva ($y = 1$)}}{19}{figure.caption.3}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Ejemplo de un árbol de decisión para un problema de clasificación de mamíferos.}}{21}{figure.caption.4}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Comparación de las medidas de impureza de Gini, entropía y error de clasificación.}}{23}{figure.caption.5}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Ejemplo de un árbol de decisión para un problema de clasificación de mamíferos.}}{22}{figure.caption.4}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Comparación de las medidas de impureza de Gini, entropía y error de clasificación.}}{24}{figure.caption.5}%
 \contentsline {figure}{\numberline {5}{\ignorespaces Ilustración de cómo trabaja el Gradient Boosting Tree.}}{25}{figure.caption.6}%
 \contentsline {figure}{\numberline {6}{\ignorespaces Algoritmo basado en histogramas.}}{27}{figure.caption.7}%
 \contentsline {figure}{\numberline {7}{\ignorespaces Pseucódigo del algoritmo Gradient-based One-Sided Sampling.}}{28}{figure.caption.8}%
@@ -62,4 +62,4 @@
 \contentsline {figure}{\numberline {56}{\ignorespaces Ejemplo de distintos estados del área de cultivo de caña de azúcar durante la época de cosecha.}}{95}{figure.caption.62}%
 \contentsline {figure}{\numberline {57}{\ignorespaces Ejemplo de la detección de áreas quemadas en la costa norte y centro del Perú.}}{97}{figure.caption.63}%
 \addvspace {0\p@ }
-\contentsline {figure}{\numberline {58}{\ignorespaces Resumen de las ROI's.}}{111}{figure.caption.65}%
+\contentsline {figure}{\numberline {58}{\ignorespaces Resumen de las ROI's.}}{112}{figure.caption.65}%

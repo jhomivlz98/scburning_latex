@@ -22,18 +22,18 @@
 \contentsline {subsection}{\numberline {2.1.2}Antecedentes nacionales}{11}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Bases teóricas}{12}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Detección de áreas quemadas mediante imágenes satelitales}{12}{subsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Imágenes satelitales Sentinel-2.}{12}{subsubsection.2.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.2.1.2}Enfoques basados en reglas.}{13}{subsubsection.2.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Imágenes satelitales Sentinel-2.}{13}{subsubsection.2.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Enfoques basados en reglas.}{14}{subsubsection.2.2.1.2}%
 \contentsline {paragraph}{\numberline {2.2.1.2.1}Índice de Quema Normalizado (NBR).}{14}{paragraph.2.2.1.2.1}%
-\contentsline {paragraph}{\numberline {2.2.1.2.2}Índice de Detección de Área Quemada (BADI).}{14}{paragraph.2.2.1.2.2}%
+\contentsline {paragraph}{\numberline {2.2.1.2.2}Índice de Detección de Área Quemada (BADI).}{15}{paragraph.2.2.1.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1.3}Enfoques basados en aprendizaje automático.}{15}{subsubsection.2.2.1.3}%
-\contentsline {paragraph}{\numberline {2.2.1.3.1}Regresión logística binaria.}{15}{paragraph.2.2.1.3.1}%
+\contentsline {paragraph}{\numberline {2.2.1.3.1}Regresión logística binaria.}{16}{paragraph.2.2.1.3.1}%
 \contentsline {paragraph}{\numberline {2.2.1.3.2}Entropía Cruzada Binaria (BCE).}{18}{paragraph.2.2.1.3.2}%
-\contentsline {paragraph}{\numberline {2.2.1.3.3}Entropía Cruzada Binaria Ponderada (WBCE).}{19}{paragraph.2.2.1.3.3}%
+\contentsline {paragraph}{\numberline {2.2.1.3.3}Entropía Cruzada Binaria Ponderada (WBCE).}{20}{paragraph.2.2.1.3.3}%
 \contentsline {paragraph}{\numberline {2.2.1.3.4}Función de pérdida de Dice.}{20}{paragraph.2.2.1.3.4}%
-\contentsline {paragraph}{\numberline {2.2.1.3.5}WCE - Dice Loss.}{20}{paragraph.2.2.1.3.5}%
+\contentsline {paragraph}{\numberline {2.2.1.3.5}WCE - Dice Loss.}{21}{paragraph.2.2.1.3.5}%
 \contentsline {paragraph}{\numberline {2.2.1.3.6}Árbol de decisión.}{21}{paragraph.2.2.1.3.6}%
-\contentsline {paragraph}{\numberline {2.2.1.3.7}Gradient Boosting Decision Tree (GBDT).}{24}{paragraph.2.2.1.3.7}%
+\contentsline {paragraph}{\numberline {2.2.1.3.7}Gradient Boosting Decision Tree (GBDT).}{25}{paragraph.2.2.1.3.7}%
 \contentsline {paragraph}{\numberline {2.2.1.3.8}Algoritmo LightGBM.}{26}{paragraph.2.2.1.3.8}%
 \contentsline {subsection}{\numberline {2.2.2}Segmentación Semántica}{30}{subsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.2.1}Red Neuronal Convolucional (CNN).}{31}{subsubsection.2.2.2.1}%
@@ -120,6 +120,6 @@
 \contentsline {section}{\numberline {5.3}Conclusiones y Recomendaciones}{98}{section.5.3}%
 \contentsline {subsection}{\numberline {5.3.1}Conclusiones}{98}{subsection.5.3.1}%
 \contentsline {subsection}{\numberline {5.3.2}Recomendaciones}{99}{subsection.5.3.2}%
-\contentsline {chapter}{\numberline {\bfseries {VI}}REFERENCIAS Y ANEXOS}{100}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Referencias bibliográficas}{100}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Anexos}{109}{section.6.2}%
+\contentsline {chapter}{\numberline {\bfseries {VI}}REFERENCIAS Y ANEXOS}{101}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Referencias bibliográficas}{101}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Anexos}{110}{section.6.2}%

@@ -21,6 +21,8 @@ Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: 8_capitulo6/capitulo6.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 Database file #1: 8_capitulo6/library.bib
+Warning--entry type for "Carrera2010" isn't style-file defined
+--line 2701 of file 8_capitulo6/library.bib
 Warning--empty institution in agroaurora_sac_actualizacion_2020
 Warning--empty institution in san_jacinto_2014
 Warning--empty institution in agrolmos_sa_modificacion_2021
@@ -36,45 +38,45 @@ Warning--empty journal in pipicano_alisis_2022
 Warning--empty journal in salas_quema_2010
 Warning--empty booktitle in Steinbach2004DataMC
 Warning--empty booktitle in tonbul_comparative_2023
-You've used 82 entries,
+You've used 83 entries,
             1977 wiz_defined-function locations,
-            907 strings with 23116 characters,
-and the built_in function-call counts, 31889 in all, are:
-= -- 3050
-> -- 1626
-< -- 44
-+ -- 578
-- -- 564
-* -- 2736
-:= -- 5774
-add.period$ -- 235
-call.type$ -- 82
-change.case$ -- 687
-chr.to.int$ -- 82
-cite$ -- 97
-duplicate$ -- 1117
-empty$ -- 1960
-format.name$ -- 664
-if$ -- 6029
+            914 strings with 23342 characters,
+and the built_in function-call counts, 32174 in all, are:
+= -- 3080
+> -- 1639
+< -- 45
++ -- 582
+- -- 568
+* -- 2757
+:= -- 5828
+add.period$ -- 237
+call.type$ -- 83
+change.case$ -- 694
+chr.to.int$ -- 83
+cite$ -- 98
+duplicate$ -- 1127
+empty$ -- 1975
+format.name$ -- 672
+if$ -- 6082
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 63
-newline$ -- 400
-num.names$ -- 248
-pop$ -- 598
+newline$ -- 404
+num.names$ -- 251
+pop$ -- 603
 preamble$ -- 1
-purify$ -- 692
+purify$ -- 699
 quote$ -- 0
-skip$ -- 863
+skip$ -- 872
 stack$ -- 0
-substring$ -- 1801
+substring$ -- 1813
 swap$ -- 103
 text.length$ -- 6
-text.prefix$ -- 56
+text.prefix$ -- 58
 top$ -- 0
-type$ -- 476
+type$ -- 482
 warning$ -- 15
-while$ -- 227
+while$ -- 229
 width$ -- 0
-write$ -- 1014
-(There were 15 warnings)
+write$ -- 1024
+(There were 16 warnings)

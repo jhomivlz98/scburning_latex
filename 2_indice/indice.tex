@@ -36,49 +36,59 @@ Alcántara Boza, por sus valiosos comentarios y sugerencias que contribuyeron
 a mejorar la calidad de esta investigación.
 
 Quiero también agradecer a mis colegas Jeanett Valladares, Jose del Castillo y 
-Julio Contreras por su invaluable ayuda en el etiquetado de las imágenes, una 
-tarea clave para el desarrollo de esta investigación.
+Julio Contreras por su invaluable ayuda en el etiquetado de las imágenes, un objetivo
+clave de esta investigación.
 
 Finalmente, dedico un especial agradecimiento a mis padres Manuel e Irina y mis hermanos 
-Fredd y Manuel, cuyo apoyo emocional y fortaleza me han sido indispensables para completar con éxito esta tesis.
-
-\thispagestyle{empty}
-% Tabla de contenidos
-\clearpage
-% Cambiar el título del índice de contenidos
-\renewcommand{\contentsname}{
-\vspace{-\baselineskip}
-\begin{center}
-    \large{ÍNDICE}
-\end{center}
-\vspace{-\baselineskip}
-}
-\tableofcontents
+Fredd y Manuel, cuyo apoyo emocional y fortaleza fueron indispensables para completar con 
+éxito esta tesis.
 \thispagestyle{empty}
 
+% Tabla de contenido
 \clearpage
-% Cambiar el título del índice de figuras
-\renewcommand{\listfigurename}{
-\vspace{-\baselineskip}
-\begin{center}
-    \large{Índice de Figuras}
-\end{center}
-\vspace{-\baselineskip}
-}
-\listoffigures
-\thispagestyle{empty}
+\pagestyle{empty}
+\begingroup    
+    \renewcommand{\contentsname}{
+        \vspace{-\baselineskip}
+        \begin{center}
+            \thispagestyle{empty}
+            \large{ÍNDICE}
+        \end{center}
+        \vspace{-\baselineskip}
+    }
+    \tableofcontents
+\endgroup
+\clearpage
+
+\begingroup
+  \pagestyle{empty}  % Todas las páginas en este grupo usan 'empty'
+  % Cambiamos el título de la lista de figuras
+  \renewcommand{\listfigurename}{
+    \vspace{-\baselineskip}
+    \begin{center}
+        \thispagestyle{empty}
+        \large{ÍNDICE DE FIGURAS}
+    \end{center}
+    \vspace{-\baselineskip}
+  }
+  \listoffigures % Se generan todas las páginas de este índice con estilo empty
+\endgroup
+
+%% Índice de tablas
+\clearpage
+\pagestyle{empty}
+\begingroup    
+    \renewcommand{\listtablename}{
+        \vspace{-\baselineskip}
+        \begin{center}
+            \thispagestyle{empty}
+            \large{ÍNDICE DE TABLAS}
+        \end{center}
+        \vspace{-\baselineskip}
+    }
+    \listoftables
+\endgroup
 
 \clearpage
-% Cambiar el título del índice de tablas
-\renewcommand{\listtablename}{
-\vspace{-\baselineskip}
-\begin{center}
-    \large{Índice de Tablas}
-\end{center}
-\vspace{-\baselineskip}
-}
-\listoftables
-\thispagestyle{empty}
-
-\clearpage
+\pagestyle{plain} % o el estilo que desees que lleve numeración
 \pagenumbering{arabic}

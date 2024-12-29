@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.10) (format=lualatex 2023.10.24)  24 NOV 2024 00:49
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.10) (format=lualatex 2023.10.24)  19 DEC 2024 05:54
  restricted system commands enabled.
  file:line:error style messages enabled.
 **z:/latex/tesis_main.tex
@@ -1050,11 +1050,11 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = 1_caratula/caratula.aux
  (./1_caratula/caratula.tex
 Package epstopdf Info: Source file: <img/1_caratula/unmsm.eps>
-(epstopdf)                    date: 2024-07-20 09:42:33
+(epstopdf)                    date: 2024-07-20 02:42:33
 (epstopdf)                    size: 3852818 bytes
 (epstopdf)             Output file: <img/1_caratula/unmsm-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2024-07-20 09:42:33
+(epstopdf)                    date: 2024-07-20 02:42:33
 (epstopdf)                    size: 184279 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=img/1_caratula/unmsm
 -eps-converted-to.pdf img/1_caratula/unmsm.eps>
@@ -1114,16 +1114,17 @@ LaTeX Info: Redefining \% on input line 1.
 \openout2 = 3_capitulo1/capitulo1.aux
  (./3_capitulo1/capitulo1.tex
 Capítulo \bfseries {I}.
-(./3_capitulo1/31_introduccion.tex [1
+(./3_capitulo1/31_introduccion.tex) (./3_capitulo1/32_planteamiento.tex
+[1
 
 
 
 
 
 
-]) (./3_capitulo1/32_planteamiento.tex
-[2] [3]) (./3_capitulo1/33_objetivos.tex [4]) (./3_capitulo1/34_importancia.tex
-[5]) (./3_capitulo1/35_limitaciones.tex [6])) [7]
+] [2] [3] [4]) (./3_capitulo1/33_objetivos.tex)
+(./3_capitulo1/34_importancia.tex [5]) (./3_capitulo1/35_limitaciones.tex
+[6])) [7]
 \openout2 = 4_capitulo2/capitulo2.aux
  (./4_capitulo2/capitulo2.tex
 Capítulo \bfseries {II}.
@@ -1138,67 +1139,67 @@ Overfull \hbox (1.50597pt too wide) in paragraph at lines 67--70
 -rit-mo HR-Net y Sup-port Vec-tor Ma-chi-ne (SVM),
  []
 
-[11]) (./4_capitulo2/42_bases_teoricas.tex [12] [13] [14] [15]
-<img/4_marco_teorico/sigmoid_function.png, id=701, 486.81876pt x 324.21124pt>
+[11]) (./4_capitulo2/42_bases_teoricas.tex [12] [13] [14] [15] [16]
+<img/4_marco_teorico/sigmoid_function.png, id=713, 486.81876pt x 324.21124pt>
 File: img/4_marco_teorico/sigmoid_function.png Graphic file (type png)
 <use img/4_marco_teorico/sigmoid_function.png>
 Package luatex.def Info: img/4_marco_teorico/sigmoid_function.png  used on inpu
 t line 135.
 (luatex.def)             Requested size: 317.0764pt x 211.1652pt.
- [16] [17<./img/4_marco_teorico/sigmoid_function.png>] [18]
-<img/4_marco_teorico/cross_entropy.png, id=741, 558.085pt x 398.48875pt>
+ [17<./img/4_marco_teorico/sigmoid_function.png>] [18]
+<img/4_marco_teorico/cross_entropy.png, id=742, 558.085pt x 398.48875pt>
 File: img/4_marco_teorico/cross_entropy.png Graphic file (type png)
 <use img/4_marco_teorico/cross_entropy.png>
 Package luatex.def Info: img/4_marco_teorico/cross_entropy.png  used on input l
 ine 212.
 (luatex.def)             Requested size: 317.0764pt x 226.40521pt.
  [19<./img/4_marco_teorico/cross_entropy.png>] [20]
-<img/4_marco_teorico/decision_tree.png, id=772, 314.3745pt x 231.86626pt>
+<img/4_marco_teorico/decision_tree.png, id=774, 314.3745pt x 231.86626pt>
 File: img/4_marco_teorico/decision_tree.png Graphic file (type png)
 <use img/4_marco_teorico/decision_tree.png>
 Package luatex.def Info: img/4_marco_teorico/decision_tree.png  used on input l
 ine 280.
 (luatex.def)             Requested size: 317.0764pt x 233.87878pt.
- [21<./img/4_marco_teorico/decision_tree.png>] [22]
+ [21] [22<./img/4_marco_teorico/decision_tree.png>]
 <img/4_marco_teorico/impureza.png, id=796, 367.3725pt x 286.06876pt>
 File: img/4_marco_teorico/impureza.png Graphic file (type png)
 <use img/4_marco_teorico/impureza.png>
 Package luatex.def Info: img/4_marco_teorico/impureza.png  used on input line 3
 23.
 (luatex.def)             Requested size: 226.48413pt x 176.36555pt.
- [23<./img/4_marco_teorico/impureza.png>]
-<img/4_marco_teorico/gradient_boost.png, id=813, 517.935pt x 289.68225pt>
+ [23] [24<./img/4_marco_teorico/impureza.png>]
+<img/4_marco_teorico/gradient_boost.png, id=822, 517.935pt x 289.68225pt>
 File: img/4_marco_teorico/gradient_boost.png Graphic file (type png)
 <use img/4_marco_teorico/gradient_boost.png>
 Package luatex.def Info: img/4_marco_teorico/gradient_boost.png  used on input 
 line 363.
 (luatex.def)             Requested size: 407.66867pt x 228.01988pt.
- [24] [25<./img/4_marco_teorico/gradient_boost.png>] [26]
-<img/4_marco_teorico/spliting.png, id=851, 478.78876pt x 247.52475pt>
+ [25<./img/4_marco_teorico/gradient_boost.png>] [26]
+<img/4_marco_teorico/spliting.png, id=855, 478.78876pt x 247.52475pt>
 File: img/4_marco_teorico/spliting.png Graphic file (type png)
 <use img/4_marco_teorico/spliting.png>
 Package luatex.def Info: img/4_marco_teorico/spliting.png  used on input line 4
 22.
 (luatex.def)             Requested size: 317.0764pt x 163.92204pt.
-<img/4_marco_teorico/goss.png, id=857, 374.5995pt x 398.08725pt>
+ [27<./img/4_marco_teorico/spliting.png>]
+<img/4_marco_teorico/goss.png, id=868, 374.5995pt x 398.08725pt>
 File: img/4_marco_teorico/goss.png Graphic file (type png)
 <use img/4_marco_teorico/goss.png>
 Package luatex.def Info: img/4_marco_teorico/goss.png  used on input line 439.
 (luatex.def)             Requested size: 226.48413pt x 240.68256pt.
- [27<./img/4_marco_teorico/spliting.png>]
-<img/4_marco_teorico/efb.png, id=871, 724.50674pt x 308.352pt>
+ [28<./img/4_marco_teorico/goss.png>]
+<img/4_marco_teorico/efb.png, id=881, 724.50674pt x 308.352pt>
 File: img/4_marco_teorico/efb.png Graphic file (type png)
 <use img/4_marco_teorico/efb.png>
 Package luatex.def Info: img/4_marco_teorico/efb.png  used on input line 457.
 (luatex.def)             Requested size: 452.96826pt x 192.78539pt.
- [28<./img/4_marco_teorico/goss.png>]
-<img/4_marco_teorico/efb2.png, id=883, 629.9535pt x 333.04425pt>
+<img/4_marco_teorico/efb2.png, id=887, 629.9535pt x 333.04425pt>
 File: img/4_marco_teorico/efb2.png Graphic file (type png)
 <use img/4_marco_teorico/efb2.png>
 Package luatex.def Info: img/4_marco_teorico/efb2.png  used on input line 480.
 (luatex.def)             Requested size: 317.0764pt x 167.63463pt.
  [29<./img/4_marco_teorico/efb.png>]
-<img/4_marco_teorico/merge_exclusive_features.png, id=897, 625.73775pt x 349.30
+<img/4_marco_teorico/merge_exclusive_features.png, id=901, 625.73775pt x 349.30
 5pt>
 File: img/4_marco_teorico/merge_exclusive_features.png Graphic file (type png)
 <use img/4_marco_teorico/merge_exclusive_features.png>
@@ -1207,21 +1208,21 @@ Package luatex.def Info: img/4_marco_teorico/merge_exclusive_features.png  used
 (luatex.def)             Requested size: 271.7837pt x 151.71725pt.
  [30<./img/4_marco_teorico/efb2.png><./img/4_marco_teorico/merge_exclusive_featu
 res.png>]
-<img/4_marco_teorico/segmentation.png, id=909, 486.618pt x 214.401pt>
+<img/4_marco_teorico/segmentation.png, id=913, 486.618pt x 214.401pt>
 File: img/4_marco_teorico/segmentation.png Graphic file (type png)
 <use img/4_marco_teorico/segmentation.png>
 Package luatex.def Info: img/4_marco_teorico/segmentation.png  used on input li
 ne 509.
 (luatex.def)             Requested size: 362.37598pt x 159.66513pt.
  [31<./img/4_marco_teorico/segmentation.png>]
-<img/4_marco_teorico/convolutional_layer.png, id=932, 372.1905pt x 504.08325pt>
+<img/4_marco_teorico/convolutional_layer.png, id=936, 372.1905pt x 504.08325pt>
 
 File: img/4_marco_teorico/convolutional_layer.png Graphic file (type png)
 <use img/4_marco_teorico/convolutional_layer.png>
 Package luatex.def Info: img/4_marco_teorico/convolutional_layer.png  used on i
 nput line 542.
 (luatex.def)             Requested size: 181.18454pt x 245.3877pt.
-<img/4_marco_teorico/feature_map.png, id=938, 322.20375pt x 327.624pt>
+<img/4_marco_teorico/feature_map.png, id=942, 322.20375pt x 327.624pt>
 File: img/4_marco_teorico/feature_map.png Graphic file (type png)
 <use img/4_marco_teorico/feature_map.png>
 Package luatex.def Info: img/4_marco_teorico/feature_map.png  used on input lin
@@ -1229,20 +1230,20 @@ e 556.
 (luatex.def)             Requested size: 181.18454pt x 184.23804pt.
  [32<./img/4_marco_teorico/convolutional_layer.png>] [33<./img/4_marco_teorico/f
 eature_map.png>]
-<img/4_marco_teorico/padding_stride.png, id=961, 370.986pt x 448.67625pt>
+<img/4_marco_teorico/padding_stride.png, id=965, 370.986pt x 448.67625pt>
 File: img/4_marco_teorico/padding_stride.png Graphic file (type png)
 <use img/4_marco_teorico/padding_stride.png>
 Package luatex.def Info: img/4_marco_teorico/padding_stride.png  used on input 
 line 591.
 (luatex.def)             Requested size: 226.48413pt x 273.9112pt.
-<img/4_marco_teorico/relu_function.png, id=968, 229.45724pt x 177.66376pt>
+<img/4_marco_teorico/relu_function.png, id=972, 229.45724pt x 177.66376pt>
 File: img/4_marco_teorico/relu_function.png Graphic file (type png)
 <use img/4_marco_teorico/relu_function.png>
 Package luatex.def Info: img/4_marco_teorico/relu_function.png  used on input l
 ine 612.
 (luatex.def)             Requested size: 226.48413pt x 175.36444pt.
  [34<./img/4_marco_teorico/padding_stride.png>]
-<img/4_marco_teorico/max_pooling.png, id=981, 320.397pt x 483.0045pt>
+<img/4_marco_teorico/max_pooling.png, id=985, 320.397pt x 483.0045pt>
 File: img/4_marco_teorico/max_pooling.png Graphic file (type png)
 <use img/4_marco_teorico/max_pooling.png>
 Package luatex.def Info: img/4_marco_teorico/max_pooling.png  used on input lin
@@ -1250,35 +1251,35 @@ e 644.
 (luatex.def)             Requested size: 226.48413pt x 341.4321pt.
  [35<./img/4_marco_teorico/relu_function.png>] [36<./img/4_marco_teorico/max_poo
 ling.png>]
-<img/4_marco_teorico/upconv.png, id=1003, 1003.75pt x 501.875pt>
+<img/4_marco_teorico/upconv.png, id=1007, 1003.75pt x 501.875pt>
 File: img/4_marco_teorico/upconv.png Graphic file (type png)
 <use img/4_marco_teorico/upconv.png>
 Package luatex.def Info: img/4_marco_teorico/upconv.png  used on input line 669
 .
 (luatex.def)             Requested size: 362.37598pt x 181.18794pt.
  [37<./img/4_marco_teorico/upconv.png>]
-<img/4_marco_teorico/u_net.png, id=1021, 672.71326pt x 479.391pt>
+<img/4_marco_teorico/u_net.png, id=1025, 672.71326pt x 479.391pt>
 File: img/4_marco_teorico/u_net.png Graphic file (type png)
 <use img/4_marco_teorico/u_net.png>
 Package luatex.def Info: img/4_marco_teorico/u_net.png  used on input line 720.
 
 (luatex.def)             Requested size: 317.0764pt x 225.9575pt.
  [38] [39<./img/4_marco_teorico/u_net.png>] [40] [41] [42]
-<img/4_marco_teorico/ciclo_caña.jpg, id=1087, 2185.41469pt x 1336.24219pt>
+<img/4_marco_teorico/ciclo_caña.jpg, id=1091, 2185.41469pt x 1336.24219pt>
 File: img/4_marco_teorico/ciclo_caña.jpg Graphic file (type jpg)
 <use img/4_marco_teorico/ciclo_caña.jpg>
 Package luatex.def Info: img/4_marco_teorico/ciclo_caña.jpg  used on input lin
 e 875.
 (luatex.def)             Requested size: 362.37598pt x 221.55109pt.
  [43]
-<img/4_marco_teorico/firma_cana.png, id=1108, 3191.925pt x 1846.9pt>
+<img/4_marco_teorico/firma_cana.png, id=1112, 3191.925pt x 1846.9pt>
 File: img/4_marco_teorico/firma_cana.png Graphic file (type png)
 <use img/4_marco_teorico/firma_cana.png>
 Package luatex.def Info: img/4_marco_teorico/firma_cana.png  used on input line
  896.
 (luatex.def)             Requested size: 362.37598pt x 209.66953pt.
  [44<./img/4_marco_teorico/ciclo_caña.jpg>]
-<img/4_marco_teorico/partes_caña.png, id=1125, 224.63925pt x 229.45724pt>
+<img/4_marco_teorico/partes_caña.png, id=1129, 224.63925pt x 229.45724pt>
 File: img/4_marco_teorico/partes_caña.png Graphic file (type png)
 <use img/4_marco_teorico/partes_caña.png>
 Package luatex.def Info: img/4_marco_teorico/partes_caña.png  used on input li
@@ -1286,7 +1287,7 @@ ne 914.
 (luatex.def)             Requested size: 181.18454pt x 185.07855pt.
 [45<./img/4_marco_teorico/firma_cana.png>] [46<./img/4_marco_teorico/partes_ca
 ña.png>]
-<img/4_marco_teorico/burned_areas_spectral.png, id=1154, 4150.50626pt x 2530.45
+<img/4_marco_teorico/burned_areas_spectral.png, id=1158, 4150.50626pt x 2530.45
 375pt>
 File: img/4_marco_teorico/burned_areas_spectral.png Graphic file (type png)
 <use img/4_marco_teorico/burned_areas_spectral.png>
@@ -1384,7 +1385,7 @@ Overfull \hbox (16.7512pt too wide) in paragraph at lines 6--22
  (./6_capitulo4/capitulo4.tex
 Capítulo \bfseries {IV}.
 (./6_capitulo4/61_area_estudio.tex
-<img/6_metodologia/perucaña.png, id=1189, 844.8363pt x 1194.864pt>
+<img/6_metodologia/perucaña.png, id=1193, 844.8363pt x 1194.864pt>
 File: img/6_metodologia/perucaña.png Graphic file (type png)
 <use img/6_metodologia/perucaña.png>
 Package luatex.def Info: img/6_metodologia/perucaña.png  used on input line 10
@@ -1398,7 +1399,7 @@ Package luatex.def Info: img/6_metodologia/perucaña.png  used on input line 10
 <./img/6_metodologia/perucaña.png>])
 (./6_capitulo4/62_diseño_investigacion.tex)
 (./6_capitulo4/63_poblacion_muestra.tex [54]
-<img/6_metodologia/poblacion.png, id=1208, 844.8363pt x 1194.864pt>
+<img/6_metodologia/poblacion.png, id=1212, 844.8363pt x 1194.864pt>
 File: img/6_metodologia/poblacion.png Graphic file (type png)
 <use img/6_metodologia/poblacion.png>
 Package luatex.def Info: img/6_metodologia/poblacion.png  used on input line 11
@@ -1530,14 +1531,14 @@ Overfull \hbox (5.37029pt too wide) in paragraph at lines 27--41
  []
 
 [55<./img/6_metodologia/poblacion.png>] [56]
-<img/6_metodologia/muestra.png, id=1223, 1601.5032pt x 1153.4292pt>
+<img/6_metodologia/muestra.png, id=1227, 1601.5032pt x 1153.4292pt>
 File: img/6_metodologia/muestra.png Graphic file (type png)
 <use img/6_metodologia/muestra.png>
 Package luatex.def Info: img/6_metodologia/muestra.png  used on input line 56.
 (luatex.def)             Requested size: 452.96826pt x 326.23155pt.
 )
 (./6_capitulo4/64_procedimiento.tex [57<./img/6_metodologia/muestra.png>]
-<img/6_metodologia/preprocessimg.png, id=1234, 1011.78pt x 620.3175pt>
+<img/6_metodologia/preprocessimg.png, id=1238, 1011.78pt x 620.3175pt>
 File: img/6_metodologia/preprocessimg.png Graphic file (type png)
 <use img/6_metodologia/preprocessimg.png>
 Package luatex.def Info: img/6_metodologia/preprocessimg.png  used on input lin
@@ -1545,12 +1546,12 @@ e 9.
 (luatex.def)             Requested size: 271.7837pt x 166.62662pt.
 
 [58<./img/6_metodologia/preprocessimg.png>]
-<img/6_metodologia/dBADI.png, id=1243, 239.6955pt x 220.4235pt>
+<img/6_metodologia/dBADI.png, id=1247, 239.6955pt x 220.4235pt>
 File: img/6_metodologia/dBADI.png Graphic file (type png)
 <use img/6_metodologia/dBADI.png>
 Package luatex.def Info: img/6_metodologia/dBADI.png  used on input line 27.
 (luatex.def)             Requested size: 226.48413pt x 208.27774pt.
-<img/6_metodologia/boxplot_burning.png, id=1246, 419.4069pt x 312.6882pt>
+<img/6_metodologia/boxplot_burning.png, id=1250, 419.4069pt x 312.6882pt>
 File: img/6_metodologia/boxplot_burning.png Graphic file (type png)
 <use img/6_metodologia/boxplot_burning.png>
 Package luatex.def Info: img/6_metodologia/boxplot_burning.png  used on input l
@@ -1558,19 +1559,19 @@ ine 44.
 (luatex.def)             Requested size: 317.0764pt x 236.40974pt.
  [59<./img/6_metodologia/dBADI.png>] [60<./img/6_metodologia/boxplot_burning.png
 >]
-<img/6_metodologia/visualizacion.png, id=1265, 547.3248pt x 897.8343pt>
+<img/6_metodologia/visualizacion.png, id=1269, 547.3248pt x 897.8343pt>
 File: img/6_metodologia/visualizacion.png Graphic file (type png)
 <use img/6_metodologia/visualizacion.png>
 Package luatex.def Info: img/6_metodologia/visualizacion.png  used on input lin
 e 92.
 (luatex.def)             Requested size: 249.13391pt x 408.67964pt.
  [61] [62<./img/6_metodologia/visualizacion.png>]
-<img/6_metodologia/iris.png, id=1279, 713.66624pt x 281.853pt>
+<img/6_metodologia/iris.png, id=1283, 713.66624pt x 281.853pt>
 File: img/6_metodologia/iris.png Graphic file (type png)
 <use img/6_metodologia/iris.png>
 Package luatex.def Info: img/6_metodologia/iris.png  used on input line 112.
 (luatex.def)             Requested size: 452.96826pt x 178.89294pt.
-<img/6_metodologia/scribble.png, id=1283, 744.381pt x 334.851pt>
+<img/6_metodologia/scribble.png, id=1287, 744.381pt x 334.851pt>
 File: img/6_metodologia/scribble.png Graphic file (type png)
 <use img/6_metodologia/scribble.png>
 Package luatex.def Info: img/6_metodologia/scribble.png  used on input line 127
@@ -1592,20 +1593,20 @@ Underfull \hbox (badness 1028) in paragraph at lines 158--158
  []
 
 [64<./img/6_metodologia/scribble.png>]
-<img/6_metodologia/etiquetado_1.png, id=1300, 728.12025pt x 324.61275pt>
+<img/6_metodologia/etiquetado_1.png, id=1304, 728.12025pt x 324.61275pt>
 File: img/6_metodologia/etiquetado_1.png Graphic file (type png)
 <use img/6_metodologia/etiquetado_1.png>
 Package luatex.def Info: img/6_metodologia/etiquetado_1.png  used on input line
  171.
 (luatex.def)             Requested size: 452.96826pt x 201.9463pt.
  [65]
-<img/6_metodologia/etiquetado_2.png, id=1306, 726.91576pt x 324.0105pt>
+<img/6_metodologia/etiquetado_2.png, id=1310, 726.91576pt x 324.0105pt>
 File: img/6_metodologia/etiquetado_2.png Graphic file (type png)
 <use img/6_metodologia/etiquetado_2.png>
 Package luatex.def Info: img/6_metodologia/etiquetado_2.png  used on input line
  183.
 (luatex.def)             Requested size: 452.96826pt x 201.9029pt.
-<img/6_metodologia/etiquetado_3.png, id=1307, 731.73375pt x 327.624pt>
+<img/6_metodologia/etiquetado_3.png, id=1311, 731.73375pt x 327.624pt>
 File: img/6_metodologia/etiquetado_3.png Graphic file (type png)
 <use img/6_metodologia/etiquetado_3.png>
 Package luatex.def Info: img/6_metodologia/etiquetado_3.png  used on input line
@@ -1613,13 +1614,13 @@ Package luatex.def Info: img/6_metodologia/etiquetado_3.png  used on input line
 (luatex.def)             Requested size: 452.96826pt x 202.80981pt.
  [66<./img/6_metodologia/etiquetado_1.png><./img/6_metodologia/etiquetado_2.png>
 ]
-<img/6_metodologia/etiquetado_4.png, id=1314, 727.518pt x 327.02174pt>
+<img/6_metodologia/etiquetado_4.png, id=1318, 727.518pt x 327.02174pt>
 File: img/6_metodologia/etiquetado_4.png Graphic file (type png)
 <use img/6_metodologia/etiquetado_4.png>
 Package luatex.def Info: img/6_metodologia/etiquetado_4.png  used on input line
  207.
 (luatex.def)             Requested size: 452.96826pt x 203.61464pt.
-<img/6_metodologia/etiquetado_5.png, id=1315, 729.32475pt x 325.215pt>
+<img/6_metodologia/etiquetado_5.png, id=1319, 729.32475pt x 325.215pt>
 File: img/6_metodologia/etiquetado_5.png Graphic file (type png)
 <use img/6_metodologia/etiquetado_5.png>
 Package luatex.def Info: img/6_metodologia/etiquetado_5.png  used on input line
@@ -1627,40 +1628,40 @@ Package luatex.def Info: img/6_metodologia/etiquetado_5.png  used on input line
 (luatex.def)             Requested size: 452.96826pt x 201.98354pt.
  [67<./img/6_metodologia/etiquetado_3.png><./img/6_metodologia/etiquetado_4.png>
 ] [68<./img/6_metodologia/etiquetado_5.png>]
-<img/6_metodologia/unet.png, id=1333, 934.49126pt x 382.42876pt>
+<img/6_metodologia/unet.png, id=1337, 934.49126pt x 382.42876pt>
 File: img/6_metodologia/unet.png Graphic file (type png)
 <use img/6_metodologia/unet.png>
 Package luatex.def Info: img/6_metodologia/unet.png  used on input line 266.
 (luatex.def)             Requested size: 452.96826pt x 185.37268pt.
  [69]
-<img/6_metodologia/crossval.png, id=1341, 648.4225pt x 385.44pt>
+<img/6_metodologia/crossval.png, id=1345, 648.4225pt x 385.44pt>
 File: img/6_metodologia/crossval.png Graphic file (type png)
 <use img/6_metodologia/crossval.png>
 Package luatex.def Info: img/6_metodologia/crossval.png  used on input line 288
 .
 (luatex.def)             Requested size: 317.0764pt x 188.47908pt.
  [70<./img/6_metodologia/unet.png>]
-<img/6_metodologia/gbdt.png, id=1349, 666.49pt x 502.87875pt>
+<img/6_metodologia/gbdt.png, id=1353, 666.49pt x 502.87875pt>
 File: img/6_metodologia/gbdt.png Graphic file (type png)
 <use img/6_metodologia/gbdt.png>
 Package luatex.def Info: img/6_metodologia/gbdt.png  used on input line 302.
 (luatex.def)             Requested size: 317.0764pt x 239.24588pt.
  [71<./img/6_metodologia/crossval.png><./img/6_metodologia/gbdt.png>]
-<img/6_metodologia/stacking.png, id=1357, 286.06876pt x 272.81924pt>
+<img/6_metodologia/stacking.png, id=1361, 286.06876pt x 272.81924pt>
 File: img/6_metodologia/stacking.png Graphic file (type png)
 <use img/6_metodologia/stacking.png>
 Package luatex.def Info: img/6_metodologia/stacking.png  used on input line 323
 .
 (luatex.def)             Requested size: 271.7837pt x 259.19762pt.
  [72<./img/6_metodologia/stacking.png>]
-<img/6_metodologia/laredo_programa.png, id=1366, 717.882pt x 334.24875pt>
+<img/6_metodologia/laredo_programa.png, id=1370, 717.882pt x 334.24875pt>
 File: img/6_metodologia/laredo_programa.png Graphic file (type png)
 <use img/6_metodologia/laredo_programa.png>
 Package luatex.def Info: img/6_metodologia/laredo_programa.png  used on input l
 ine 362.
 (luatex.def)             Requested size: 452.96826pt x 210.90424pt.
  [73]
-<img/6_metodologia/laredo.png, id=1377, 844.8363pt x 597.432pt>
+<img/6_metodologia/laredo.png, id=1381, 844.8363pt x 597.432pt>
 File: img/6_metodologia/laredo.png Graphic file (type png)
 <use img/6_metodologia/laredo.png>
 Package luatex.def Info: img/6_metodologia/laredo.png  used on input line 378.
@@ -1727,7 +1728,7 @@ Overfull \hbox (9.82306pt too wide) in alignment at lines 57--70
  []
 
 [78] [79]
-<img/7_resultados/unet_predictions.png, id=1420, 963.6pt x 487.275pt>
+<img/7_resultados/unet_predictions.png, id=1424, 963.6pt x 487.275pt>
 File: img/7_resultados/unet_predictions.png Graphic file (type png)
 <use img/7_resultados/unet_predictions.png>
 Package luatex.def Info: img/7_resultados/unet_predictions.png  used on input l
@@ -1765,13 +1766,13 @@ Overfull \hbox (9.82306pt too wide) in alignment at lines 123--139
  []
 
 [80<./img/7_resultados/unet_predictions.png>] [81]
-<img/7_resultados/feature_importance.png, id=1435, 1759.57375pt x 693.59125pt>
+<img/7_resultados/feature_importance.png, id=1439, 1759.57375pt x 693.59125pt>
 File: img/7_resultados/feature_importance.png Graphic file (type png)
 <use img/7_resultados/feature_importance.png>
 Package luatex.def Info: img/7_resultados/feature_importance.png  used on input
  line 156.
 (luatex.def)             Requested size: 452.96826pt x 178.55147pt.
-<img/7_resultados/gbdt_predictions.png, id=1437, 963.6pt x 487.275pt>
+<img/7_resultados/gbdt_predictions.png, id=1441, 963.6pt x 487.275pt>
 File: img/7_resultados/gbdt_predictions.png Graphic file (type png)
 <use img/7_resultados/gbdt_predictions.png>
 Package luatex.def Info: img/7_resultados/gbdt_predictions.png  used on input l
@@ -1803,44 +1804,44 @@ Overfull \hbox (9.82306pt too wide) in alignment at lines 205--210
  []
 
 [83<./img/7_resultados/gbdt_predictions.png>]
-<img/7_resultados/ensemble_predictions.png, id=1452, 963.6pt x 487.275pt>
+<img/7_resultados/ensemble_predictions.png, id=1456, 963.6pt x 487.275pt>
 File: img/7_resultados/ensemble_predictions.png Graphic file (type png)
 <use img/7_resultados/ensemble_predictions.png>
 Package luatex.def Info: img/7_resultados/ensemble_predictions.png  used on inp
 ut line 235.
 (luatex.def)             Requested size: 452.96826pt x 229.05646pt.
  [84<./img/7_resultados/ensemble_predictions.png>]
-<img/7_resultados/roc.png, id=1461, 462.528pt x 346.896pt>
+<img/7_resultados/roc.png, id=1465, 462.528pt x 346.896pt>
 File: img/7_resultados/roc.png Graphic file (type png)
 <use img/7_resultados/roc.png>
 Package luatex.def Info: img/7_resultados/roc.png  used on input line 279.
 (luatex.def)             Requested size: 271.7837pt x 203.8464pt.
  [85]
-<img/7_resultados/0016.png, id=1469, 1022.6205pt x 765.3393pt>
+<img/7_resultados/0016.png, id=1473, 1022.6205pt x 765.3393pt>
 File: img/7_resultados/0016.png Graphic file (type png)
 <use img/7_resultados/0016.png>
 Package luatex.def Info: img/7_resultados/0016.png  used on input line 310.
 (luatex.def)             Requested size: 407.66867pt x 305.10262pt.
  [86<./img/7_resultados/roc.png>]
-<img/7_resultados/0376.png, id=1477, 1022.6205pt x 765.3393pt>
+<img/7_resultados/0376.png, id=1481, 1022.6205pt x 765.3393pt>
 File: img/7_resultados/0376.png Graphic file (type png)
 <use img/7_resultados/0376.png>
 Package luatex.def Info: img/7_resultados/0376.png  used on input line 326.
 (luatex.def)             Requested size: 407.66867pt x 305.10262pt.
  [87<./img/7_resultados/0016.png>]
-<img/7_resultados/0068.png, id=1485, 1022.6205pt x 765.3393pt>
+<img/7_resultados/0068.png, id=1489, 1022.6205pt x 765.3393pt>
 File: img/7_resultados/0068.png Graphic file (type png)
 <use img/7_resultados/0068.png>
 Package luatex.def Info: img/7_resultados/0068.png  used on input line 345.
 (luatex.def)             Requested size: 407.66867pt x 305.10262pt.
  [88<./img/7_resultados/0376.png>]
-<img/7_resultados/0456.png, id=1493, 1022.6205pt x 765.3393pt>
+<img/7_resultados/0456.png, id=1497, 1022.6205pt x 765.3393pt>
 File: img/7_resultados/0456.png Graphic file (type png)
 <use img/7_resultados/0456.png>
 Package luatex.def Info: img/7_resultados/0456.png  used on input line 361.
 (luatex.def)             Requested size: 407.66867pt x 305.10262pt.
  [89<./img/7_resultados/0068.png>]
-<img/7_resultados/timeseries_2023-05-06.png, id=1502, 963.6pt x 391.353pt>
+<img/7_resultados/timeseries_2023-05-06.png, id=1506, 963.6pt x 391.353pt>
 File: img/7_resultados/timeseries_2023-05-06.png Graphic file (type png)
 <use img/7_resultados/timeseries_2023-05-06.png>
 Package luatex.def Info: img/7_resultados/timeseries_2023-05-06.png  used on in
@@ -1848,14 +1849,14 @@ put line 382.
 (luatex.def)             Requested size: 452.96826pt x 183.96579pt.
 
 [90<./img/7_resultados/0456.png>]
-<img/7_resultados/timeseries_2023-11-07.png, id=1510, 963.6pt x 354.561pt>
+<img/7_resultados/timeseries_2023-11-07.png, id=1514, 963.6pt x 354.561pt>
 File: img/7_resultados/timeseries_2023-11-07.png Graphic file (type png)
 <use img/7_resultados/timeseries_2023-11-07.png>
 Package luatex.def Info: img/7_resultados/timeseries_2023-11-07.png  used on in
 put line 399.
 (luatex.def)             Requested size: 452.96826pt x 166.67075pt.
  [91<./img/7_resultados/timeseries_2023-05-06.png>]
-<img/7_resultados/timeseries_2024-03-26.png, id=1518, 963.6pt x 352.809pt>
+<img/7_resultados/timeseries_2024-03-26.png, id=1522, 963.6pt x 352.809pt>
 File: img/7_resultados/timeseries_2024-03-26.png Graphic file (type png)
 <use img/7_resultados/timeseries_2024-03-26.png>
 Package luatex.def Info: img/7_resultados/timeseries_2024-03-26.png  used on in
@@ -1863,20 +1864,20 @@ put line 420.
 (luatex.def)             Requested size: 452.96826pt x 165.84717pt.
  [92<./img/7_resultados/timeseries_2023-11-07.png>])
 (./7_capitulo5/72_discusion.tex
-<img/8_capitulo6/basedatos.png, id=1530, 884.70525pt x 299.9205pt>
+<img/8_capitulo6/basedatos.png, id=1534, 884.70525pt x 299.9205pt>
 File: img/8_capitulo6/basedatos.png Graphic file (type png)
 <use img/8_capitulo6/basedatos.png>
 Package luatex.def Info: img/8_capitulo6/basedatos.png  used on input line 18.
 (luatex.def)             Requested size: 452.96826pt x 153.56151pt.
  [93<./img/7_resultados/timeseries_2024-03-26.png>]
-<img/8_capitulo6/posibilidades.png, id=1546, 615.4995pt x 222.8325pt>
+<img/8_capitulo6/posibilidades.png, id=1550, 615.4995pt x 222.8325pt>
 File: img/8_capitulo6/posibilidades.png Graphic file (type png)
 <use img/8_capitulo6/posibilidades.png>
 Package luatex.def Info: img/8_capitulo6/posibilidades.png  used on input line 
 42.
 (luatex.def)             Requested size: 452.96826pt x 163.99582pt.
  [94<./img/8_capitulo6/basedatos.png>] [95<./img/8_capitulo6/posibilidades.png>] [96]
-<img/8_capitulo6/0495.png, id=1586, 865.3128pt x 218.0145pt>
+<img/8_capitulo6/0495.png, id=1590, 865.3128pt x 218.0145pt>
 File: img/8_capitulo6/0495.png Graphic file (type png)
 <use img/8_capitulo6/0495.png>
 Package luatex.def Info: img/8_capitulo6/0495.png  used on input line 90.
@@ -1886,12 +1887,12 @@ Overfull \hbox (4.52719pt too wide) in paragraph at lines 90--92
  [][] 
  []
 
-[97<./img/8_capitulo6/0495.png>]) (./7_capitulo5/73_conclusiones.tex [98]))
-[99]
+[97<./img/8_capitulo6/0495.png>]) (./7_capitulo5/73_conclusiones.tex [98]
+[99])) [100]
 \openout2 = 8_capitulo6/capitulo6.aux
  (./8_capitulo6/capitulo6.tex
 Capítulo \bfseries {VI}.
-(./8_capitulo6/82_referencias.tex (z:/latex/build/tesis_main.bbl [100
+(./8_capitulo6/82_referencias.tex (z:/latex/build/tesis_main.bbl [101
 
 
 
@@ -1902,8 +1903,8 @@ Underfull \hbox (badness 1147) in paragraph at lines 66--73
 IN-CEN-DIOS FO-RES-TA-LES
  []
 
-[101] [102] [103] [104] [105] [106] [107])) (./8_capitulo6/83_anexos.tex
-[108]
+[102] [103] [104] [105] [106] [107] [108])) (./8_capitulo6/83_anexos.tex
+[109]
 Overfull \hbox (9.82307pt too wide) in alignment at lines 3--8
  [][][] 
  []
@@ -1928,26 +1929,26 @@ Overfull \hbox (9.82307pt too wide) in alignment at lines 18--27
  [][][] 
  []
 
-[109
+[110
 
 ]
-<img/8_capitulo6/ROI_1.png, id=1648, 286.06876pt x 407.72325pt>
+<img/8_capitulo6/ROI_1.png, id=1657, 286.06876pt x 407.72325pt>
 File: img/8_capitulo6/ROI_1.png Graphic file (type png)
 <use img/8_capitulo6/ROI_1.png>
 Package luatex.def Info: img/8_capitulo6/ROI_1.png  used on input line 32.
 (luatex.def)             Requested size: 407.66867pt x 581.04277pt.
-<img/8_capitulo6/ROI_2.png, id=1649, 284.86424pt x 408.3255pt>
+<img/8_capitulo6/ROI_2.png, id=1658, 284.86424pt x 408.3255pt>
 File: img/8_capitulo6/ROI_2.png Graphic file (type png)
 <use img/8_capitulo6/ROI_2.png>
 Package luatex.def Info: img/8_capitulo6/ROI_2.png  used on input line 37.
 (luatex.def)             Requested size: 407.66867pt x 584.39323pt.
- [110]
-<img/8_capitulo6/ROI_3.png, id=1654, 285.4665pt x 297.5115pt>
+ [111]
+<img/8_capitulo6/ROI_3.png, id=1663, 285.4665pt x 297.5115pt>
 File: img/8_capitulo6/ROI_3.png Graphic file (type png)
 <use img/8_capitulo6/ROI_3.png>
 Package luatex.def Info: img/8_capitulo6/ROI_3.png  used on input line 42.
 (luatex.def)             Requested size: 407.66867pt x 424.91162pt.
- [111<./img/8_capitulo6/ROI_1.png>])) [112<./img/8_capitulo6/ROI_2.png>] [113<./
+ [112<./img/8_capitulo6/ROI_1.png>])) [113<./img/8_capitulo6/ROI_2.png>] [114<./
 img/8_capitulo6/ROI_3.png>] (z:/latex/build/tesis_main.aux
 (z:/latex/build/1_caratula/caratula.aux)
 LaTeX Info: Redefining \. on input line 25.
@@ -1966,15 +1967,15 @@ L3 programming layer <2023-08-29>
 )
 
 Here is how much of LuaTeX's memory you used:
- 25795 strings out of 477259
+ 25802 strings out of 477259
  125027,1977958 words of node,token memory allocated
- 1515 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 1 glyph, 196 attribute, 104 glue_sp
+ 1503 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 197 attribute, 104 glue_sp
 ec, 100 attribute_list, 3 write, 29 pdf_action nodes
-   avail lists: 2:1307,3:368,4:128,5:204,6:148,7:6363,8:62,9:1126,10:19,11:876
- 45722 multiletter control sequences out of 65536+600000
- 60 fonts using 30016871 bytes
- 84i,14n,92p,1037b,710s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 2:1075,3:362,4:128,5:204,6:131,7:6393,8:62,9:1091,10:19,11:876
+ 45726 multiletter control sequences out of 65536+600000
+ 59 fonts using 29243983 bytes
+ 84i,14n,92p,1037b,700s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/users/jflor/appdata/local/programs/miktex/fonts/opentype/public/lm/lmmon
 o12-regular.otf><C:/Users/jflor/AppData/Local/Programs/MiKTeX/fonts/opentype/pub
 lic/lm-math/latinmodern-math.otf><C:/Users/jflor/AppData/Local/Programs/MiKTeX/f
@@ -1982,9 +1983,9 @@ onts/opentype/public/lm-math/latinmodern-math.otf><C:/Windows/Fonts/timesbi.ttf>
 <C:/Users/jflor/AppData/Local/Programs/MiKTeX/fonts/opentype/public/lm-math/lati
 nmodern-math.otf><C:/Windows/Fonts/timesi.ttf><C:/Windows/Fonts/times.ttf><C:/Wi
 ndows/Fonts/timesbd.ttf>
-Output written on tesis_main.pdf (125 pages, 149143419 bytes).
+Output written on tesis_main.pdf (126 pages, 149146481 bytes).
 
-PDF statistics: 2114 PDF objects out of 2487 (max. 8388607)
- 459 named destinations out of 1000 (max. 131072)
+PDF statistics: 2123 PDF objects out of 2487 (max. 8388607)
+ 462 named destinations out of 1000 (max. 131072)
  993 words of extra memory for PDF output out of 10000 (max. 100000000)
 

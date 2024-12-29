@@ -572,11 +572,11 @@ Por otro lado, las zancadas, pasos o stride son la cantidad de píxeles que se m
 \textbf{padding y stride} se detalla en \citet{balas_recent_2020}:
 
 \begin{subequations}
-    \begin{gather}
-        h^{'} = \frac{h- f + 2p}{s} + 1 \\
-        w^{'} = \frac{w- f + 2p}{s} + 1        
-    \end{gather}
     \label{eq:feature_map_size}
+    \begin{align}
+    h' &= \left\lfloor \frac{h + 2p - f}{s} \right\rfloor + 1,\\
+    w' &= \left\lfloor \frac{w + 2p - f}{s} \right\rfloor + 1.
+    \end{align}
 \end{subequations}
 
 Donde $h^{'}$ y $w^{'}$ denotan la altura y ancho del mapa de características de salida, $h$  y $w$ denotan la altura y ancho de la imagen de entrada, 
@@ -627,8 +627,8 @@ más popular y utilizado.
 La fórmula para encontrar el tamaño del mapa de características de salida después de la operación de agrupación es:
 \begin{subequations}
     \begin{gather}
-        h^{'} = \frac{h - f}{s} + 1 \\
-        w^{'} = \frac{w - f}{s} + 1
+        h^{'} = \left\lfloor \frac{h - f}{s} \right\rfloor + 1,\\
+        w^{'} = \left\lfloor \frac{w - f}{s} \right\rfloor + 1.
         \label{eq:pooling_size}
     \end{gather}
 \end{subequations}
